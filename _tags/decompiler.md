@@ -1,4 +1,4 @@
 ---
 name: decompiler
-title: Decompiler
+title: decompiler
 ---

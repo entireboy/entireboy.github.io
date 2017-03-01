@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[React] Browserify SyntaxError: Unexpected token"
-date:   2016-01-01 15:47:36 +0900
+date:   2016-01-01 00:07:36 +0900
 published: true
 categories: react
 tags: react browserify babelify preset syntax-jsx babel-preset-react

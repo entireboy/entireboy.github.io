@@ -1,4 +1,4 @@
 ---
 name: preset
-title: Preset
+title: preset
 ---

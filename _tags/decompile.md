@@ -1,4 +1,4 @@
 ---
 name: decompile
-title: Decompile
+title: decompile
 ---
