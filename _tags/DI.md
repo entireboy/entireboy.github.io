@@ -1,4 +1,4 @@
 ---
-name: injection
+name: DI
 title: Dependency injection
 ---
