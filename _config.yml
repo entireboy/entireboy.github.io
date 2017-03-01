@@ -13,7 +13,7 @@ github_username:    # GitHub username
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
+permalink:          /notes/:year/:month/:day/:title # Post permalink
 timezone:           Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to false to disable
 
@@ -35,20 +35,26 @@ gems:
   - jekyll-sitemap
 
 
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
 
 defaults:
-  -
-    scope:
-      path:         ""
+  - scope:
+      path: ""
     values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
+      layout: "null"
+  - scope:
+      type: "pages"
     values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
+      layout: "page"
+  - scope:
+      type: "posts"
     values:
-      layout:       "post"
+      layout: "post"
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"

@@ -322,6 +322,9 @@ section {
     }
   }
 }
+div.container {
+  margin: 10px 0px;
+}
 @keyframes bounce {0% {
     transform: translate3d( 0, -1000px, 0 );
   }
