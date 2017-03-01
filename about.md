@@ -1,15 +1,12 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+A small programmer who like taking some photos:
+- [A Shot A Day](http://asad.leocat.kr/){:target="_blank"}
+- [on 500px](https://500px.com/entireboy){:target="_blank"}
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+![email daum]({{ site.baseurl }}/assets/email/daum.gif)
+![email google]({{ site.baseurl }}/assets/email/gmail.gif)
