@@ -1,0 +1,4 @@
+---
+name: install
+title: install
+---

@@ -34,7 +34,7 @@ Switched to a new branch 'createBatchJob'
     merge = refs/heads/createBatchJob
 ```
 
-또는.. branch --set-upstream-to 옵션으로 설정해줘도 된다.
+또는.. `branch --set-upstream-to` 옵션으로 설정해줘도 된다.
 
 ```bash
 $ git pull
@@ -53,8 +53,6 @@ Branch createBatchJob set up to track remote branch createBatchJob from origin.
 
 $ git pull
 Already up-to-date.
-
-$
 ```
 
 이제 remote명과 branch명을 안 적어줘도 pull/push가 가능하다. 구찮음 안뇽~
