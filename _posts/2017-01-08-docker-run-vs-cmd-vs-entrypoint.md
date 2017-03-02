@@ -53,10 +53,10 @@ This is a test
 $
 ```
 
-하지만, `echo “Hello”` 라고 실행할 커맨드를 주게 되면 `CMD`는 무시되고 커맨드가 실행된다.
+하지만, `echo "Hello"` 라고 실행할 커맨드를 주게 되면 `CMD`는 무시되고 커맨드가 실행된다.
 
 ```bash
-$ docker run -it --rm <image-name> echo “Hello”
+$ docker run -it --rm <image-name> echo "Hello"
 Hello
 $
 ```
