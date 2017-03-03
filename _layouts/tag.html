@@ -7,8 +7,8 @@ layout: default
 </div>
 
 <div id="cover" class="container"
-     {% if page.image %}style="background-image: url({{ page.image }}); background-repeat: no-repeat; background-size: 75px;"{% endif %}>
-    <div style="margin-left: 100px;">
+     {% if page.image %}style="background-image: url({{ page.image }}); background-repeat: no-repeat; background-size: contain; min-height: 80px;"{% endif %}>
+    <div style="margin-left: 90px;">
       <div>
         <span style="font-size: 2em; font-weight: bold;">{{ page.title | default: page.name }}</span>
         <!-- <h1>{{ page.title | default: page.name }}</h1> -->

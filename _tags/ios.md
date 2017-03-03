@@ -1,6 +1,6 @@
 ---
 name: ios
 title: iOS
-image: /assets/logo/ios.png
-site: http://www.apple.com/ios/
+image: /assets/logo/apple.png
+site: https://www.apple.com/ios/
 ---

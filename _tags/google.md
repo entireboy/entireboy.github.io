@@ -1,6 +1,6 @@
 ---
 name: google
 title: Google
-image: /assets/logo/google.png
+image: /assets/logo/google.jpg
 site: https://www.google.com/
 ---
