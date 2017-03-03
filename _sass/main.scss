@@ -357,6 +357,15 @@ div.container {
   }
 }
 
+.navbar {
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      margin-right: 15px;
+    }
+  }
+}
 .tag-cover {
   min-height: 80px;
   background-repeat: no-repeat;
@@ -367,6 +376,12 @@ div.container {
   .tag-title {
     font-size: 2em;
     font-weight: bold;
+  }
+}
+.tag-posts {
+  li {
+    list-style: none;
+    margin-bottom: 8px;
   }
 }
 article .tag-list {
