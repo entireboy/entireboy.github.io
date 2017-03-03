@@ -13,6 +13,14 @@ layout: default
 
 	{{ content }}
 
+	<div class="tag-list">
+		<ul>
+		{% for tag in page.tags %}
+			<li><a href="/tags/{{ tag }}">#{{ tag }}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+
 </article>
 
 <div class="page-navigation">

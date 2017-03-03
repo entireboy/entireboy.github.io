@@ -369,3 +369,14 @@ div.container {
     font-weight: bold;
   }
 }
+article .tag-list {
+  margin-top: 40px;
+  ul {
+    display: inline;
+    list-style: none;
+    li {
+      float: left;
+      margin-right: 5px;
+    }
+  }
+}
