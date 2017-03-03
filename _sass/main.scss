@@ -356,3 +356,16 @@ div.container {
     -webkit-transform: none;
   }
 }
+
+.tag-cover {
+  min-height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  .tag-logo {
+    margin-left: 90px;
+  }
+  .tag-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+}

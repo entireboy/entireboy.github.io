@@ -2,16 +2,15 @@
 layout: default
 ---
 <div id="navbar" class="container">
-    <a id="link-back" href="{{site.baseurl}}/">Home</a>
-    <a id="link-back" href="{{site.baseurl}}/tags/">All tags</a>
+    <a href="{{site.baseurl}}/">Home</a>
+    <a href="{{site.baseurl}}/tags/">All tags</a>
 </div>
 
-<div id="cover" class="container"
-     {% if page.image %}style="background-image: url({{ page.image }}); background-repeat: no-repeat; background-size: contain; min-height: 80px;"{% endif %}>
-    <div style="margin-left: 90px;">
+<div class="container tag-cover"
+     {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
+    <div class="tag-logo">
       <div>
-        <span style="font-size: 2em; font-weight: bold;">{{ page.title | default: page.name }}</span>
-        <!-- <h1>{{ page.title | default: page.name }}</h1> -->
+        <span class="tag-title">{{ page.title | default: page.name }}</span>
         <span>{% if page.site %}(<a href="{{ page.site }}" target="_blank">{{ page.site }}</a>){% endif %}</span>
         <p>All Posts in <strong>{{ page.name }}</strong></p>
       </div>
