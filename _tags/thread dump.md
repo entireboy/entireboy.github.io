@@ -1,4 +1,4 @@
 ---
-name: thread_dump
+name: thread dump
 title: Thread dump
 ---

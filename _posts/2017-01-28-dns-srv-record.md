@@ -3,7 +3,7 @@ layout: post
 title:  "[DNS] SRV Record"
 date:   2017-01-28 10:01:00 +0900
 categories: [ dns, srv ]
-tags: [ dns, srv, srv_record, type, a_record, lookup, hostname, nslookup ]
+tags: [ dns, srv, srv record, type, a record, lookup, hostname, nslookup ]
 ---
 
 보통 도메인 이름으로 IP를 lookup 하는 용도로 DNS를 많이 사용한다. IPv4를 lookup할 때는 [A Record](https://en.wikipedia.org/wiki/List_of_DNS_record_types#A) 형태로 저장된다. IPv6는 [AAAA Record](https://en.wikipedia.org/wiki/List_of_DNS_record_types#AAAA) 형태로 저장된다.

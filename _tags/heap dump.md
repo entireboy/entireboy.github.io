@@ -1,4 +1,4 @@
 ---
-name: heap_dump
+name: heap dump
 title: Heap dump
 ---

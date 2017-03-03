@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[python] Simple web server"
-date:   2017-01-20 17:53:00 +0900
-categories: [ python ]
-tags: [ python, simple, http, server, web, web server, http server, sample ]
+title:  "[Kubernetes] DNS doesn't work"
+date:   2017-02-13 22:53:00 +0900
+categories: kubernetes
+tags: [ kubernetes, dns, check, container, pod ]
 ---
 
 간단한 웹서버 python 버전.

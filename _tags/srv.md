@@ -1,4 +1,4 @@
 ---
 name: srv
-title: SRV
+title: SRV(Service)
 ---

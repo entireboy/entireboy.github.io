@@ -1,4 +1,4 @@
 ---
-name: a_record
+name: a record
 title: A record
 ---

@@ -1,4 +1,4 @@
 ---
-name: web_server
+name: web server
 title: Web server
 ---

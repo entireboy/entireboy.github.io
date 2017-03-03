@@ -3,7 +3,7 @@ layout: post
 title:  "[UX/UI] Drag map with 2 fingers on mobile page"
 date:   2017-01-26 21:39:00 +0900
 categories: [ ux, ui, map ]
-tags: [ ux, ui, google, maps, google_maps, map, finger, scroll, move, mobile, screen ]
+tags: [ ux, ui, google, maps, google maps, map, finger, scroll, move, mobile, screen ]
 ---
 
 동일한 행동이 겹치는 경우가 있다.

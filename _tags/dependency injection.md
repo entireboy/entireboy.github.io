@@ -1,4 +1,4 @@
 ---
-name: dependency_injection
+name: dependency injection
 title: Dependency injection
 ---
