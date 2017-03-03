@@ -3,7 +3,7 @@ layout: post
 title:  "[Typesafe Config] include syntax: substitution (이미 설정된 config 재사용하기)"
 date:   2016-12-20 21:11:00 +0900
 categories: typesafe config
-tags: typesafeconfig typesafe config include syntax reuse 재사용 substitution
+tags: typesafeconfig typesafe config include syntax reuse substitution
 ---
 
 Typesafe config 에서는 다른 곳에서 설정해둔 값을 쉽게 재사용할 수 있다.

@@ -3,7 +3,7 @@ layout: post
 title:  "[Spring] advice 순서 변경하기"
 date:   2016-04-02 20:25:00 +0900
 categories: spring advice
-tags: spring aop aspect advice pointcut order sort 스프링
+tags: spring aop aspect advice pointcut order sort
 ---
 
 동일한 곳에 여러 advice가 들어온다면.. 그 중 내가 만든 advice가 가장 먼저/나중에 실행되어야 한다면..??

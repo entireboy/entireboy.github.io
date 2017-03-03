@@ -3,7 +3,7 @@ layout: post
 title:  "[Java] grayscale로 이미지 저장하기"
 date:   2016-01-12 15:36:36 +0900
 categories: java colour
-tags: java color colour image 이미지 save 저장 write rgb grayscale
+tags: java color colour image save write rgb grayscale
 ---
 
 RGB를 회색톤(grayscale)으로 변경해서 저장하기..

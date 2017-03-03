@@ -3,7 +3,7 @@ layout: post
 title:  "[Redis] Max Connection Problem"
 date:   2016-08-20 21:01:00 +0900
 categories: redis
-tags: redis connection 레디스 커넥션 접속 max client list kill sentinel
+tags: redis connection max client list kill sentinel
 ---
 
 개발 환경처럼 여럿이 사용하고 있는 Redis에 접속을 하다보면, 가끔 이런 메시지와 함께 접속이 불가능한 경우가 있다.

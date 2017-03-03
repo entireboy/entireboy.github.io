@@ -3,7 +3,7 @@ layout: post
 title:  "[Spring] injection 받은 list를 원하는 순서로 정렬하기"
 date:   2016-03-08 21:00:00 +0900
 categories: spring injection
-tags: spring java dependency_injection DI injection list ordering sort 정렬
+tags: spring java dependency_injection DI injection list ordering sort
 ---
 
 간혹 injection 받은 list가 내가 원하는 순서이길 바랄 때가 있다. validation을 할 때 A validation을 하면 그 결과가 확 줄어버리는 경우, 다른 validation 보다 A validation을 먼저 하고 싶을 것이다. 예를 들어, 아래 샘플에서 이름으로 validation을 하는 `NameValidation`이 그런 형태라 가장 먼저 실행하고 싶다면..

@@ -3,7 +3,7 @@ layout: post
 title:  "[Java] thread dump / heap dump 분석 툴"
 date:   2016-03-07 01:27:36 +0900
 categories: java analyze
-tags: java thread_dump heap_dump analyze tool 자바 힙덤프 스레드덤프
+tags: java thread_dump heap_dump analyze tool
 ---
 
 하도 까먹어서 정리 중 =_= 매번 쓰면서도 이름이 기억 안 남;;

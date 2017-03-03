@@ -3,7 +3,7 @@ layout: post
 title:  "[UX] Google Translate reads slowly on the second time"
 date:   2017-01-04 20:40:00 +0900
 categories: ux google translate
-tags: google translate google_translate read tts slow 구글 번역 천천히 ux user 사용자
+tags: google translate google_translate read tts slow ux user
 ---
 
 Google Translate([https://translate.google.com/](https://translate.google.com/))에는 친절하게도 읽어주는 기능(TTS)이 있다.

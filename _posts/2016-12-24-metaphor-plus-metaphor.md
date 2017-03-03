@@ -3,7 +3,7 @@ layout: post
 title:  "[UX] 메타포와 메타포"
 date:   2016-12-24 01:02:00 +0900
 categories: ux metaphor
-tags: ux ui metaphor mic mute button 메타포 마이크 음소거
+tags: ux ui metaphor mic mute button
 ---
 
 메타포는 설명을 줄줄이 쓰지 않게 해주기 때문에 사용자 경험에서는 없어서는 안 될 요소이다. 전원버튼을 의미하는 이미지 대신 글씨로 설명을 주렁주렁 써놨다고 생각해 보자. 읽는 시간도 한참 걸릴뿐더러 그 많은 설명을 적을 공간도 없다.

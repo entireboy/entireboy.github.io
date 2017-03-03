@@ -3,7 +3,7 @@ layout: post
 title:  "[Typesafe Config] config의 default값 설정"
 date:   2016-11-30 00:05:00 +0900
 categories: typesafe config
-tags: typesafeconfig typesafe config variable default 변수 설정 java
+tags: typesafeconfig typesafe config variable default java
 ---
 
 [Typesafe Config](https://github.com/typesafehub/config)는 Scala [sbt](http://www.scala-sbt.org/)처럼 라인단위로 실행이 되면서, 설정이 되는 형태의 config이다. (Maven처럼 선언적으로 설정하는 방식이 아니다.)

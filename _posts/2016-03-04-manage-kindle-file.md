@@ -3,7 +3,7 @@ layout: post
 title:  "[Kindle] send to kindle로 보낸 파일 관리하기 (삭제/이름변경 등)"
 date:   2016-03-04 21:24:36 +0900
 categories: kindle
-tags: kindle amazon send_to_kindle 킨들 파일 관리 file management
+tags: kindle amazon send_to_kindle file management
 ---
 
 [kindle](https://kindle.amazon.com/)에는 [send to kindle](http://www.amazon.com/gp/sendtokindle) 이라는 기능이 있어서, 여러 방법으로 내 amazon 계정으로 pdf나 doc, html, 이미지 등을 보낼 수 있다. 내 계정에 있는 파일을 kindle 단말이나 앱으로 받아서 볼 수 있기 때문에 메일로 보내두고 앱에서 받아보곤 하는데..

@@ -3,7 +3,7 @@ layout: post
 title:  "[Docker] server gave HTTP response to HTTPS client"
 date:   2016-12-17 21:33:00 +0900
 categories: docker
-tags: docker hub insecure http https registry 도커
+tags: docker hub insecure http https registry
 ---
 
 [docker-registry](https://hub.docker.com/_/registry/)를 이용해서 local에 docker 이미지 배포가 필요할 때가 있다. (kubernetes를 연동한다던가..)
