@@ -2,8 +2,8 @@
 layout: post
 title:  "[Docker] Assign IP on Docker Container"
 date:   2016-12-24 01:57:00 +0900
-categories: docker ip
-tags: docker assign ip container network
+categories: [ docker, ip ]
+tags: [ docker, assign, ip, container, network ]
 ---
 
 Docker container에 특정 IP를 할당해 줘야 하는 경우가 있다. docker run 실행 시 `--ip` 옵션으로 IP를 주면 된다.

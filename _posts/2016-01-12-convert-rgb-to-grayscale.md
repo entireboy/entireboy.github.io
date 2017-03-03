@@ -2,8 +2,8 @@
 layout: post
 title:  "Convert RGB to grayscale"
 date:   2016-01-12 15:20:36 +0900
-categories: colour
-tags: color colour convert rgb grayscale
+categories: [ colour ]
+tags: [ color, colour, convert, rgb, grayscale ]
 ---
 
 요즘 이미지에서 색깔을 뽑아오는 일들이 좀 있다. 색깔을 뽑아서 평균 값을 구한다거나 회색톤(grayscale)으로 바꾸고 다시 흑백(monochrome)으로 바꾼다거나..

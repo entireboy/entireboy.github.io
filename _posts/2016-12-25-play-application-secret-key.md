@@ -2,8 +2,8 @@
 layout: post
 title:  "[Play] Application secret key"
 date:   2016-12-25 21:15:00 +0900
-categories: play
-tags: play framework application_secret secret config application.conf
+categories: [ play ]
+tags: [ play, framework, application_secret, secret, config, application.conf ]
 ---
 
 Play([https://playframework.com/](https://playframework.com/))를 production 모드에서 실행하려면 [application secret](http://playframework.com/documentation/latest/ApplicationSecret)을 꼭 설정해 주어야 한다. 이 값을 세션 쿠키나 CSRF 토큰을 만드는 등 여러 암호화 작업에 사용된다고 한다.

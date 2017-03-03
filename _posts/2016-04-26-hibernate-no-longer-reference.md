@@ -2,8 +2,8 @@
 layout: post
 title:  "[Hibernate] \"A collection with cascade=\"all-delete-orphan\" was no longer referenced by the owning entity instance\""
 date:   2016-04-26 23:53:00 +0900
-categories: hibernate
-tags: hibernate jpa orphan orphanremoval onetomany
+categories: [ hibernate ]
+tags: [ hibernate, jpa, orphan, orphanremoval, onetomany ]
 ---
 
 JPA entity안에 있는 list를 바꿔서 저장했더니 갑자기 이런 오류가 뙇!!

@@ -2,8 +2,8 @@
 layout: post
 title:  "[Docker] ADD vs COPY in Dockerfile"
 date:   2017-01-07 18:02:00 +0900
-categories: docker
-tags: docker build dockerfile add copy image
+categories: [ docker ]
+tags: [ docker, build, dockerfile, add, copy, image ]
 ---
 
 Dockerfile의 `ADD` 명령과 `COPY` 명령은 일반적인 복사 명령이다. 다만, 차이점이라면, `ADD`는 추가적 기능(?)이 더 있다:

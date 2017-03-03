@@ -3,8 +3,8 @@ layout: post
 title:  "[React] Uncaught Invariant Violation: _registerComponent(...): Target container is not a DOM element."
 date:   2016-01-01 00:19:36 +0900
 published: true
-categories: react
-tags: react browserify babelify preset syntax-jsx babel-preset-react
+categories: [ react ]
+tags: [ react, browserify, babelify, preset, syntax-jsx, babel-preset-react ]
 ---
 
 ```html

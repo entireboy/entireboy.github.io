@@ -2,8 +2,8 @@
 layout: post
 title:  "[Typesafe Config] 변수 사용하기"
 date:   2016-11-29 23:41:00 +0900
-categories: typesafe config
-tags: typesafeconfig typesafe config variable java
+categories: [ typesafe, config ]
+tags: [ typesafeconfig, typesafe, config, variable, java ]
 ---
 
 [Typesafe Config](https://github.com/typesafehub/config)를 사용하는 프로젝트에서 시스템의 environment variable 이나 Java system properties를 사용할 수 있다. 아래처럼 `${VAR}` 형식으로 써주면 된다.

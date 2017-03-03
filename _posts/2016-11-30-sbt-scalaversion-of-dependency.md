@@ -2,8 +2,8 @@
 layout: post
 title:  "[sbt] dependency 설정에 Scala 버전 자동으로 붙여주기"
 date:   2016-11-30 00:17:00 +0900
-categories: sbt dependency
-tags: scala sbt dependency notation library version
+categories: [ sbt, dependency ]
+tags: [ scala, sbt, dependency, notation, library, version ]
 ---
 
 Scala sbt에서 dependency를 추가할 때 아래처럼 써주면 된다.

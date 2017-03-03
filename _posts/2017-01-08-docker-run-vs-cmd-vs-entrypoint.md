@@ -2,8 +2,8 @@
 layout: post
 title:  "[Docker] RUN vs CMD vs ENTRYPOINT in Dockerfile"
 date:   2017-01-08 15:57:00 +0900
-categories: docker
-tags: docker build dockerfile run cmd entrypoint image
+categories: [ docker ]
+tags: [ docker, build, dockerfile, run, cmd, entrypoint, image ]
 ---
 
 헷갈리기 쉬운 Docker Dockerfile 명령어, `RUN`, `CMD`, `ENTRYPOINT`. 모두 뭔가 실행하는 명령어이다.

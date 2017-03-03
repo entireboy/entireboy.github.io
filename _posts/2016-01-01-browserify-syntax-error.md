@@ -3,8 +3,8 @@ layout: post
 title:  "[React] Browserify SyntaxError: Unexpected token"
 date:   2016-01-01 00:07:36 +0900
 published: true
-categories: react
-tags: react browserify babelify preset syntax-jsx babel-preset-react
+categories: [ react ]
+tags: [ react, browserify, babelify, preset, syntax-jsx, babel-preset-react ]
 ---
 
 [React 샘플](http://facebook.github.io/react/docs/getting-started.html) browserify로 컴파일 하려는데, html 태그에서 SyntaxError 나면서 안 됨 T_T

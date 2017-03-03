@@ -2,8 +2,8 @@
 layout: post
 title:  "[Spring] MongoRepository bean을 찾을 수 없을 때"
 date:   2016-01-22 03:39:36 +0900
-categories: spring spring-data mongodb
-tags: spring spring-boot mongodb spring-data spring-data-mongodb MongoRepository injection missing bean
+categories: [ spring, spring-data, mongodb ]
+tags: [ spring, spring-boot, mongodb, spring-data, spring-data-mongodb, MongoRepository, injection, missing, bean ]
 ---
 
 간단히 아래와 같은 package 구조의 웹서비스를 만들었을 때, `MongoRepository` bean을 찾지 못 하게 된다.

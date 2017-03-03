@@ -2,8 +2,8 @@
 layout: post
 title:  "[Scala] rename/alias import"
 date:   2016-12-20 10:05:00 +0900
-categories: scala import
-tags: scala rename alias import tip
+categories: [ scala, import ]
+tags: [ scala, rename, alias, import, tip ]
 ---
 
 Scala에는 동일한 클래스를 import할 수 없는 Java의 단점을 보완하고, 긴 클래스명을 내가 원하는 이름으로 바꿀 수 있는 기능이 있다.

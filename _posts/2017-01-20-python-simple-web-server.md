@@ -2,8 +2,8 @@
 layout: post
 title:  "[python] Simple web server"
 date:   2017-01-20 17:53:00 +0900
-categories: python
-tags: python simple http server web web_server http_server sample
+categories: [ python ]
+tags: [ python, simple, http, server, web, web_server, http_server, sample ]
 ---
 
 간단한 웹서버 python 버전.
