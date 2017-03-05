@@ -379,19 +379,28 @@ div.container {
   }
 }
 .tag-posts {
-  li {
-    list-style: none;
+  ul li {
     margin-bottom: 8px;
   }
 }
 article .tag-list {
   margin-top: 40px;
   ul {
-    display: inline;
-    list-style: none;
+    padding: 0px;
     li {
-      float: left;
       margin-right: 5px;
     }
   }
+}
+.all-tag-list {
+  ul li {
+    line-height: 1.5em;
+    margin-right: 5px;
+  }
+}
+ul.no-bullet-list {
+  list-style: none;
+}
+li.inline-list {
+  display: inline;
 }

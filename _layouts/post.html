@@ -14,9 +14,9 @@ layout: default
 	{{ content }}
 
 	<div class="tag-list">
-		<ul>
+		<ul class="no-bullet-list">
 		{% for tag in page.tags %}
-			<li><a href="/tags/{{ tag }}">#{{ tag }}</a></li>
+			<li class="inline-list"><a href="/tags/{{ tag }}">#{{ tag }}</a></li>
 		{% endfor %}
 		</ul>
 	</div>

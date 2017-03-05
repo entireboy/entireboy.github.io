@@ -21,7 +21,7 @@ layout: default
 
 <div class="container tag-posts">
     <div id="tag-content" role="main">
-        <ul id="post-list">
+        <ul id="post-list" class="no-bullet-list">
             {% for post in site.posts %}
                 {% if post.tags contains page.name %}
                     <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>

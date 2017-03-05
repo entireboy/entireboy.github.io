@@ -12,21 +12,16 @@ layout: default
       <div>
         <span class="tag-title">{{ page.title | default: page.name }}</span>
         <span>{% if page.site %}(<a href="{{ page.site }}" target="_blank">{{ page.site }}</a>){% endif %}</span>
-        <p>All Posts in <strong>{{ page.name }}</strong></p>
-        <p><strong>Brewing. Comming soon.</strong></p>
-        <!-- TODO list all tags -->
       </div>
     </div>
 </div>
 
-<div id="content" class="container">
+<div id="content" class="container all-tag-list">
     <div id="tag-content" role="main">
-        <ul id="post-list">
-            {% for post in site.posts %}
-                {% if post.tags contains page.name %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+      <ul id="tag-list" class="no-bullet-list">
+        {% for tag in site.tags %}
+          <li class="inline-list"><a href="{{ tag.url }}">#{{ tag.name }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
 </div>
