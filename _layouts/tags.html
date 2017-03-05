@@ -1,27 +1,29 @@
 ---
 layout: default
 ---
-<div id="navbar" class="navbar container">
-    <a href="{{site.baseurl}}/">Home</a>
-    <a href="{{site.baseurl}}/tags/">All tags</a>
-</div>
+<nav id="navbar" class="navbar container">
+  <ul style="list-style: none; display: flex;">
+    <li><a href="{{site.baseurl}}/">Home</a></li>
+    <li><a href="{{site.baseurl}}/tags/">All tags</a></li>
+  </ul>
+</nav>
 
 <div class="container tag-cover"
-     {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
-    <div class="tag-logo">
-      <div>
-        <span class="tag-title">{{ page.title | default: page.name }}</span>
-        <span>{% if page.site %}(<a href="{{ page.site }}" target="_blank">{{ page.site }}</a>){% endif %}</span>
-      </div>
+    {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
+  <div class="tag-logo">
+    <div>
+      <span class="tag-title">{{ page.title | default: page.name }}</span>
+      <span>{% if page.site %}(<a href="{{ page.site }}" target="_blank">{{ page.site }}</a>){% endif %}</span>
     </div>
+  </div>
 </div>
 
 <div id="content" class="container all-tag-list">
-    <div id="tag-content" role="main">
-      <ul id="tag-list" class="no-bullet-list">
-        {% for tag in site.tags %}
-          <li class="inline-list"><a href="{{ tag.url }}">#{{ tag.name }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
+  <div id="tag-content" role="main">
+    <ul id="tag-list" class="no-bullet-list">
+      {% for tag in site.tags %}
+        <li class="inline-list"><a href="{{ tag.url }}">#{{ tag.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
