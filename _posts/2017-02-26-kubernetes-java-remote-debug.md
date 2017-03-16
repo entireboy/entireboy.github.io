@@ -3,7 +3,7 @@ layout: post
 title:  "[Kubernetes] Java remote debug"
 date:   2017-02-26 22:53:00 +0900
 categories: kubernetes
-tags: [ kubernetes, docker, java, remote, debug, debugging ]
+tags: [ kubernetes, k8s, docker, java, remote, debug, debugging ]
 ---
 
 간혹 Kubernetes에서 돌고 있는 java container에 접속해서 디버깅을 하고 싶을 때가 있다. remote debugging.. 이럴 때면 Kubernetes와 Docker 네트웍이 참 답답하다. T_T

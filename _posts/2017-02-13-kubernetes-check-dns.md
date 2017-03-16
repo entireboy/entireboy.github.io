@@ -3,7 +3,7 @@ layout: post
 title:  "[Kubernetes] DNS doesn't work"
 date:   2017-02-13 22:53:00 +0900
 categories: kubernetes
-tags: [ kubernetes, dns, check, container, pod ]
+tags: [ kubernetes, k8s, dns, check, container, pod ]
 ---
 
 간단한 웹서버 python 버전.

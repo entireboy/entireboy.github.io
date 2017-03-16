@@ -3,7 +3,7 @@ layout: post
 title:  "[Kubernetes] DNS doesn't work"
 date:   2017-03-07 22:53:00 +0900
 categories: kubernetes
-tags: [ kubernetes, dns, pod, container ]
+tags: [ kubernetes, k8s, dns, pod, container ]
 ---
 
 갑자기 kube-dns가 응답을 안 할 때, container가 모두 실행 중인지 체크해 보자.

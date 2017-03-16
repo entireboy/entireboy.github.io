@@ -3,7 +3,7 @@ layout: post
 title:  "[Kubernetes] How to scale pods"
 date:   2017-03-02 22:53:00 +0900
 categories: kubernetes
-tags: [ kubernetes, scale, pod, replica ]
+tags: [ kubernetes, k8s, scale, pod, replica ]
 ---
 
 Kubernetes Pod을 스케일링(scale)하기 위해 Replica Set의 `replicas`값을 바꿔줘도 Pod이 생겼다가 원래 개수로 계속 돌아오는 문제가 생겼다.

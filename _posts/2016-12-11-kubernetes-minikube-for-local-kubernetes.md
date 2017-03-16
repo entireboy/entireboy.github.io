@@ -2,8 +2,8 @@
 layout: post
 title:  "[Kubernetes] Minikube for local Kubernetes"
 date:   2016-12-11 19:26:00 +0900
-categories: [ kubernetes, local, minikube ]
-tags: [ kubernetes, minikube, kubectl, install, local ]
+categories: [ kubernetes ]
+tags: [ kubernetes, k8s, minikube, kubectl, install, local ]
 ---
 
 kubernetes([http://kubernetes.io/](http://kubernetes.io/))를 사용하려면 여러대의 master node와 slave node가 필요하다. local에서는 여러 node를 띄우기 어려우니 테스트하기 위해 single node로 사용할 수 있는 [minikube](http://kubernetes.io/docs/getting-started-guides/minikube/)라는 툴을 제공한다.
