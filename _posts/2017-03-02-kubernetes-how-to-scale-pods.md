@@ -2,13 +2,14 @@
 layout: post
 title:  "[Kubernetes] How to scale pods"
 date:   2017-03-02 22:53:00 +0900
-categories: kubernetes
+published: true
+categories: [ kubernetes ]
 tags: [ kubernetes, k8s, scale, pod, replica ]
 ---
 
 Kubernetes Pod을 스케일링(scale)하기 위해 Replica Set의 `replicas`값을 바꿔줘도 Pod이 생겼다가 원래 개수로 계속 돌아오는 문제가 생겼다.
 
-왜 그럴까 한참을 고민했는데, Deployment로 만든 Pod들은 Deployment의 설정을 바꿔줘야 한다. (당연하다. 바보 =) Deployment로 Pod을 생성하면 Deployment가 Replica Set(예전 버전이라면 Replica Controller)을 관리하고, 다시 Replica Set이 Pod들을 관리한다. Deployment를 바꾸지 않고 Replica Set을 변경하면 Deployment가 계속 감시해서 원상태로 되돌려 놓는다.
+왜 그럴까 한참을 고민했는데, Deployment로 만든 Pod들은 Deployment의 설정을 바꿔줘야 한다. (당연하다. 바보 =_=) Deployment로 Pod을 생성하면 Deployment가 Replica Set(예전 버전이라면 Replica Controller)을 관리하고, 다시 Replica Set이 Pod들을 관리한다. Deployment를 바꾸지 않고 Replica Set을 변경하면 Deployment가 계속 감시해서 원상태로 되돌려 놓는다.
 
 ```bash
 $ kubectl get rs/my-test-1170944398

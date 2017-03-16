@@ -2,6 +2,7 @@
 layout: post
 title:  "[Hibernate] \"A collection with cascade=\"all-delete-orphan\" was no longer referenced by the owning entity instance\""
 date:   2016-04-26 23:53:00 +0900
+published: true
 categories: [ hibernate ]
 tags: [ hibernate, jpa, orphan, orphanremoval, onetomany ]
 ---

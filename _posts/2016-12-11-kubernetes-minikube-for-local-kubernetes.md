@@ -2,6 +2,7 @@
 layout: post
 title:  "[Kubernetes] Minikube for local Kubernetes"
 date:   2016-12-11 19:26:00 +0900
+published: true
 categories: [ kubernetes ]
 tags: [ kubernetes, k8s, minikube, kubectl, install, local ]
 ---

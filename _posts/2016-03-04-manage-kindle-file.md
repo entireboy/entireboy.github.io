@@ -2,6 +2,7 @@
 layout: post
 title:  "[Kindle] send to kindle로 보낸 파일 관리하기 (삭제/이름변경 등)"
 date:   2016-03-04 21:24:36 +0900
+published: true
 categories: [ kindle ]
 tags: [ kindle, amazon, send to kindle, file, management, tip ]
 ---

@@ -2,6 +2,7 @@
 layout: post
 title:  "[Typesafe Config] config의 default값 설정"
 date:   2016-11-30 00:05:00 +0900
+published: true
 categories: [ typesafe, config ]
 tags: [ typesafe config, typesafe, config, variable, default, java ]
 ---

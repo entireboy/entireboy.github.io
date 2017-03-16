@@ -2,6 +2,7 @@
 layout: post
 title:  "[Docker] Assign IP on Docker Container"
 date:   2016-12-24 01:57:00 +0900
+published: true
 categories: [ docker, ip ]
 tags: [ docker, assign, ip, container, network ]
 ---

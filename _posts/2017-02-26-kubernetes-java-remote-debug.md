@@ -2,7 +2,8 @@
 layout: post
 title:  "[Kubernetes] Java remote debug"
 date:   2017-02-26 22:53:00 +0900
-categories: kubernetes
+published: true
+categories: [ kubernetes ]
 tags: [ kubernetes, k8s, docker, java, remote, debug, debugging ]
 ---
 

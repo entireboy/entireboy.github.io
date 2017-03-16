@@ -2,6 +2,7 @@
 layout: post
 title:  "Convert RGB to grayscale"
 date:   2016-01-12 15:20:36 +0900
+published: true
 categories: [ colour ]
 tags: [ color, colour, convert, rgb, grayscale ]
 ---

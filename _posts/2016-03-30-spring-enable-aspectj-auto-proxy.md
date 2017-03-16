@@ -2,6 +2,7 @@
 layout: post
 title:  "[Spring] @EnableAspectJAutoProxy"
 date:   2016-03-30 14:33:00 +0900
+published: true
 categories: [ spring, aop ]
 tags: [ spring, aop, enable, java ]
 ---

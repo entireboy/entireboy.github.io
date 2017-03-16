@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "[Kubernetes] DNS doesn't work"
+title:  "[Kubernetes] DNS doesn't work - check DNS containers"
 date:   2017-03-07 22:53:00 +0900
-categories: kubernetes
+published: true
+categories: [ kubernetes ]
 tags: [ kubernetes, k8s, dns, pod, container ]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "[Spring] MongoRepository bean을 찾을 수 없을 때"
 date:   2016-01-22 03:39:36 +0900
+published: true
 categories: [ spring, spring-data, mongodb ]
 tags: [ spring, spring-boot, mongodb, spring-data, spring-data-mongodb, MongoRepository, injection, missing, bean ]
 ---

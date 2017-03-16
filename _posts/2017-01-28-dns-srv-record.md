@@ -2,6 +2,7 @@
 layout: post
 title:  "[DNS] SRV Record"
 date:   2017-01-28 10:01:00 +0900
+published: true
 categories: [ dns, srv ]
 tags: [ dns, srv, srv record, type, a record, lookup, hostname, nslookup ]
 ---

@@ -2,6 +2,7 @@
 layout: post
 title:  "[Java] thread dump / heap dump 분석 툴"
 date:   2016-03-07 01:27:36 +0900
+published: true
 categories: [ java, analyze ]
 tags: [ java, thread dump, heap dump, analyze, tool ]
 ---

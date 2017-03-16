@@ -2,6 +2,7 @@
 layout: post
 title:  "[Typesafe Config] 변수 사용하기"
 date:   2016-11-29 23:41:00 +0900
+published: true
 categories: [ typesafe, config ]
 tags: [ typesafe config, typesafe, config, variable, java ]
 ---

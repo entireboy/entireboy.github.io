@@ -2,6 +2,7 @@
 layout: post
 title:  "[Scala] rename/alias import"
 date:   2016-12-20 10:05:00 +0900
+published: true
 categories: [ scala, import ]
 tags: [ scala, rename, alias, import, tip ]
 ---

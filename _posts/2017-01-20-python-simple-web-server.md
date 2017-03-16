@@ -2,6 +2,7 @@
 layout: post
 title:  "[python] Simple web server"
 date:   2017-01-20 17:53:00 +0900
+published: true
 categories: [ python ]
 tags: [ python, simple, http, server, web, web server, http server, sample ]
 ---

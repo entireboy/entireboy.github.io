@@ -2,6 +2,7 @@
 layout: post
 title:  "[Typesafe Config] include syntax: substitution (이미 설정된 config 재사용하기)"
 date:   2016-12-20 21:11:00 +0900
+published: true
 categories: [ typesafe, config ]
 tags: [ typesafe config, typesafe, config, include, syntax, reuse, substitution ]
 ---

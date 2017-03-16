@@ -2,6 +2,7 @@
 layout: post
 title:  "[Play] Application secret key"
 date:   2016-12-25 21:15:00 +0900
+published: true
 categories: [ play ]
 tags: [ play, framework, application secret, secret, config, application.conf ]
 ---

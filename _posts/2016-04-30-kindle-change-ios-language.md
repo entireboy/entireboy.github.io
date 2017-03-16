@@ -2,6 +2,7 @@
 layout: post
 title:  "[kindle] iOS Kindle 언어 변경 (change language)"
 date:   2016-04-30 14:37:00 +0900
+published: true
 categories: [ kindle ]
 tags: [ kindle, ios, language, change, iphone ]
 ---

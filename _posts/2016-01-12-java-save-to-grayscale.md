@@ -2,6 +2,7 @@
 layout: post
 title:  "[Java] grayscale로 이미지 저장하기"
 date:   2016-01-12 15:36:36 +0900
+published: true
 categories: [ java, colour ]
 tags: [ java, color, colour, image, save, write, rgb, grayscale ]
 ---

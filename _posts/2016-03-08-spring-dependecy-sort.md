@@ -2,6 +2,7 @@
 layout: post
 title:  "[Spring] injection 받은 list를 원하는 순서로 정렬하기"
 date:   2016-03-08 21:00:00 +0900
+published: true
 categories: [ spring, injection ]
 tags: [ spring, java, dependency injection, DI, injection, list, ordering, sort ]
 ---

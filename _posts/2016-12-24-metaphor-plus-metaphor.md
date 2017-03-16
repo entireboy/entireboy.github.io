@@ -2,6 +2,7 @@
 layout: post
 title:  "[UX] 메타포와 메타포"
 date:   2016-12-24 01:02:00 +0900
+published: true
 categories: [ ux, metaphor ]
 tags: [ ux, ui, metaphor, mic, mute, button ]
 ---

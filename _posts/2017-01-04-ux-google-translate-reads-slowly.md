@@ -2,6 +2,7 @@
 layout: post
 title:  "[UX] Google Translate reads slowly on the second time"
 date:   2017-01-04 20:40:00 +0900
+published: true
 categories: [ ux, google, translate ]
 tags: [ google, translate, google translate, read, tts, slow, ux, user ]
 ---

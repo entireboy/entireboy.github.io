@@ -2,6 +2,7 @@
 layout: post
 title:  "[git] default remote/branch 설정"
 date:   2016-01-21 01:31:36 +0900
+published: true
 categories: [ git, remote ]
 tags: [ git, remote, repository, branch, default ]
 ---
