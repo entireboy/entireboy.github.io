@@ -58,4 +58,5 @@ val secret = config.getDeprecated[Option[String]]("play.crypto.secret", "applica
 ```
 
 # 참고
+
 - [http://playframework.com/documentation/latest/ApplicationSecret](http://playframework.com/documentation/latest/ApplicationSecret)

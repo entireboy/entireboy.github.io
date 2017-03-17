@@ -25,6 +25,7 @@ import java.util.{Map => JMap, List => JList}
 참, 쉽죠잉-??
 
 # 참고
+
 - [http://alvinalexander.com/scala/how-to-rename-members-import-scala-classes-methods-functions](http://alvinalexander.com/scala/how-to-rename-members-import-scala-classes-methods-functions
 )
 - [http://blog.bruchez.name/2012/06/scala-tip-import-renames.html](http://blog.bruchez.name/2012/06/scala-tip-import-renames.html)

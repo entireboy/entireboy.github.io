@@ -28,4 +28,5 @@ docker 설정을 열어서 `Insecure registries`에 HTTP로 사용할 registry �
 MacOS 용이 아닌 다른 버전은 요기([https://docs.docker.com/registry/insecure/](https://docs.docker.com/registry/insecure/))를 참조.
 
 # 참고
+
 - [https://github.com/docker/docker-registry/issues/936](https://github.com/docker/docker-registry/issues/936)

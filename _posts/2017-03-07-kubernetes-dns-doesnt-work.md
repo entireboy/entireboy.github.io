@@ -19,4 +19,5 @@ Kubernetes [DNS Pods and Services](https://kubernetes.io/docs/concepts/services-
 ![Kubernetes dns containers](/assets/img/2017-03-07-kubernetes-dns-doesnt-work.png)
 
 # 참고
+
 - [DNS Pods and Services - Kubernetes](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)

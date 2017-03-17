@@ -29,4 +29,5 @@ libraryDependencies += "org.scala-tools" % "scala-stm_2.11.1" % "0.3"
 ```
 
 # 참고
+
 - [http://www.scala-sbt.org/0.13/docs/Library-Dependencies.html#Getting+the+right+Scala+version+with](http://www.scala-sbt.org/0.13/docs/Library-Dependencies.html#Getting+the+right+Scala+version+with)

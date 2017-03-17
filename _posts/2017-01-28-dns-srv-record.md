@@ -47,6 +47,7 @@ $ nslookup
 ```
 
 # 참고
+
 - [https://en.wikipedia.org/wiki/SRV_record](https://en.wikipedia.org/wiki/SRV_record)
 - [https://tools.ietf.org/html/rfc2782](https://tools.ietf.org/html/rfc2782)
 - [https://en.wikipedia.org/wiki/List_of_DNS_record_types#A](https://en.wikipedia.org/wiki/List_of_DNS_record_types#A)

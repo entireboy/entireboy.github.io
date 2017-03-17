@@ -27,5 +27,6 @@ my {
 `contact.me.name`의 `${my.name}`은 다른 곳에서 별도로 선언된 `my.name`의 값인 `ME`로 설정된다. 알고 나면 참 쉬운데, 모르면 알기 어렵다. @_@
 
 # 참고
+
 - [https://github.com/typesafehub/config/blob/master/HOCON.md#include-syntax](https://github.com/typesafehub/config/blob/master/HOCON.md#include-syntax)
 - [http://blog.leocat.kr/post/153820414982/typesafes-config-config%EC%9D%98-default%EA%B0%92-%EC%84%A4%EC%A0%95](http://blog.leocat.kr/post/153820414982/typesafes-config-config%EC%9D%98-default%EA%B0%92-%EC%84%A4%EC%A0%95)

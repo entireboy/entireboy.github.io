@@ -52,6 +52,7 @@ Opening kubernetes dashboard in default browser...
 ![minikube dashboard](/assets/img/2016-12-11-kubernetes-minikube-for-local-kubernetes.png)
 
 # 참고
+
 - [http://kubernetes.io/docs/getting-started-guides/minikube/](http://kubernetes.io/docs/getting-started-guides/minikube/)
 - [https://github.com/kubernetes/minikube/releases](https://github.com/kubernetes/minikube/releases)
 - [https://github.com/kubernetes/minikube/blob/v0.12.2/README.md](https://github.com/kubernetes/minikube/blob/v0.12.2/README.md)

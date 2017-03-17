@@ -37,6 +37,7 @@ java MyClass
 ```
 
 # 참고
+
 - [[Typesafe Config] 변수 사용하기](/notes/2016/11/29/typesafeconfig-use-variable)
 - [https://github.com/typesafehub/config](https://github.com/typesafehub/config)
 - [http://blog.michaelhamrah.com/2014/02/leveraging-typesafes-config-library-across-environments/](http://blog.michaelhamrah.com/2014/02/leveraging-typesafes-config-library-across-environments/)

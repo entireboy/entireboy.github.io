@@ -33,4 +33,5 @@ my-test-1170944398   5         5         5         2h
 Pod을 Replica Set으로 만들었다면 당연히 Deployment가 없기 때문에 Replica Set의 `replicas`를 변경해 주면 된다. 하지만, Deployment로 만들었다면 Replica Set이 아닌 Deployment의 `replicas`를 변경해 주자.
 
 # 참고
+
 - [Kubernetes: how to scale my pods - Stack Overflow](http://stackoverflow.com/questions/38344896/kubernetes-how-to-scale-my-pods)
