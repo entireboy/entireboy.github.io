@@ -13,7 +13,7 @@ tags: [ scala, regex, flag, case insensitive, java ]
 val prodEnvRegex = """(?i)PROD""".r
 ```
 
-사실 이건 Scala가 아니라 [Java RegEx](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html#special) 문법이다. RegEx 시작에 (?idmsux) 형태로 플래그를 줄 수 있고, 각각은 이런 의미를 가지고 있다.:
+사실 이건 Scala가 아니라 [Java RegEx](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html#special) 문법이다. RegEx 패턴 시작에 (?idmsux) 형태로 플래그를 줄 수 있고, 각각은 이런 의미를 가지고 있다.:
 
 - i [CASE_INSENSITIVE](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html#CASE_INSENSITIVE)
 
@@ -27,7 +27,7 @@ val prodEnvRegex = """(?i)PROD""".r
 
 - x [COMMENTS](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html#COMMENTS)
 
-각 플래그는 on-off 형태이고, `(?)`로 지정해 주면 on, 켜진다.
+각 플래그는 on-off 형태이고, `(?id)`처럼 지정해 주면 해당 플러그만 on, 켜진다.
 
 # 참고
 
