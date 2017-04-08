@@ -1,0 +1,4 @@
+---
+name: deprecated
+title: deprecated
+---
