@@ -4,7 +4,7 @@ title:  "[Typesafe Config] include syntax: substitution (이미 설정된 config
 date:   2016-12-20 21:11:00 +0900
 published: true
 categories: [ typesafe, config ]
-tags: [ typesafe config, typesafe, config, include, syntax, reuse, substitution ]
+tags: [ typesafe config, typesafe, config, include, syntax, reuse, substitution, java ]
 ---
 
 Typesafe config 에서는 다른 곳에서 설정해둔 값을 쉽게 재사용할 수 있다.
