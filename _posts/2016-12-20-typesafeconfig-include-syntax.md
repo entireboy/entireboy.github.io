@@ -29,4 +29,4 @@ my {
 # 참고
 
 - [https://github.com/typesafehub/config/blob/master/HOCON.md#include-syntax](https://github.com/typesafehub/config/blob/master/HOCON.md#include-syntax)
-- [http://blog.leocat.kr/post/153820414982/typesafes-config-config%EC%9D%98-default%EA%B0%92-%EC%84%A4%EC%A0%95](http://blog.leocat.kr/post/153820414982/typesafes-config-config%EC%9D%98-default%EA%B0%92-%EC%84%A4%EC%A0%95)
+- [Typesafe config의 default값 설정]({{ site.baseurl }}{% post_url 2016-11-30-typesafeconfig-default-value %})
