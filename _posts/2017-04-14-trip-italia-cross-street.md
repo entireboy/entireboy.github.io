@@ -3,8 +3,8 @@ layout: post
 title:  "[Trip] Cross street in Italia(Italy) - 이탈리아에서 길건너기"
 date:   2017-04-14 22:18:00 +0900
 published: true
-categories: [ trip, italia, italy ]
-tags: [ trip, italia, italy, cross street ]
+categories: [ trip, travel, italia, italy ]
+tags: [ trip, travel, italia, italy, cross street ]
 ---
 
 # 방법
