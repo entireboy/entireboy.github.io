@@ -29,7 +29,7 @@ Trenitalia의 `Super Economy`와 `Economy`는 `Base` 보다 저렴하게 구입�
 
 Trenitalia 홈페이지에서 열차를 찾아보면 KTX 같은 고속철과 일반 열차가 같이 나온다. 기차를 타러 역에 가보면 [SNCF](http://www.sncf.com/)도 있는데, 창구/판매기 개수나 VIP 라운지 등을 보면 Trenitalia가 아직은 규모가 더 크고 열차도 많아 보이긴 한다. 역에 Trenitalia 라고 쓰여진 자동 판매기(?)도 있고 직원이 있는 창구가 있는 곳도 있다.
 
-![Trenitalia 티켓판매기](/assets/img/trip/italia/train-biglietti.JPG)
+![Trenitalia 티켓판매기](/assets/img/trip/italia/train-biglietti.jpg)
 
 # 역사 내 플랫폼
 
@@ -51,7 +51,7 @@ Trenitalia에서 예매를 하다보면 [http://www.trenitalia.com/tcom-en](http
 
 `Coach 1`의 나머지 1/3이 우등버스처럼 3열(2얼 + 1열)로 이루어진 `Business Area Silenzio` 좌석인데, `Coach 2, 3, 4`에 있는 `Business`와 같다. 차이점은 `Coach 1`의 `Business Area Silenzio`는 의자를 뒤로 젖힐 수 있다!! 위의 사진에도 살짝 보이듯이 좌석이 지그재그로 배치되어 있기도 해서 통로 건너의 사람 얼굴이 좀 멀어져서 민망함이 줄어든다. 창문 덮개도 자동으로 버튼 꾹 누르면 열리고 닫힌다. 창문틀에서 나오는 에어컨도 왠지 더 빵빵한 느낌 +_+ 자리에서 충전도 가능하다!! (Coach 2 이후도 콘센트가 있는지 기억은 안 남;;)
 
-![Meeting room in Coach 1](/assets/img/trip/italia/train-meeting-room.JPG)
+![Meeting room in Coach 1](/assets/img/trip/italia/train-meeting-room.jpg)
 
 위 사진은 `Coach 1` 가운데에 있는 회의실이다.
 
@@ -59,7 +59,7 @@ Trenitalia에서 예매를 하다보면 [http://www.trenitalia.com/tcom-en](http
 
 아래 사진은 객실에 붙은 비상구 안내 지도이다. 왼쪽이 `Coach 1`이고, 오른쪽이 `Coach 2`이다. 일단 의자 개수만 봐도, 비슷한 가격이라면 부딛히는 사람 적은게 낫지 않을까 싶다. :D
 
-![Emergency exit guide](/assets/img/trip/italia/train-emergency-exit-guide.png)
+![Emergency exit guide](/assets/img/trip/italia/train-emergency-exit-guide.jpg)
 
 ## 예매 시 결제
 
@@ -73,7 +73,7 @@ Trenitalia에서 예매를 하다보면 [http://www.trenitalia.com/tcom-en](http
 
 이탈리아 열차는 딱히 정방향/역방향이랄게 없다. 4-5번 여러 도시를 떠돌며 기차를 타다보니 알게된 사실인데, 대부분의 중앙역은 이렇게 철로 막다른 곳까지 들어오게 된다. 그리고는 다시 들어왔던 반대 방향으로 출발한다.
 
-![End of rails](/assets/img/trip/italia/train-end-of-rails.JPG)
+![End of rails](/assets/img/trip/italia/train-end-of-rails.jpg)
 
 위 사진은 나폴리에서 로마로 이동할 때 찍은 사진인데, 다른 곳에서 와서 나폴리에 들렀다가 로마, 피렌체 등등을 계속 가는 열차였다. 나폴리에 올 때는 정방향으로 왔다면, 다시 출발할 때는 역방향으로 가게 된다.
 
@@ -83,7 +83,7 @@ Trenitalia에서 예매를 하다보면 [http://www.trenitalia.com/tcom-en](http
 
 열차가 출발하면 잠시 후 멋진 카트님이 지나가면서 무료로 웰컴킷을 툭툭 떨궈준다. 과자, 젤리, 물티슈, 작은 물 한 병을 주고, 커피나 주스 같은걸 달라면 따로 준다. 커피는 이탈리아어로 까페(caffè)라고 하면 된다. 커피라고 해도 알아듣기도 한다.
 
-![Trenitalia welcomekit](/assets/img/trip/italia/trenitalia-welcomekit.JPG)
+![Trenitalia welcomekit](/assets/img/trip/italia/trenitalia-welcomekit.jpg)
 
 과자가 맛이 참 애매하고 먹자니 시끄러워서 계륵 같은 존재인데, 나중에 길바닥에서 배고프고 먹을거 없을 때 정말 좋다. 가방에 꼭꼭 챙겨두기 ㅋㅋ
 
@@ -97,13 +97,13 @@ Trenitalia에서 예매를 하다보면 [http://www.trenitalia.com/tcom-en](http
 
 나는 밀라노 공항에서 시내로 들어가는 기차를 아슬아슬하게 탔는데 펀칭 기계를 못 찾아서 두리번 거리다가 그냥 타게 됐다. 검표하는 분이 그 모습을 봐서 그런지 귀엽게 봐줬음 T_T 공항이라 이런 어리버리한 애덜이 많아서 그런가.. 펀칭 안 하면 벌금이 어마어마하다.
 
-![Ticket from MXP to Milano](/assets/img/trip/italia/trail-from-MXP-to-Milano.JPG)
+![Ticket from MXP to Milano](/assets/img/trip/italia/trail-from-MXP-to-Milano.jpg)
 
 # 나폴리 사철 (Circumvesuviana)
 
 나폴리 사철. 노선이나 타는 법이 가장 난해하면서도 어렵고 더러운 기차였다. 주로 이용하는 노선은 나폴리-폼페이-소렌토 일 것이다. 아르떼 카드(arte card)가 있다면 무료로 이용할 수 있다. 개찰구에 지하철표 넣듯이 쓱 넣으면 된다.
 
-![Pompeii Scavi station](/assets/img/trip/italia/trail-station-pompeii-scavi.JPG)
+![Pompeii Scavi station](/assets/img/trip/italia/trail-station-pompeii-scavi.jpg)
 
 > 폼페이 유적지를 가려면 `Pompei Scavi` 역에서 내리자. 다른 노선이긴 하지만 `Pompeii` 에서 내리면, 2000년 전에 사라진 폼페이가 아니라 현재 폼페이 도시로 간다. `scavi`가 이탈리아어로 `발굴` 이런 뜻이다. 노선을 보면 폼페이 말고 다른 발굴지도 많다.
 
