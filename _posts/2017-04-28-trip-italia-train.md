@@ -21,6 +21,8 @@ Trenitalia의 `Super Economy`와 `Economy`는 `Base` 보다 저렴하게 구입�
 
 `Choose the seat`을 체크하면 좌석을 선택할 수 있다.
 
+{% include google-ad-content %}
+
 # Trenitalia
 
 (Trenitalia는 이탈리아 국철인 것 같은데 확실하지 않다.)

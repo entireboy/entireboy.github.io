@@ -32,6 +32,8 @@ class FoodServiceSpec extends Specification {
 
 `@Mock`은 `FoodService` 안에서 GORM 등으로 해당 도메인 객체를 컨트롤하는 로직이 있는 경우 사용한다. 예를 들어, `FoodService#foo()` 메소드 안에 아래와 같이 `.findByxx()` 같은 로직이 있는 경우 사용하면 된다. `@Mock`을 사용하면 이런 메소드들을 자동으로 mocking해준다. 도메인에 메소드를 만들어주는 수준이고, 값을 리턴하는 형태까지 만들어주지는 않는다. (도메인 객체까지 mocking이 필요한 경우는 [여기]({{ site.baseurl }}{% post_url 2017-07-13-grails-mocking-persistence-method-in-gorm-unit-test %}) 참조)
 
+{% include google-ad-content %}
+
 
 # 참고
 

@@ -15,6 +15,8 @@ tags: [ trip, travel, italia, italy, cross street ]
 
 특히 옛 유적이 많은 historical center에는 [ZTL]({{ site.baseurl }}/tags/ztl) 등 차량 통제 구역이 많기 때문에 차가 정말 적다.
 
+{% include google-ad-content %}
+
 # 남부지방
 
 나폴리 같은 남부에서는 알아서 차가 멈추는 광경을 절대 볼 수 없다. 나폴리는 정말 차와 사람이 엉켜 다닐 정도로 교통이 열악하다. 차선도 잘 안 보이거나 없는 경우가 많아서, 정말 손내밀고 건너지 않으면 횡단보도에서도 못 건너고 계속 기다리는 경우가 생길 수 있다. 앞차가 가는 길이 차선이 되는 도시이다. 남부에서는 조심 또 조심해서 다니자.
