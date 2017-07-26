@@ -13,8 +13,6 @@ tags: [ mysql, mybatis, LAST_INSERT_ID, insert, pk ]
 
 > With no argument, LAST_INSERT_ID() returns a BIGINT UNSIGNED (64-bit) value representing the first automatically generated value successfully inserted for an AUTO_INCREMENT column as a result of the most recently executed INSERT statement.
 
-{% include google-ad-content %}
-
 간단한 예제를 보자.
 
 ```sql
@@ -71,6 +69,8 @@ mysql> SELECT LAST_INSERT_ID();
 ```
 
 처음 INSERT 구문으로 `Bob`을 추가하고 `LAST_INSERT_ID()`의 반환값은 `1`이 나왔다. AUTO_INCREMENT column의 id값이다. 그리고 2번째 INSERT 구문으로 `Mary`와 `Jane`, `Lisa`를 추가하였다. 이 때는 3개의 row를 추가했고, 이 추가된 record 중 가장 처음에 추가된 record의 id인 2가 반환된다.
+
+{% include google-ad-content %}
 
 그리고 이 `LAST_INSERT_ID()`의 값은 각 connection 마다 따로 관리된다. 때문에 A와 B가 다른 connection을 가지고 동시에 INSERT 후 `LAST_INSERT_ID()`값을 SELECT하더라도 자신이 INSERT한 ID값을 반환받게 된다. 예를 들면, A가 INSERT를 하고 `LAST_INSERT_ID()`를 SELECT하려고 하는 순간 B가 먼저 INSERT를 하였다. 이 경우 A가 SELECT하여 얻어지는 ID값은 B와는 무관하게 A가 INSERT한 ID값이 된다. 물론, 전제 조건은 A와 B가 다른 connection을 사용한다는 것이지만, 동시에 INSERT하고 접근하는 문제가 있어도 유용하게 사용할 수 있다.
 
