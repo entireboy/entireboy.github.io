@@ -45,6 +45,7 @@ LocalDateTime now = new Date()
 
 # 참고
 
+- [Java – How to add days to current date](https://www.mkyong.com/java/java-how-to-add-days-to-current-date/)
 - [LocalDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html)
 - [LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html)
 - [LocalTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html)
