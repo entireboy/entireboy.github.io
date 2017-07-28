@@ -25,6 +25,8 @@ case _ => {/* do something else */}
 
 위의 예제에서는 두번째 `case HttpType(service, proto)`에 매치된다. 첫번째 case는 그룹 개수가 맞지 않기 때문에 건너뛰고, 두번째 case에 걸린다. 순서대로 `(https?)`에 잡히는 녀석은 `service`, `(tcp|udp)`에 잡히는 녀석은 `proto`로 사용할 수 있다. 예제는 처음 잡힌 `service`만 리턴했기 때문에 결과는 `https`가 된다.
 
+{% include google-ad-content %}
+
 # tip
 
 Scala에서 정규식을 만들 때 `"\\."` 대신 `"""\."""`을 사용하면 `\`의 지옥에서 벗어날 수 있다.

@@ -35,6 +35,8 @@ _sip._tcp.example.com.   86400 IN    SRV 10       20     5060 smallbox2.example.
 _sip._tcp.example.com.   86400 IN    SRV 20       0      5060 backupbox.example.com.
 ```
 
+{% include google-ad-content %}
+
 아래 커맨드들로 lookup 할 수 있다.
 
 ```bash
