@@ -7,6 +7,8 @@ categories: [ javascript ]
 tags: [ javascript, date, add, sub ]
 ---
 
+> 이전 블로그에서 옮겨온 포스트 (일부 동작 안 하는 샘플 수정)
+
 오늘 날짜에서 3일 전/후 등의 날짜 계산을 하고 싶다. 하지만 Javascript는 Java의 [java.util.Calendar.add(int, int)](http://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#add(int,%20int)) 같은 날짜 더하고 빼는 기능이 없다. T_T (Java8 이상이라면 [java.time.LocalDateTime]({{ site.baseurl }}{% post_url 2017-07-25-java-add-days %})을 사용하면 Calendar 보다 편하다.)
 
 Java였다면..

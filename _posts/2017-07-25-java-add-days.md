@@ -7,6 +7,8 @@ categories: [ java ]
 tags: [ java, date, add, sub ]
 ---
 
+> 이전 블로그에서 옮겨온 포스트 (일부 동작 안 하는 샘플 수정)
+
 Java8 이전까지는 Java에서 날짜 계산은 Calendar를 사용했다. 윤달 체크 같은 것도 해줘서 좋은데, 사용하기 너무 번거로웠다. 그리고 mutable이기 때문에 전혀 예상치 못 하게 값이 변경될 수 있다.
 
 ```java

@@ -7,6 +7,8 @@ categories: [ oracle ]
 tags: [ oracle, rank, query, row number, db ]
 ---
 
+> 이전 블로그에서 옮겨온 포스트 (일부 동작 안 하는 샘플 수정)
+
 레코드를 특정 column의 값을 기준으로 정렬하여 순서를 매길 수 있다. `RANK() OVER` 또는 `ROW_NUMBER() OVER`를 사용하면 된다. 간단히 아래와 같은 테이블을 생각하자.
 
 ```sql
