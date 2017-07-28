@@ -27,6 +27,8 @@ Downloading Minikube ISO
 Kubectl is now configured to use the cluster.
 ```
 
+{% include google-ad-content %}
+
 kubernetes cli인 `kubectl`을 이용해서 실행 중인 kubernetes cluster 정보를 얻어올 수 있다. MacOS는 [homebrew](http://brew.sh/) 등으로 kubectl을 간단히 설치할 수 있다.
 
 ```bash
