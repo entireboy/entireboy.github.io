@@ -26,6 +26,6 @@ do
 done
 ```
 
-# 참고2
+# 참고
 
-- [[Shell] Pass array to function - 함수에 배열 전달하기]({% post_url 2017-03-30-shell-pass-array-to-function %})
+- [[Shell] Pass array to function - 함수에 배열 전달하기]({{ site.baseurl }}{% post_url 2017-03-30-shell-pass-array-to-function %})
