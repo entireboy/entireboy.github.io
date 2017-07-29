@@ -7,7 +7,7 @@ categories: [ java ]
 tags: [ java, date, date format, SimpleDateFormat ]
 ---
 
-> 이전 블로그에서 옮겨온 포스트 (일부 동작 안 하는 샘플 수정)
+> 이전 블로그에서 옮겨온 포스트
 
 날짜 표현하는데는 [DateFormat](http://docs.oracle.com/javase/8/docs/api/java/text/DateFormat.html)이 있다. 하지만 내가 원하는 패턴으로 보여주지 않는다. 이 클래스를 사용하면 "2009년 5월 29일 금요일" 또는 "2009. 5. 29", "09. 5. 29"와 같이 보여준다. 내가 원하는 표시형태는 "20090529"인데..
 

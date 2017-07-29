@@ -7,7 +7,7 @@ categories: [ mysql, Mybatis ]
 tags: [ mysql, mybatis, LAST_INSERT_ID, insert, pk ]
 ---
 
-> 이전 블로그에서 옮겨온 포스트 (일부 동작 안 하는 샘플 수정)
+> 이전 블로그에서 옮겨온 포스트
 
 테이블이 2개가 있다. A 테이블의 PK를 B 테이블이 FK로 참조하고 있을 때, A 테이블에 1개의 row를 추가하면서 B 테이블에도 1개의 row를 함께 추가하는 경우가 있다. 어떻게 해야 할까?? Oracle이라면 시퀀스를 사용해서 시퀀스를 먼저 뽑아내 두 테이블에 동일한 값을 설정하여 추가하면 되겠지만.. MySQL의 AUTO_INCREMENT로 설정된 column은 그 값을 먼저 가져올 수도 없다.
 
