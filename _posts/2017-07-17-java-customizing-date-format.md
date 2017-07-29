@@ -50,11 +50,11 @@ System.out.println(format.format(now)); // Fri May 29 11:06:29
 
 패턴 사용법은 누구나 아니까 패스~~하고, 패턴 구문만 살짝.. [튜토리얼](http://java.sun.com/docs/books/tutorial/i18n/format/simpleDateFormat.html)에서도 사용법을 알 수 있다.
 
-![Date format pattern syntax](/assets/img/2017-07-17-java-simple-date-format1.png)
+![Date format pattern syntax]({{ site.baseurl }}/assets/img/2017-07-17-java-simple-date-format1.png)
 
 그리고 아래의 간단한 샘플은 API문서에서..
 
-![Customized date format sample](/assets/img/2017-07-17-java-simple-date-format2.png)
+![Customized date format sample]({{ site.baseurl }}/assets/img/2017-07-17-java-simple-date-format2.png)
 
 
 # 참고

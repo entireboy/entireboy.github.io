@@ -50,11 +50,11 @@ Color Scheme을 다운받았으니 어떤 scheme을 사용할지 설정하면 �
 짜잔~!! 끄트!!!
 
 - Before
-  ![Before colour scheme](/assets/img/2017-07-26-vi-vim-change-colour-scheme-before.png)
+  ![Before colour scheme]({{ site.baseurl }}/assets/img/2017-07-26-vi-vim-change-colour-scheme-before.png)
 
 
 - After (molokai)
-  ![After colour scheme](/assets/img/2017-07-26-vi-vim-change-colour-scheme-after.png)
+  ![After colour scheme]({{ site.baseurl }}/assets/img/2017-07-26-vi-vim-change-colour-scheme-after.png)
 
 
 # 참고

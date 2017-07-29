@@ -11,7 +11,7 @@ tags: [ trip, travel, italia, italy, post, package, parcel, postcard, poste ital
 
 5주 여행 일정 중 둘째날에 야경을 찍으려고 삼각대에 올리던 카메라님이 낙사하는 바람에 무거운 카메라를 먼저 한쿡으로 돌려보내야 했다.
 
-![Poste italiane](/assets/logo/poste-italiane.svg)
+![Poste italiane]({{ site.baseurl }}/assets/logo/poste-italiane.svg)
 
 이탈리아 우체국을 이용했고, 우체국 마크는 노란색 바탕에 파란 글씨로 `poste italiane` 라고 써 있다. 우체국 건물이 유적처럼 멋진 건물에 있기 때문에 잘 보이지 않기도 한다. 우리나라처럼 빨간색인줄 알고 한참 찾았는데 이 마크를 알고나니 여행 내내 여기저기서 많이 보인다.
 

@@ -86,4 +86,4 @@ ON (a.aa = b.aa);
 
 참 쉽죠??
 
-![밥아저씨 - 참 쉽죠??](/assets/img/2017-07-28-sql-join-on-vs-where.gif)
+![밥아저씨 - 참 쉽죠??]({{ site.baseurl }}/assets/img/2017-07-28-sql-join-on-vs-where.gif)
