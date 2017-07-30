@@ -59,7 +59,9 @@ Trenitalia에서 예매를 하다보면 [http://www.trenitalia.com/tcom-en](http
 
 아래 사진은 객실에 붙은 비상구 안내 지도이다. 왼쪽이 `Coach 1`이고, 오른쪽이 `Coach 2`이다. 일단 의자 개수만 봐도, 비슷한 가격이라면 부딛히는 사람 적은게 낫지 않을까 싶다. :D
 
-![Emergency exit guide]({{ site.baseurl }}/assets/img/trip/italia/train-emergency-exit-guide.jpg)
+{% include image.html file='/assets/img/trip/italia/train-emergency-exit-guide.jpg' alt='Trenitalia emergency exit guide' %}
+
+(이미지의 좌석은 클릭해서 크게보기!!)
 
 ## 예매 시 결제
 
