@@ -60,7 +60,7 @@ tags: [ trip, travel, italia, italy, bus, roma pass, campania arte card, firenze
 # 참고
 
 - [이탈리아 패스]({{ site.baseurl }}{% post_url 2017-05-03-trip-italia-pass %})
-- [기차 타는 방법]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
+- [이탈리아에서 기차 타는 방법]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
 - [Roma Pass](http://www.romapass.it/?l=en)
 - [Firenze Card](http://www.firenzecard.it/?lang=en)
 - [Venezia Unica](http://www.veneziaunica.it/en)

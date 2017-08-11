@@ -124,7 +124,7 @@ Trenitalia에서 예매를 하다보면 [http://www.trenitalia.com/tcom-en](http
 
 # 참고
 
-- [버스/지하철/트램 타는 방법]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
+- [이탈리아에서 버스/지하철/트램 타는 방법]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
 - [Trenitalia](http://www.trenitalia.com/tcom-en)
 - [유레일 패스](https://www.eurail.com/)
 - [SNCF](http://www.sncf.com/)

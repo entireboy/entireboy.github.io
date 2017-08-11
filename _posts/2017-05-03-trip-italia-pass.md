@@ -7,9 +7,7 @@ categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, pass, roma pass, campania arte card, firenze card, venezia unica, venezia, venice, firenze, florence, siena, napoli, roma, rome, circumvesuviana, pompeii ]
 ---
 
-내가 사용했던 이탈리아 패스 위주로 정리.
-
-[버스/지하철/트램 타는 방법]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})이나 [기차 타는 방법]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})은 별도로 정리.
+내가 사용했던 이탈리아 패스 위주로 정리. 이탈리아에서 [버스/지하철/트램 타는 방법]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})이나 [기차 타는 방법]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})은 별도로 정리.
 
 {% include image.html file='/assets/img/trip/italia/italia-passes.jpg' alt='Italia Passes' %}
 
@@ -62,8 +60,8 @@ tags: [ trip, travel, italia, italy, pass, roma pass, campania arte card, firenz
 
 # 참고
 
-- [버스/지하철/트램 타는 방법]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
-- [기차 타는 방법]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
+- [이탈리아에서 버스/지하철/트램 타는 방법]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
+- [이탈리아에서 기차 타는 방법]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
 - [Roma Pass](http://www.romapass.it/?l=en)
 - [Firenze Card](http://www.firenzecard.it/?lang=en)
 - [Venezia Unica](http://www.veneziaunica.it/en)
