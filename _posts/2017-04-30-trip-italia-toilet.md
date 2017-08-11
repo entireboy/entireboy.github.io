@@ -4,7 +4,7 @@ title:  "[Trip] Toilet in Italia - 이탈리아 길거리 화장실 (집 이외�
 date:   2017-04-30 23:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
-tags: [ trip, travel, italia, italy, toilet, paid, charged, free, cafe, caffe, ztl ]
+tags: [ trip, travel, italia, italy, toilet, paid, charged, free, cafe, caffe, ztl, firenze, florence, venezia, venice ]
 ---
 
 # 유료
