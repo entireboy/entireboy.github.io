@@ -52,4 +52,4 @@ tags: [ coffee, caffe, moka pot, stove top, espresso, howto, clean ]
 
 # 참고
 
-- [모카포트 사용 방법]({{ site.baseurl }}{% post_url 2017-08-05-coffee-how-to-use-moka-pot %})
+- [모카포트 사용 방법]({{ site.baseurl }}{% post_url 2017-08-15-coffee-how-to-use-moka-pot %})

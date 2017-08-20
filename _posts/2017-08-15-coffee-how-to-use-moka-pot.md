@@ -75,9 +75,9 @@ tags: [ coffee, caffe, moka pot, stove top, espresso, howto, use, extract ]
 
 ## 7. 정리
 
-추출이 끝난 모카포트는 불에서 막 내렸기 때문에 상당히 뜨거우니 조심하자. 찬물을 붓거나 해서 갑자기 식히지 말고 천천히 시간을 두고 식혀주자. [모카포트 청소 방법]({{ site.baseurl }}{% post_url 2017-08-06-coffee-how-to-clean-moka-pot %})은 또 다음에..
+추출이 끝난 모카포트는 불에서 막 내렸기 때문에 상당히 뜨거우니 조심하자. 찬물을 붓거나 해서 갑자기 식히지 말고 천천히 시간을 두고 식혀주자. [모카포트 청소 방법]({{ site.baseurl }}{% post_url 2017-08-16-coffee-how-to-clean-moka-pot %})은 또 다음에..
 
 
 # 참고
 
-- [모카포트 청소 방법]({{ site.baseurl }}{% post_url 2017-08-06-coffee-how-to-clean-moka-pot %})
+- [모카포트 청소 방법]({{ site.baseurl }}{% post_url 2017-08-16-coffee-how-to-clean-moka-pot %})
