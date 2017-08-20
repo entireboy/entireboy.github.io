@@ -4,7 +4,7 @@ title:  "[SQL] join의 on절과 where절 차이"
 date:   2017-07-28 22:18:00 +0900
 published: true
 categories: [ sql ]
-tags: [ sql, db, database, query, subtract, minus, except ]
+tags: [ sql, db, database, query, join, subtract, minus, except ]
 ---
 
 > 이전 블로그에서 옮겨온 포스트
