@@ -58,6 +58,8 @@ $ cat /proc/sys/kernel/random/entropy_avail
 
 난수를 만들기 위해 `/dev/random` 파일과 `/dev/urandom` 파일을 사용하게 되는데, `/dev/random` 과 같은 경우는 블로킹 되기 때문에 엔트로피가 충분히 올라가기 전까지는 응답을 대기하고 있는 상태가 된다.
 
+{% include google-ad-content %}
+
 
 # <a name="install-rng-tools"></a> Fill the entropy pool with rng-tools
 
