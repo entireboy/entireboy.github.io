@@ -70,6 +70,8 @@ tags: [ coffee, caffe, moka pot, stove top, espresso, howto, use, extract ]
 
 ## 6. 맛나게 마시자.
 
+추출된 모카포트의 커피를 잔에 따를 때는 모두 따르지 말고 조금 남기자. 필터 보다 곱게 갈린 원두 가루가 함께 올라오고 아래쪽에 가라앉아 있기 때문에, 끝까지 따르면 원두가 함께 딸려나가서 서걱서걱하는 흙 먹는 맛이 날 수 있다. 잔에 남은 마지막 한 방울도 버리자. 미련 없이 버리자. 오늘도 잔에 남은거 아까워서 마셨다가 크흡 T_T
+
 ![Moka pot basket]({{ site.baseurl }}/assets/img/coffee/mokapot/howto-drink.jpg)
 
 
