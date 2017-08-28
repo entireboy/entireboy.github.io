@@ -7,6 +7,16 @@ categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, train, express, rapid train, railway, book, eurail, eurail pass, sncf, circumvesuviana, coach, pompeii ]
 ---
 
+# 이탈리아 길거리 시리즈
+
+- [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %})
+- [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %})
+- [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
+- [이탈리아에서 길건너기]({{ site.baseurl }}{% post_url 2017-04-14-trip-italia-cross-street %})
+- [이탈리아에서 기차타기]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %}) - (이 글)
+- [이탈리아에서 대중교통 타기 및 환승]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
+
+
 # 내용에 앞서서 유레일 패스
 
 나는 하루에 여러번 기차를 타지 않았고 야간열차를 타지 않았다. 이런 경우 [유레일 패스](https://www.eurail.com/) 보다는 필요할 때 마다 [Trenitalia](http://www.trenitalia.com/tcom-en)에서 `Super Economy`나 `Economy` 등급으로 티켓을 사는 것이 더 저렴했다.
@@ -124,7 +134,12 @@ Trenitalia에서 예매를 하다보면 [http://www.trenitalia.com/tcom-en](http
 
 # 참고
 
-- [이탈리아에서 버스/지하철/트램 타는 방법]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
+- [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %})
+- [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %})
+- [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
+- [이탈리아에서 길건너기]({{ site.baseurl }}{% post_url 2017-04-14-trip-italia-cross-street %})
+- [이탈리아에서 기차타기]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
+- [이탈리아에서 대중교통 타기 및 환승]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
 - [Trenitalia](http://www.trenitalia.com/tcom-en)
 - [유레일 패스](https://www.eurail.com/)
 - [SNCF](http://www.sncf.com/)

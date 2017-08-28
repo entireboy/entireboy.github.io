@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "[Trip] Driving a car in Italia(Italy) #1 - 이탈리아에서 운전하기 1편"
-date:   2017-08-28 23:18:00 +0900
+date:   2017-08-28 21:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffico limitato, assisi ]
 ---
 
-# 이탈리아 운전 시리즈
+# 이탈리아 길거리 시리즈
 
-- [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %}) - 이 글
+- [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %}) - (이 글)
 - [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %})
 - [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
 - [이탈리아에서 길건너기]({{ site.baseurl }}{% post_url 2017-04-14-trip-italia-cross-street %})
@@ -44,20 +44,22 @@ tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffi
 
 아래 표지판은 주차금지 표지판이다. 단, 장애우는 주차가 가능하다. 우리나라와 마찬가지로 파란 바탕에 빨간 동그라미로 사선 1개는 주차금지 표시이다. 그리고 아래쪽에 `파란 P`로 주차가 가능한 경우를 표시했다. 이 사진은 장애우만 가능. 보통 노란 주차선에 이런 표지만이 그려져 있다. [주차선 색깔](#parking-link)에 대한 내용은 아래쪽에 다시 설명하고..
 
-![No park except handicap](/assets/img/trip/italia/drive-no-park-3.JPG)
+![No park except handicap]({{ site.baseurl }}/assets/img/trip/italia/drive-no-park-3.jpg)
 
 아래 표지판은 진입금지(흰 바탕의 빨간 동그라미. 우리나라에는 없는 표지판)이다. 단, `escluso i residenti` 거주자(residenti)는 예외(escluso)라는 뜻이다.
 
-![No enter except resident](/assets/img/trip/italia/drive-no-enter-2.JPG)
+![No enter except resident]({{ site.baseurl }}/assets/img/trip/italia/drive-no-enter-2.jpg)
+
+{% include google-ad-content %}
 
 
 # 일단정지(양보)
 
-로터리가 없는 일반 교차로이지만, 신호등이 없는 경우가 있다. 이탈리아 도로는 큰 도로와 합쳐지는 작은 도로에 `STOP`이라고 쓰여 있거나, 작은 삼각형이 쪼로록 붙은 걸 볼 수 있다. 이 마크들은 양보 표시이고, 큰 도로의 차가 없을 때 작은 도로에 있는 차들이 진입할 수 있게 하는 표시이다. 때문에 신호등이 없어도 사고 없이 빠르게 차들이 다닐 수 있다. 우리나라의 커다란 역삼각형 양보 표시와 비슷하다. 나는 우리나라의 양보 표시를 본 적이 거의 없는 것 같은데, 이탈리아에서는 이 조그만 삼각형이 꽤 자주 보이니 조심해서 다니자.
+로터리가 없는 일반 교차로이지만, 신호등이 없는 경우가 있다. 이탈리아 도로는 큰 도로와 합쳐지는 작은 도로에 `STOP`이라고 쓰여 있거나, 작은 삼각형이 쪼로록 붙은 걸 볼 수 있다. 이 마크들은 양보 표시이고, 큰 도로의 차가 없을 때 작은 도로에 있는 차들이 진입할 수 있게 하는 표시이다. 때문에 신호등이 없어도 사고 없이 빠르게 차들이 다닐 수 있다. 우리나라의 커다란 역삼각형 양보 표시와 비슷하다. 나는 우리나라의 양보 표시를 본 적이 거의 없는 것 같은데, 이탈리아에서는 이 조그만 삼각형이 꽤 자주 보이니 양보를 잘 하면서 다니자.
 
-아래 사진의 길바닥에 연속으로 있는 삼각형이 양보 표시이다. 세모가 나를 찌를듯이 보고 있으면 일단 정지이다. 사진의 좌우로 큰 길이 있고, 앞에 보이는 버스가 합류하는 작은 골목길이다. 세모가 저 버스를 찌르는듯이 그려져 있기 때문에 저 버스는 (사진의) 좌우로 오는 차가 없는 경우만 이 교차로에 진입할 수 있다.
+![Yield]({{ site.baseurl }}/assets/img/trip/italia/drive-stop.jpg)
 
-![Yield](/assets/img/trip/italia/drive-stop.JPG)
+위 사진의 길바닥에 연속으로 있는 삼각형이 양보 표시이다. 세모가 나를 찌를듯이 보고 있으면 일단 정지이다. 사진의 좌우로 큰 길이 있고, 앞에 보이는 버스가 합류하는 작은 골목길이다. 세모가 저 버스를 찌르는듯이 그려져 있기 때문에 저 버스는 (사진의) 좌우로 오는 차가 없는 경우만 이 교차로에 진입할 수 있다.
 
 
 # <a name="parking-link"></a>주차
@@ -69,24 +71,24 @@ tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffi
 - 파란색 #2: 유료 (근처에 주차티켓을 살 수 있는 기계가 있다.)
 - 노란색: 절대 금지 (장애우나 경찰 같은 관공소에서만 사용할 수 있다.)
 
-![white park line](/assets/img/trip/italia/drive-park-line-white.JPG)
-![blue park line](/assets/img/trip/italia/drive-park-line-blue.JPG)
+![white park line]({{ site.baseurl }}/assets/img/trip/italia/drive-park-line-white.jpg)
+![blue park line]({{ site.baseurl }}/assets/img/trip/italia/drive-park-line-blue.jpg)
 
-흰색이지만, 간혹 사진처럼 거주자에 한해서만 주차할 수 있는 경우도 있다. 딱지 떼거나 견인될 수 있으니 `P` 주차표시라도 아래에 적힌 글씨를 잘 읽어보자.
+흰색이지만, 간혹 거주자에 한해서만 주차할 수 있는 경우도 있다. 딱지 떼거나 견인될 수 있으니 `P` 주차표시라도 아래에 적힌 글씨를 잘 읽어보자. 아래 사진은 주차금지이지만, ZTL 스티커를 가지고 있는 사람은 주차가 가능하다는 아씨시 표지판이다.
 
-[[ 사진 ]]
+![Park only resident]({{ site.baseurl }}/assets/img/trip/italia/drive-no-park-1.jpg)
 
 파란색 라인의 주차장이지만 아래처럼 특정 시간 동안 무료인 곳도 있다. 오전 8시부터 저녁 8시까지 30분 동안은 무료이다.
 
-![Free park for 30 mins](/assets/img/trip/italia/drive-park-free.JPG)
+![Free park for 30 mins]({{ site.baseurl }}/assets/img/trip/italia/drive-park-free.jpg)
 
 어떻게 30분인지 체크하냐고?? 보통 렌트를 하게 되면 차유리에 아래 사진 같은 돌림판이 있다. 주차를 시작한 시간을 맞춰서 돌려두면 된다.
 
-![Park timer](/assets/img/trip/italia/drive-park-timer.JPG)
+![Park timer]({{ site.baseurl }}/assets/img/trip/italia/drive-park-timer.jpg)
 
 노란색 주차라인은 보통 이렇게 경찰 그림이나 장애우 그림이 그려져 있다.
 
-![No park except police](/assets/img/trip/italia/drive-no-park-2.JPG)
+![No park except police]({{ site.baseurl }}/assets/img/trip/italia/drive-no-park-2.jpg)
 
 
 # 미리 알아두면 좋은 표지판 관련 이탈리아어
@@ -101,7 +103,9 @@ tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffi
 
 볼로냐는 토요일부터 일요일까지 그리고 공휴일은 큰거리를 차 없는 보행자 거리로 만든다. 아래 사진처럼 `Area T Pedonale` 라고 적혀 있다.
 
-![Bologna area t pedonale](/assets/img/trip/italia/drive-area-t-pedonale.JPG)
+![Bologna area t pedonale]({{ site.baseurl }}/assets/img/trip/italia/drive-area-t-pedonale.jpg)
+
+{% include google-ad-content %}
 
 
 # 진입금지
@@ -110,7 +114,7 @@ tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffi
 
 그리고 이런 조건 없이 모두 진입을 하지 못 하는건 우리나라처럼 빨간바탕에 가운데 두꺼운 흰색 가로줄 표시이다. (가끔 아래처럼 낙서가 되어 있다. :D)
 
-![No enter](/assets/img/trip/italia/drive-no-enter-1.JPG)
+![No enter]({{ site.baseurl }}/assets/img/trip/italia/drive-no-enter-1.jpg)
 
 
 # 참고

@@ -7,6 +7,16 @@ categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, bus, roma pass, campania arte card, firenze card, venezia unica, venezia, venice, firenze, florence, napoli, roma, rome, circumvesuviana, pompeii ]
 ---
 
+# 이탈리아 길거리 시리즈
+
+- [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %})
+- [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %})
+- [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
+- [이탈리아에서 길건너기]({{ site.baseurl }}{% post_url 2017-04-14-trip-italia-cross-street %})
+- [이탈리아에서 기차타기]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
+- [이탈리아에서 대중교통 타기 및 환승]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %}) - (이 글)
+
+
 # 이탈리아의 대중교통
 
 우리나라 대중교통은 **이동거리 만큼 돈을 지불**하는 형태이다. 때문에 지하철 표를 사게 되면 목적지 역에 따라 금액이 다르고, 버스를 탈 때는 내릴 때 꼭 교통카드를 찍고 내려야 한다.
@@ -60,7 +70,12 @@ tags: [ trip, travel, italia, italy, bus, roma pass, campania arte card, firenze
 # 참고
 
 - [이탈리아 패스]({{ site.baseurl }}{% post_url 2017-05-03-trip-italia-pass %})
-- [이탈리아에서 기차 타는 방법]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
+- [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %})
+- [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %})
+- [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
+- [이탈리아에서 길건너기]({{ site.baseurl }}{% post_url 2017-04-14-trip-italia-cross-street %})
+- [이탈리아에서 기차타기]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
+- [이탈리아에서 대중교통 타기 및 환승]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
 - [Roma Pass](http://www.romapass.it/?l=en)
 - [Firenze Card](http://www.firenzecard.it/?lang=en)
 - [Venezia Unica](http://www.veneziaunica.it/en)

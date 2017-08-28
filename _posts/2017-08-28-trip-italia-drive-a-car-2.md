@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "[Trip] Driving a car in Italia(Italy) #2 - 이탈리아에서 운전하기 2편"
-date:   2017-08-29 22:18:00 +0900
+date:   2017-08-28 23:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffico limitato, assisi ]
 ---
 
-# 이탈리아 운전 시리즈
+# 이탈리아 길거리 시리즈
 
 - [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %})
-- [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %}) - 이 글
+- [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %}) - (이 글)
 - [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
 - [이탈리아에서 길건너기]({{ site.baseurl }}{% post_url 2017-04-14-trip-italia-cross-street %})
 - [이탈리아에서 기차타기]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
@@ -23,34 +23,36 @@ tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffi
 
 이탈리아 셀프 주유소는 돈을 한번 넣으면 기계가 남은 돈을 돌려주지 않는다. 예를 들어, 50유로를 기계에 넣은 뒤 30유로 만큼 주유했다면, 주유를 마치고 영수증에 20유로를 돌려 받을 수 있게 적혀 있다. 이 영수증을 직원에게 주면 돈을 준다. 아래 사진이 50유로 내고 32.53유로 주유하고, 17.47유로를 돌려 받을 수 있는 영수증이다.
 
-![Fuel receipt](/assets/img/trip/italia/drive-fuel-refund.JPG)
+![Gas receipt]({{ site.baseurl }}/assets/img/trip/italia/drive-gas-refund.jpg)
 
-내가 주유한 날이 아씨시를 떠나 나폴리로 가는 날이었는데, 마침 이탈리아 독립기념일이라 모든 가게가 문을 닫았다. 셀프 기계는 동작해서 홀로 주유를 했는데, 가득 채우고 잔돈을 안 주길래 옆에 기름 넣으러 온 사람에게 손짓발짓을 했더니 평일에 영수증 들고 오면 준단다. T_T
+내가 주유한 날이 아씨시를 떠나 나폴리로 가는 날이었는데, 마침 이탈리아 독립기념일(4월 25일))이라 모든 가게가 문을 닫았다. 셀프 기계는 동작해서 홀로 주유를 했는데, 가득 채우고 잔돈을 안 주길래 옆에 기름 넣으러 온 사람에게 손짓발짓을 했더니 평일에 영수증 들고 오면 준단다. T_T
 
 
 # 단속 카메라
 
 길거리에 간혹 아래 사진 같은 물건이 서 있다. 이게 바로 과속 단속 카메라!! 작은 도시에는 아래 사진처럼 인도에 덩그러니 있는데, 운전하면서 잘 안 보인다. 사친처럼 초록색도 있고, 노란색, 흰색 등등 여러가지 색깔이었다. 그리고 이탈리아 네비는 카메라 위치를 알려주지 않는다. 가아끔 한두개 알려주기도 하는데 거의 없다고 보면 된다.
 
-![Speed camera](/assets/img/trip/italia/drive-speed-camera.JPG)
+![Speed camera]({{ site.baseurl }}/assets/img/trip/italia/drive-speed-camera.jpg)
 
 
 # 평행주차
 
-이탈리아에서 길가에 평행주차 되어 있는 차들을 보면, 차 앞뒤로 이 정도 간격을 두고 주차되어 있는걸 흔히 볼 수 있다.
+이탈리아에서 길가에 평행주차 되어 있는 차들을 보면, 차 앞뒤로 이 정도 간격을 두고 주차되어 있는걸 흔히 볼 수 있다. `운전 진짜 잘 한다` 라고 생각할 수 있지만, 오히려 그 반대다. 현지인들 주차하거나 차를 뺄 때 구경하고 있으면, 인도 연석에 올라타고 앞뒤 차들 박는건 기본이다. 아래 사진도 사실은.. 주차하는걸 구경하고 있었는데 앞뒤 차를 쿵쿵 밀더니 주차하고 내려서 슥 보고 들어간걸 찍은거다. 이 모습을 보고 진짜 대단하다 생각했다.
 
-![Too close](/assets/img/trip/italia/drive-park-too-close.JPG)
+![Too close]({{ site.baseurl }}/assets/img/trip/italia/drive-park-too-close.jpg)
 
-`운전 진짜 잘 한다` 라고 생각할 수 있지만, 오히려 그 반대다. 현지인들 주차하거나 차를 뺄 때 구경하고 있으면, 인도 연석에 올라타고 앞뒤 차들 박는건 기본이다. 차를 박아도 그냥 아무 일 없언던 것 처럼 조용히 간다. 원래 이러려니 하는건지 잘 모르겠지만, 내가 렌트했던 차를 반납할 때도 철판만 확인하고 범퍼 같은 플라스틱은 대충 봤던 것 같다. (사실 나폴리에서 오토바이가 치고 가서 뒷범퍼가 살작 긁혔었다.)
+주차를 하면서 차를 박아도 그냥 아무 일 없언던 것 처럼 조용히 간다. 원래 이러려니 하는건지 잘 모르겠지만, 내가 렌트했던 차를 반납할 때도 철판만 확인하고 범퍼 같은 플라스틱은 대충 봤던 것 같다. (나폴리에서 오토바이가 치고 가서 뒷범퍼가 살작 긁혔었다.)
 
 이런 평행주차 자신 없거나 불안하면 나란히 주차할 수 있는 주차장을 찾아보자.
+
+{% include google-ad-content %}
 
 
 # 한쪽씩 주행
 
 간혹 왕복 2차선(가는 길 하나, 오는 길 하나) 도로가 왕복 1차선으로 바뀌는 경우가 있다. 아래 사진처럼 신호등이 있고, 한쪽이 지나가면 반대쪽이 지나가는 시스템이다.
 
-![Speed camera](/assets/img/trip/italia/drive-single-way.JPG)
+![Speed camera]({{ site.baseurl }}/assets/img/trip/italia/drive-single-way.jpg)
 
 낙석이 떨어져서 치우고 있다거나, 도로 공사 중이라 한쪽을 막아뒀다거나, 원래 그렇게 생긴 다리이거나 이유는 참 많다. 진짜 신기한건 좁은 다리 하나를 번갈아가면서 지나는 도로가 있었다. 신호가 정말 길다. 어메이징하게..
 

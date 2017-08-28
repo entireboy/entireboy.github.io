@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Trip] Toilet in Italia - 이탈리아 길거리 화장실 (집 이외의 밖)"
+title:  "[Trip] 이탈리아 길거리 화장실 (집 이외의 밖)"
 date:   2017-04-30 23:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
@@ -36,6 +36,10 @@ tags: [ trip, travel, italia, italy, toilet, paid, charged, free, cafe, caffe, z
 - [saba](http://www.saba.eu/en/home)에서 운영하는 유료 주차장
 
   주차를 하지 않아도 주차장에는 쉽게 들어갈 수 있으니 근처에 있는지 잘 찾아보자. 도심에는 [ZTL]({{ site.baseurl }}/tags/ztl)이 많기 때문에 ZTL 입구 바로 근처에는 유료 주차장이 많다.
+
+아래 사진은 볼로냐 coin 쇼핑몰 층별 안내. 5층짜리 건물에 화장실은 2층에 딸랑 하나.
+
+![Coin toilet]({{ site.baseurl }}/assets/img/trip/italia/toilet-coin.jpg)
 
 # 베네치아
 

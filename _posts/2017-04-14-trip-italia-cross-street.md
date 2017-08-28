@@ -7,12 +7,14 @@ categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, cross street ]
 ---
 
-# 이탈리아 운전 시리즈
+# 이탈리아 길거리 시리즈
 
 - [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %})
 - [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %})
 - [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
 - [이탈리아에서 길건너기]({{ site.baseurl }}{% post_url 2017-04-14-trip-italia-cross-street %}) - 이 글
+- [이탈리아에서 기차타기]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})
+- [이탈리아에서 대중교통 타기 및 환승]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})
 
 
 # 방법
@@ -25,8 +27,6 @@ tags: [ trip, travel, italia, italy, cross street ]
 
 특히 옛 유적이 많은 historical center에는 [ZTL]({{ site.baseurl }}/tags/ztl) 등 차량 통제 구역이 많기 때문에 차가 정말 적다.
 
-{% include google-ad-content %}
-
 
 # 남부지방
 
@@ -35,9 +35,6 @@ tags: [ trip, travel, italia, italy, cross street ]
 
 # 참고
 
-- ZTL 확인 사이트
-  - [http://www.accessibilitacentristorici.it/ztl/](http://www.accessibilitacentristorici.it/ztl/)
-  - [http://ztl-italia.blogspot.it/2008/03/ztl-assisi.html](http://ztl-italia.blogspot.it/2008/03/ztl-assisi.html)
 - [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %})
 - [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %})
 - [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
