@@ -1,0 +1,11 @@
+{% include google-ad-content %}
+
+
+
+{% include image.html file='/assets/img/trip/italia/train-emergency-exit-guide.jpg' alt='Trenitalia emergency exit guide' %}
+
+[다른 포스트]({{ site.baseurl }}{% post_url 2017-05-03-trip-italia-pass %})
+
+![Spain Barcelona T10 Ticket]({{ site.baseurl }}/assets/img/trip/italia/barcelona-t10.jpg)
+
+<iframe width="500" height="282" src="https://www.youtube.com/embed/scsotLdqfRs" frameborder="0" allowfullscreen></iframe>

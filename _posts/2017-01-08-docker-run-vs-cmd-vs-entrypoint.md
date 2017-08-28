@@ -33,6 +33,8 @@ RUN apt-get update && apt-get install -y \
 && rm -rf /var/lib/apt/lists/*
 ```
 
+{% include google-ad-content %}
+
 # CMD
 
 `CMD`는 `docker run` 실행 시 명령어를 주지 않았을 때 사용할 default 명령을 설정하거나, `ENTRYPOINT`의 default 파라미터를 설정할 때 사용한다. `CMD` 명령의 주용도는 컨테이너를 실행할 때 사용할 default를 설정하는 것이다. `CMD` 명령은 3가지 형태가 있다.
@@ -63,6 +65,8 @@ $
 ```
 
 `CMD`는 여러번 사용할 수 있지만 가장 마지막에 있는 `CMD` 딱 1개만 남게 된다. (override) `ENTRYPOINT`의 default 파라미터는 아래 `ENTRYPOINT`에서..
+
+{% include google-ad-content %}
 
 # ENTRYPOINT
 

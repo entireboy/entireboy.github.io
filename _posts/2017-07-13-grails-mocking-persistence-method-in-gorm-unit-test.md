@@ -40,6 +40,8 @@ def "is my food risky"() {
 }
 ```
 
+{% include google-ad-content %}
+
 
 # 참고
 

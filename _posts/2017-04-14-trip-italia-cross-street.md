@@ -10,7 +10,7 @@ tags: [ trip, travel, italia, italy, cross street ]
 # 이탈리아 운전 시리즈
 
 - [이탈리아에서 운전하기 1편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-1 %})
-
+- [이탈리아에서 운전하기 2편]({{ site.baseurl }}{% post_url 2017-08-28-trip-italia-drive-a-car-2 %})
 - [이탈리아 ZTL]({{ site.baseurl }}{% post_url 2017-08-27-trip-italia-ztl %})
 - [이탈리아에서 길건너기]({{ site.baseurl }}{% post_url 2017-04-14-trip-italia-cross-street %}) - 이 글
 
@@ -24,6 +24,8 @@ tags: [ trip, travel, italia, italy, cross street ]
 이탈리아는 오토바이나 자전거를 많이 타기 때문에 우리나라 만큼 차가 많지 않다. 찻길도 보통 왕복 2차선이 대부분이다. 때문에 차가 오지 않으면 그냥 슥 건너는 현지인들을 볼 수 있다. 또한, 운전자들이 사람에 대해서는 관대하기 때문에 이탈리아 북부나 중부에서는 횡단보도에 서 있기만 해도 차가 멈추는 모습도 볼 수 있다. (하지만 차에 대해서는 불같이 화내고 성미가 급해져서 빵빵빵빵!!)
 
 특히 옛 유적이 많은 historical center에는 [ZTL]({{ site.baseurl }}/tags/ztl) 등 차량 통제 구역이 많기 때문에 차가 정말 적다.
+
+{% include google-ad-content %}
 
 
 # 남부지방

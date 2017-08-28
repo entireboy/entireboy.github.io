@@ -16,7 +16,7 @@ Kubernetes [DNS Pods and Services](https://kubernetes.io/docs/concepts/services-
 
 > The running Kubernetes DNS pod holds 3 containers - kubedns, dnsmasq and a health check called healthz.
 
-![Kubernetes dns containers](/assets/img/2017-03-07-kubernetes-dns-doesnt-work.png)
+![Kubernetes dns containers]({{ site.baseurl }}/assets/img/2017-03-07-kubernetes-dns-doesnt-work.png)
 
 # 참고
 

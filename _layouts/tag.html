@@ -9,7 +9,7 @@ layout: default
 </nav>
 
 <div class="container tag-cover"
-    {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
+    {% if page.image %}style="background-image: url({{ site.baseurl }}{{ page.image }});"{% endif %}>
   <div class="tag-logo">
     <div>
       <span class="tag-title">{{ page.title | default: page.name }}</span>

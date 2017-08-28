@@ -16,7 +16,7 @@ tags: [ ux, ui, google, maps, google maps, map, finger, scroll, move, mobile, sc
 
 Google Maps([http://maps.google.com/](http://maps.google.com/))는 간단히 지도를 움직이고 싶으면 손가락 2개를 사용하라고 한다. 그리고 이 헬프 메시지가 지도를 가리면 안 되니까, 지도에서 손가락 하나로 스크롤링을 할 때만 메시지를 보여준다. (지도의 가장 큰 목적은 지도를 보여주는거니까 메시지로 가리지 말자.)
 
-![google maps](/assets/img/2017-01-26-ux-grag-map-with-2-fingers.png)
+![google maps]({{ site.baseurl }}/assets/img/2017-01-26-ux-grag-map-with-2-fingers.png)
 
 그리고, PC화면은??
 

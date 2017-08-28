@@ -14,6 +14,6 @@ tags: [ kindle, amazon, send to kindle, file, management, tip ]
 
 [Amazon Cloud Drive](https://www.amazon.com/clouddrive)에 amazon 계정으로 로그인 하면, Cloud Drive에 결제를 하지 않은 경우 trial 기간이 끝났다는 메시지가 나온다. 하지만 send to kindle로 넣은 파일들은 결제 하지 않아도 관리가 가능하다.
 
-![amazon cloud drive](/assets/img/2016-03-04-manage-kindle-file.png)
+![amazon cloud drive]({{ site.baseurl }}/assets/img/2016-03-04-manage-kindle-file.png)
 
 위쪽의 `All Files`를 클릭하면 내 Cloud Drive에 있는 모든 파일이 나오고, 아래쪽에 `My Send-toKindle Docs`를 클릭하면 그동안 보내뒀던 파일들을 볼 수 있다. 잘못 보낸 파일들 좀 지워야짓!! =)

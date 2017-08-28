@@ -23,7 +23,7 @@ Get https://0.0.0.0:5000/v1/_ping: http: server gave HTTP response to HTTPS clie
 
 docker 설정을 열어서 `Insecure registries`에 HTTP로 사용할 registry 정보를 넣어주고, push push!!
 
-![docker insecure registry config](/assets/img/2016-12-17-docker-http-response-to-https-client.png)
+![docker insecure registry config]({{ site.baseurl }}/assets/img/2016-12-17-docker-http-response-to-https-client.png)
 
 MacOS 용이 아닌 다른 버전은 요기([https://docs.docker.com/registry/insecure/](https://docs.docker.com/registry/insecure/))를 참조.
 

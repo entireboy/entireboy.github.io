@@ -17,6 +17,7 @@ h5 {
 }
 img {
   max-width: 100%;
+  border-radius: 5px;
 }
 a {
   color: inherit;
@@ -112,9 +113,6 @@ blockquote {
     }
   }
 }
-iframe {
-  margin: 45px 0 !important;
-}
 ul,
 ol {
   padding-left: 50px;
@@ -178,9 +176,6 @@ table {
   td {
     padding: 4px 0;
   }
-}
-iframe {
-  width: 100%;
 }
 article {
   max-width: 500px;
@@ -384,7 +379,7 @@ div.container {
   }
 }
 article .tag-list {
-  margin-top: 40px;
+  margin: 40px 0px;
   ul {
     padding: 0px;
     li {
@@ -403,4 +398,7 @@ ul.no-bullet-list {
 }
 li.inline-list {
   display: inline;
+}
+.google-ad {
+  margin: 15px 0px;
 }
