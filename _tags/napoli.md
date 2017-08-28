@@ -1,4 +1,4 @@
 ---
 name: napoli
-title: Italia Napoli
+title: Italia Napoli (나폴리)
 ---

@@ -4,7 +4,7 @@ title:  "[Trip] Driving a car in Italia(Italy) #2 - 이탈리아에서 운전하
 date:   2017-08-28 23:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
-tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffico limitato, assisi ]
+tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffico limitato, assisi, napoli, venezia, amalfi ]
 ---
 
 # 이탈리아 길거리 시리즈

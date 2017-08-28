@@ -1,4 +1,4 @@
 ---
 name: rome
-title: Italy Rome
+title: Italy Rome (로마)
 ---

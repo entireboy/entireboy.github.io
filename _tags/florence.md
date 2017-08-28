@@ -1,4 +1,4 @@
 ---
 name: florence
-title: Italy Florence
+title: Italy Florence (피렌체)
 ---

@@ -1,4 +1,4 @@
 ---
 name: pompeii
-title: Italia Pompeii
+title: Italia Pompeii (폼페이)
 ---

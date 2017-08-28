@@ -1,0 +1,4 @@
+---
+name: rent
+title: rent
+---
