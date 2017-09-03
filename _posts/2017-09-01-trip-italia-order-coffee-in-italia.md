@@ -22,7 +22,7 @@ tags: [ trip, travel, italia, italy, order, coffee, caffe, order coffee, cafe, b
 
 우라나라에는 없는 형식이지만, 이탈리아에는 테이블 좌석과 함께 바(bar)가 있다. 바는 커피를 내주시는 바리스타분들과 바를 사이에 두고 서서 마시는 자리이다. 가끔 높은 의자가 있는 곳도 있다.
 
-![Coffee with latte]({{ site.baseurl }}/assets/img/trip/italia/coffee-bar1.jpg)
+![Coffee with latte]({{ site.baseurl }}/assets/img/trip/italia/coffee-bar-1.jpg)
 
 두세 모금에 나눠마시는 에스프레소를 주로 마시는 이탈리아에서는 테이블에 앉아 마실 필요가 크게 없다. 우리나라 커피숍은 커피를 받아서 마시고 가는 공간이라면, 이탈리아에서는 바리스타와 손님들간에 맛집문의, 동네소식 공유, 정보공유 등의 이야기를 하는 공간이다. 때문에 테이블 보다는 바가 더 유용한 형식이다.
 
@@ -42,7 +42,7 @@ tags: [ trip, travel, italia, italy, order, coffee, caffe, order coffee, cafe, b
 
 카운터에 가서 무엇을 마실지 얘기하고 결제를 하면 영수증을 준다. 영수증을 방꼬에 가서 바리스타분들에게 내밀면서 다시 주문을 하면, 영수증을 찢고 내 자리에 잔받침과 수저를 놓는다. 이탈리아 바는 내가 원하는데로 만들어주는게 일반적이기 때문에 이 때 특별히 원하는 것이 있다면 주문을 하면 된다. (나는 이탈리아어가 안 돼서 실패) 대부분이 함께 마실 물이나 탄산수를 주는데, 커피맛을 제대로 느끼기 위해 마시기 전후로 입가심을 하면 된다. 잠시 기다리면 정말 맛난 커피가 내 눈 앞에 두둠!!
 
-![Coffee with latte]({{ site.baseurl }}/assets/img/trip/italia/coffee-bar2.jpg)
+![Coffee with latte]({{ site.baseurl }}/assets/img/trip/italia/coffee-bar-2.jpg)
 
  설탕도 같이 주니 취향에 따라 설탕을 넣고 저어 마시면 된다. 우리나라에서는 에스프레소 마시면서 설탕 넣어 마시면 촌스럽다 하지만, 이탈리아에서는 대부분 설탕을 넣어 마신다. 설탕을 넣으면 에스프레소의 쓴맛이 다른 맛으로 살짝 변해서 또 다른 맛을 느낄 수 있다.
 
