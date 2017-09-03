@@ -13,6 +13,7 @@ tags: [ trip, travel, italia, italy, toilet, paid, charged, free, cafe, caffe, z
 
 남자 화장실에 소변기 없이 좌변기만 있는 경우도 있다. 응가하는지 쉬하는지 몰라서 한참을 기다려야 할 수도 있다. 피렌체 우피치 미술관에서는 남자 화장실에서도 줄 서야 하는걸 봤음.
 
+
 # 무료
 
 내가 경험한 무료 화장실은 주로 이런 곳들에 있었다. 눈치껏 조용히 들어가서 쓰고 나오자. 히힛
@@ -41,6 +42,16 @@ tags: [ trip, travel, italia, italy, toilet, paid, charged, free, cafe, caffe, z
 
 ![Coin toilet]({{ site.baseurl }}/assets/img/trip/italia/toilet-coin.jpg)
 
+
 # 베네치아
 
 고개만 돌리면 유료 화장실이 있을 정도로 많고, 여러 도시 중 가장 깨끗했다. 하지만, 가장 비쌌다.
+
+
+# 노상방뇨 금지
+
+가끔 골목 안에서 꺾어지는 부분에는 이런 것들이 많이 설치되어 있다. 구석에 숨어서 노상방뇨를 하지 못 하게 하는 것이다. (남자들 기준으로) 저기에 쉬하면 나에게 튀겠지?? 으으으으
+
+![!!]({{ site.baseurl }}/assets/img/trip/italia/toilet-block.jpg)
+
+그런데, 이런걸 설치해 두고 못 누게 할거면, 공중 화장실을 무료로 설치하면 더 깨끗하고 편할텐데.. 동양권 사람으로서 가장 이해 안 되는게 화장실 T_T
