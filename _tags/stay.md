@@ -1,0 +1,4 @@
+---
+name: stay
+title: stay
+---

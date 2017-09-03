@@ -4,7 +4,7 @@ title:  "[Trip] 이탈리아 길거리 화장실 (집 이외의 밖)"
 date:   2017-04-30 23:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
-tags: [ trip, travel, italia, italy, toilet, paid, charged, free, cafe, caffe, ztl, firenze, florence, venezia, venice ]
+tags: [ trip, travel, italia, italy, toilet, paid, charged, free, cafe, caffe, ztl, firenze, florence, venezia, venice, outdoor ]
 ---
 
 # 유료
@@ -55,3 +55,8 @@ tags: [ trip, travel, italia, italy, toilet, paid, charged, free, cafe, caffe, z
 ![!!]({{ site.baseurl }}/assets/img/trip/italia/toilet-block.jpg)
 
 그런데, 이런걸 설치해 두고 못 누게 할거면, 공중 화장실을 무료로 설치하면 더 깨끗하고 편할텐데.. 동양권 사람으로서 가장 이해 안 되는게 화장실 T_T
+
+
+# 참고
+
+- [이탈리아 집/숙소 화장실]({{ site.baseurl }}{% post_url 2017-09-03-trip-italia-toilet-in-house %})
