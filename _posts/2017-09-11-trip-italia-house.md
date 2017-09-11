@@ -59,7 +59,8 @@ tags: [ trip, travel, italia, italy, house, stay, bnb, hotel, home, slippers, to
 
 # 보일러
 
-왜 인지는 모르겠지만, 대부분의 가정집 보일러는 주방 찬장에 들어 있다. 그래서 주방에서 따신 물을 쓰면 시끄렇다. :D
+왜 인지는 모르겠지만, 대부분의 가정집 보일러는 주방 찬장에 들어 있다. 그래서 주방에서 따신 물을 쓰면 시끄럽다. :D
+![Italia boiler in house]({{ site.baseurl }}/assets/img/trip/italia/house-boiler.jpg)
 
 
 # 화장실
