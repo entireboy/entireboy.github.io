@@ -29,7 +29,7 @@ tags: [ trip, travel, italia, italy, plug, outlet, socket, concent, converter ]
 
 # 돼지코
 
-따라서!! **이탈리아에 갈 때는 돼지코가 필요**하다. 콘센트가 `타입L`이긴 하지만, 구멍이 작기 때문에 `Europlug`로 바꿔줘야 한다. 다양한 변환이 되는 여행용이라면 오케이. 하지만.. 다 꽂으면 어메이징한 길이가 된다. =_=
+따라서!! **이탈리아에 갈 때는 돼지코가 필요**하다. 콘센트가 `타입L`이긴 하지만, 구멍이 작기 때문에 `타입C`를 그대로 쓰지는 못 하고 `Europlug`로 바꿔줘야 한다. 다양한 변환이 되는 여행용이라면 오케이. 하지만.. 다 꽂으면 어메이징한 길이가 된다. =_=
 
 ![Plug with converter]({{ site.baseurl }}/assets/img/trip/italia/plug-converter.jpg)
 
