@@ -1,4 +1,0 @@
----
-name: war
-title: war
----

@@ -1,4 +1,0 @@
----
-name: embedded
-title: embedded
----

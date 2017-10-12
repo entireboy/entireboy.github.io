@@ -1,4 +1,0 @@
----
-name: executable
-title: executable
----
