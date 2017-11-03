@@ -28,7 +28,7 @@ tags: [ jenkins, job, backup, restore, move, rename, archive, admin ]
 `JENKINS_HOME/jobs` 아래에 폴더 단위로 구성되어 있기 때문에 동일한 설정으로 잡을 복사하는게 쉽다.
 
 1. 잡 폴더를 복사한다. (당연히 동일한 이름은 불가능하기 때문에 복사할 새 이름으로 바꿔야 한다.)
-2. [젠킨스 설정]()에서 `reload config`를 한다.
+2. `젠킨스 설정`에서 > `Reload Configuration from Disk`를 한다.
 
 역시 동일하게 잡 이름을 변경할 때도 폴더명만 rename 해주고 로딩하면 된다.
 
