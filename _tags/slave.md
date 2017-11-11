@@ -1,0 +1,4 @@
+---
+name: slave
+title: slave
+---
