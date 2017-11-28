@@ -12,5 +12,12 @@
     <img src="http://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80" class="gravatar">
   </a>
   <span class="logo-prompt">{{ prompt }}</span>
+  <div class="box-searchbar">
+    <form action="https://www.google.co.kr/search" onsubmit="javascript:$('#search_query').val('site:blog.leocat.kr ' + $('#search_keyword').val())">
+      <input type="hidden" name="q" id="search_query">
+  		<input title="검색어 입력" class="query" type="text" maxlength="200" id="search_keyword">
+  		<button class="btn-search" type="button"><span>검색</span></button>
+    </form>
+	</div>
 
 </aside>
