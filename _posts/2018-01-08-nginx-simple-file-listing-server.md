@@ -42,4 +42,4 @@ nginx를 시작하고 `http://127.0.0.1/releases/`로 접속하면 `/my/files/lo
 
 # 참고
 
-- [Best Practices for Writing Bash Scripts](https://kvz.io/blog/2013/11/21/bash-best-practices/)
+- [Enable directory listing](http://nginxlibrary.com/enable-directory-listing/)
