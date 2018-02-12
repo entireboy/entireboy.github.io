@@ -17,14 +17,14 @@ tags: [ ansible, condition, when, statement ]
 ```yaml
 - name: system_name 변수가 설정되지 않아 실행 안 됨
   debug:
-    msg: "System: {{ system_name }}"
+    msg: "System: {% raw %}{{ system_name }}{% endraw %}"
   when: system_name is defined
 - name: system_name 변수 설정
   set_fact:
     system_name: "my system"
 - name: system_name을 사용할 수 있음
   debug:
-    msg: "System: {{ system_name }}"
+    msg: "System: {% raw %}{{ system_name }}{% endraw %}"
   when: system_name is defined
 ```
 
@@ -38,10 +38,10 @@ tags: [ ansible, condition, when, statement ]
     os_family: Debian
 - name: Debian 이나 CentOS인 경우만 실행
   debug:
-    msg: "OKOK {{ os_family }}"
+    msg: "OKOK {% raw %}{{ os_family }}{% endraw %}"
   when: os_family == "Debian" or os_family == "CentOS"
 - name: 5 이상인 경우만 출력
-  command: echo {{ item }}
+  command: echo {% raw %}{{ item }}{% endraw %}
   with_items: [ 0, 2, 4, 6, 8, 10 ]
   when: item > 5
 ```

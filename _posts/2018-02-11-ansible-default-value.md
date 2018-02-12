@@ -7,24 +7,24 @@ categories: [ ansible ]
 tags: [ ansible, template, default, undefined, value, filter, omit ]
 ---
 
-[Ansible](https://www.ansible.com/)에서 변수를 사용할 때, 변수가 선언되지 않은 경우 에러를 뱉는다. 이런 경우에 변수가 선언되지 않으면 default value를 사용하도록 할 수 있다.
+[Ansible](https://www.ansible.com/)에서 변수를 사용할 때, 변수가 선언되지 않은 경우 에러를 뱉는다. 이런 경우에 변수가 선언되지 않으면 default value를 사용하도록 할 수 있다. 변수 template 안에 `|defualt(value)`로 써주면 된다.
 
 ```yaml
 - debug:
-    msg: "my value: {{ my_val | default(5) }}"
-  # my value: 5
+    msg: "my value: {% raw %}{{ my_val | default(5) }}{% endraw %}"
+  # "msg": "my value: 5
 - set_fact:
     my_val: 7
 - debug:
-    msg: "my value: {{ my_val | default(5) }}"
-  # my value: 7
+    msg: "my value: {% raw %}{{ my_val | default(5) }}{% endraw %}"
+  # "msg": "my value: 7
 ```
 
 변수가 선언되지 않은 경우 module의 parameter 자체를 무시하는 `omit`이라는 특수값(?)도 있다. `default(omit)`으로 사용하면 된다.
 
 ```yaml
 - name: touch files with an optional mode
-  file: dest={{ item.path }} state=touch mode={{ item.mode|default(omit) }}
+  file: dest={% raw %}{{ item.path }} state=touch mode={{ item.mode|default(omit) }}{% endraw %}
   with_items:
     - path: /home/leocat/foo
     - path: /home/leocat/bar
