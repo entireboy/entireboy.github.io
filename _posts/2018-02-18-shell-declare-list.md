@@ -23,9 +23,9 @@ PLACES[1]="THERE"
 PLACES[2]="WHERE"
 
 NAMES=()
-NAMES+=("ME")    # ${NAMES[0]}
-NAMES+=("YOU")   # ${NAMES[1]}
-NAMES+=("THEM")  # ${NAMES[2]}
+NAMES+=("ME")    # ${NAMES[0]} == "ME"
+NAMES+=("YOU")   # ${NAMES[1]} == "YOU"
+NAMES+=("THEM")  # ${NAMES[2]} == "THEM"
 ```
 
 배열 순환(loop)하는 방법은 [요기]({{ site.baseurl }}{% post_url 2018-02-17-shell-looping-list %})
