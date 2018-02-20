@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Ansible] 폴더는 755, 파일은 644로 mode 설정하기 (chmod)"
-date:   2018-02-11 22:18:00 +0900
+date:   2018-02-19 22:18:00 +0900
 published: true
 categories: [ ansible ]
 tags: [ ansible, file, directory, chmod, mode, execute, search ]
