@@ -45,5 +45,6 @@ $
 
 # 참고
 
-[How to delete or replace an already created symbolic link?](https://askubuntu.com/questions/13363/how-to-delete-or-replace-an-already-created-symbolic-link)
-[how to change where a symlink points](https://unix.stackexchange.com/questions/151999/how-to-change-where-a-symlink-points)
+- [How to delete or replace an already created symbolic link?](https://askubuntu.com/questions/13363/how-to-delete-or-replace-an-already-created-symbolic-link)
+- [how to change where a symlink points](https://unix.stackexchange.com/questions/151999/how-to-change-where-a-symlink-points)
+- [symbolic link 대상 파일 찾기]({{ site.baseurl }}{% post_url 2018-01-15-shell-lookup-link-target %})

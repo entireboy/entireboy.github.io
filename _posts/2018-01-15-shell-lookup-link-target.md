@@ -21,3 +21,4 @@ $
 # 참고
 
 - [How to verify the target of a symbolic link points toward a particular path](https://unix.stackexchange.com/questions/192294/how-to-verify-the-target-of-a-symbolic-link-points-toward-a-particular-path)
+- [symbolic link 대상 파일 변경하기]({{ site.baseurl }}{% post_url 2018-02-25-shell-change-link-target %})
