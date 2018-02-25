@@ -1,0 +1,4 @@
+---
+name: symbolic
+title: symbolic
+---
