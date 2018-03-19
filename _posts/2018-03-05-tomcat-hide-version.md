@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Tomcat] 버전 안 보이게 숨기기"
-date:   2018-03-04 22:18:00 +0900
+date:   2018-03-05 22:18:00 +0900
 published: true
 categories: [ tomcat ]
 tags: [ tomcat, was, hide, cover, version ]
