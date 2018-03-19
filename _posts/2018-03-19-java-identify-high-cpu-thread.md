@@ -4,14 +4,14 @@ title:  "[Java] CPU 많이 쓰는(high CPU) 스레드 찾기"
 date:   2018-03-19 23:18:00 +0900
 published: true
 categories: [ java ]
-tags: [ java, identify, high, cpu, thread, lwp ]
+tags: [ java, identify, high, cpu, thread, lwp, ps, dump ]
 ---
 
 아무 일도 하지 않는 Java 프로세스가 CPU를 너무 먹고 있는게 발견됐다. 뭘까?? 누가 쓰고 있는걸까?? 그것도 애매한 13% 라니..
 
 ![High CPU]({{ site.baseurl }}/assets/img/2018-03-19-java-identify-high-cpu-thread.png)
 
-우선 `ps` 명령으로 어떤 스레드가 CPU를 쓰고 있는지 확인을 했다. `-m`옵션으로 스레드 정보를 함께 출력한다. 그리고 `-o` 옵션으로 CPU 사용률(`pcpu`, %CPU)과 스레드 번호(`lwp`)를 함께 출력한다. `-o` 옵션으로 가능한 내용은 [ps man page](http://linuxcommand.org/lc3_man_pages/ps1.html)의 `STANDARD FORMAT SPECIFIERS`에서 확인할 수 있다.
+우선 `ps` 명령으로 어떤 스레드가 CPU를 쓰고 있는지 확인을 했다. `-m`옵션으로 스레드 정보를 함께 출력한다. 그리고 `-o` 옵션으로 CPU 사용률(`pcpu`, %CPU)과 스레드 번호(`lwp`)를 함께 출력한다. `pcpu`, `lwp` 이외의 `-o` 옵션으로 가능한 내용은 [ps man page](http://linuxcommand.org/lc3_man_pages/ps1.html)의 `STANDARD FORMAT SPECIFIERS` 섹션에서 확인할 수 있다.
 
 ```bash
 $ ps -mo pcpu,lwp -p 46783
