@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[Groovy] 문자열 자르기"
+title:  "[Groovy] 문자열 자르기 (tokenizing)"
 date:   2018-03-23 23:18:00 +0900
 published: true
 categories: [ groovy ]
-tags: [ groovy, string, tokenize, split ]
+tags: [ groovy, string, tokenize, split, regex ]
 ---
 
 Java 문자열을 자를 때 많이 쓰는 함수는 `split`이다. `split`은 정규식도 가능하다는 장점이 있다. Groovy는 당연히 `split`을 사용할 수도 있지만, `tokenize`함수도 제공된다. 둘의 차이를 살짝 비교해 보자.
