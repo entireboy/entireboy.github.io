@@ -402,3 +402,15 @@ li.inline-list {
 .google-ad {
   margin: 15px 0px;
 }
+
+div.box-searchbar {
+  max-width: 500px;
+  margin: 0 auto;
+  form {
+    text-align: right;
+  }
+  i.em-mag {
+    width: 20px;
+    height: 20px;
+  }
+}

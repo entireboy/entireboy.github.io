@@ -12,6 +12,7 @@ twitter_username:
 github_username:    # GitHub username
 
 # Site Settings
+domain:             "blog.leocat.kr"
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:year/:month/:day/:title # Post permalink
 timezone:           Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

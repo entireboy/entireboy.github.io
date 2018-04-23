@@ -2,7 +2,7 @@
 layout: null
 ---
 
-sitemap: http://blog.leocat.kr{{ site.baseurl | replace: 'https', 'http' | append: '/sitemap.xml' }}
+sitemap: http://{{ site.domain }}{{ site.baseurl | replace: 'https', 'http' | append: '/sitemap.xml' }}
 
 user-agent: EmailCollector
 disallow: /
