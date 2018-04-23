@@ -13,14 +13,12 @@
   </a>
   <span class="logo-prompt">{{ prompt }}</span>
 
-  {% if page.url == '/index.html' or page.url == '/' %}
   <div class="box-searchbar">
-    <form id="text_search_form" action="https://www.google.co.kr/search" onsubmit="javascript:$('#search_query').val('site:{{ site.domain }} ' + $('#search_keyword').val())" target="_blank">
+    <form id="text_search_form" action="https://www.google.co.kr/search" onsubmit="javascript:if (!$('#search_keyword').val()) {alert('검색어를 넣어 주세요 :D'); return false;} $('#search_query').val('site:{{ site.domain }} ' + $('#search_keyword').val());" target="_blank">
       <input type="hidden" name="q" id="search_query">
-  		<input title="검색어 입력" class="query" type="text" maxlength="200" id="search_keyword">
+  		<input placeholder="검색" form="text_search_form" type="text" maxlength="200" size="30" id="search_keyword">
       <i class="em em-mag" onclick="$('#text_search_form').submit()"></i>
     </form>
 	</div>
-  {% endif %}
 
 </aside>
