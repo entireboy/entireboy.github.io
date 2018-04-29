@@ -48,3 +48,4 @@ $ tar czf my.job.tgz my.job
 # 참고
 
 - [https://wiki.jenkins.io/display/JENKINS/Administering+Jenkins](Administering Jenkins - Jenkins WIKI)
+- [thinBackup - Jenkins 설정 백업 플러그인]({{ site.baseurl }}{% post_url 2017-11-02-jenkins-backup-restore %})
