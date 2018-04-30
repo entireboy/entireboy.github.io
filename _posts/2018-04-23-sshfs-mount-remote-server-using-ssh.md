@@ -69,15 +69,16 @@ $ sshfs -o IdentityFile=~/.ssh/id_rsa user@x.x.x.x:/backups/server1 /my/backups
 `df` 명령으로 마운팅된 경로와 해당 서버의 경로를 알 수 있다.
 
 ```bash
-$ df -h
-Filesystem Size Used Avail Use% Mounted on
-/dev/vda1 50G 11G 40G 21% /
-devtmpfs 3.9G 0 3.9G 0% /dev
-tmpfs 3.9G 0 3.9G 0% /dev/shm
-tmpfs 3.9G 57M 3.8G 2% /run
-tmpfs 3.9G 0 3.9G 0% /sys/fs/cgroup
-tmpfs 783M 0 783M 0% /run/user/1000
-my-backup-server:/backups/server1 50G 3.1G 47G 7% /my/backups
+$ df -hT
+Filesystem                             Type        Size  Used Avail Use% Mounted on
+/dev/sda4                              xfs         268G  122G  147G  46% /
+devtmpfs                               devtmpfs    7.8G     0  7.8G   0% /dev
+tmpfs                                  tmpfs       7.8G     0  7.8G   0% /dev/shm
+tmpfs                                  tmpfs       7.8G   57M  7.7G   1% /run
+tmpfs                                  tmpfs       7.8G     0  7.8G   0% /sys/fs/cgroup
+/dev/sda2                              xfs        1014M  130M  885M  13% /boot
+tmpfs                                  tmpfs       1.6G     0  1.6G   0% /run/user/1000
+user@my-backup-server:/backups/server1 fuse.sshfs   50G  4.2G   46G   9% /my/backups
 ```
 
 서버가 재시작 되어도 항상 연결되어 있게 하려면 `/etc/fstab` 파일을 수정해 주면 된다.
