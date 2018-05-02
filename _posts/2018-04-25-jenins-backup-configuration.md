@@ -28,6 +28,11 @@ tags: [ jenkins, backup, config, configuration, plugin ]
 
 {% include image.html file='/assets/img/2018-04-25-jenins-backup-configuration3.png' alt='ThinBackup config' %}
 
+```
+NOTE
+주기적으로 백업을 하기 위해 스케쥴을 걸기 위해서는 플러그인 설치 후 젠킨스 재시작이 꼭 필요하다.
+```
+
 
 # 참고
 
