@@ -119,7 +119,7 @@ $ docker run -it --rm <image-name>
 $
 ```
 
-`CMD`와 `ENTRYPOINT`의 조합은 [ENTRYPOINT / CMD combinations](https://docs.docker.com/engine/reference/builder/#/understand-how-cmd-and-entrypoint-interact)에 표로 잘 정리되어 있다.
+`CMD`와 `ENTRYPOINT`의 조합은 [ENTRYPOINT / CMD combinations](https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact)에 표로 잘 정리되어 있다.
 
 # 참고
 
