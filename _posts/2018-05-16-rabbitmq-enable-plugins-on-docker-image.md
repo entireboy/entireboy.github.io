@@ -53,7 +53,7 @@ $ docker run -it --rm my/test
     initial_call: {application_master,init,['Argument__1','Argument__2','Argument__3','Argument__4']}
     pid: <0.35.0>
     registered_name: []
-    error_info: {exit,{{shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,auth,{"Error when reading /var/lib/rabbitmq/.erlang.cookie: eacces",[{auth,init_cookie,0,[{file,"auth.erl"},{line,286}]},{auth,init,1,[{file,"auth.erl"},{line,140}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}}},{kernel,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    error_info: {exit,{% raw %}{{{% endraw %}shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,auth,{"Error when reading /var/lib/rabbitmq/.erlang.cookie: eacces",[{auth,init_cookie,0,[{file,"auth.erl"},{line,286}]},{auth,init,1,[{file,"auth.erl"},{line,140}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}}},{kernel,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
     ancestors: [<0.34.0>]
     message_queue_len: 1
     messages: [{'EXIT',<0.36.0>,normal}]
@@ -66,10 +66,10 @@ $ docker run -it --rm my/test
     reductions: 250
 2018-05-16 16:34:25 std_info
     application: kernel
-    exited: {{shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,auth,{"Error when reading /var/lib/rabbitmq/.erlang.cookie: eacces",[{auth,init_cookie,0,[{file,"auth.erl"},{line,286}]},{auth,init,1,[{file,"auth.erl"},{line,140}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}}},{kernel,start,[normal,[]]}}
+    exited: {% raw %}{{{% endraw %}shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,auth,{"Error when reading /var/lib/rabbitmq/.erlang.cookie: eacces",[{auth,init_cookie,0,[{file,"auth.erl"},{line,286}]},{auth,init,1,[{file,"auth.erl"},{line,140}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}}},{kernel,start,[normal,[]]}}
     type: permanent
-{"Kernel pid terminated",application_controller,"{application_start_failure,kernel,{{shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,auth,{\"Error when reading /var/lib/rabbitmq/.erlang.cookie: eacces\",[{auth,init_cookie,0,[{file,\"auth.erl\"},{line,286}]},{auth,init,1,[{file,\"auth.erl\"},{line,140}]},{gen_server,init_it,2,[{file,\"gen_server.erl\"},{line,365}]},{gen_server,init_it,6,[{file,\"gen_server.erl\"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,\"proc_lib.erl\"},{line,247}]}]}}}}},{kernel,start,[normal,[]]}}}"}
-Kernel pid terminated (application_controller) ({application_start_failure,kernel,{{shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,auth,{"Error when reading /var/lib/rabbitmq
+{"Kernel pid terminated",application_controller,"{application_start_failure,kernel,{% raw %}{{{% endraw %}shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,auth,{\"Error when reading /var/lib/rabbitmq/.erlang.cookie: eacces\",[{auth,init_cookie,0,[{file,\"auth.erl\"},{line,286}]},{auth,init,1,[{file,\"auth.erl\"},{line,140}]},{gen_server,init_it,2,[{file,\"gen_server.erl\"},{line,365}]},{gen_server,init_it,6,[{file,\"gen_server.erl\"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,\"proc_lib.erl\"},{line,247}]}]}}}}},{kernel,start,[normal,[]]}}}"}
+Kernel pid terminated (application_controller) ({application_start_failure,kernel,{% raw %}{{{% endraw %}shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,auth,{"Error when reading /var/lib/rabbitmq
 
 Crash dump is being written to: /var/log/rabbitmq/erl_crash.dump...done
 ```
