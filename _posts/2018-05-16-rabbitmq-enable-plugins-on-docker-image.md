@@ -96,5 +96,5 @@ EXPOSE 4369 5671 5672 25672
 
 # 참고
 
-- [management plugin](https://www.rabbitmq.com/management.html)
+- [RabbitMQ management plugin](https://www.rabbitmq.com/management.html)
 - [https://www.rabbitmq.com/man/rabbitmq-plugins.8.html](rabbitmq-plugins man page)
