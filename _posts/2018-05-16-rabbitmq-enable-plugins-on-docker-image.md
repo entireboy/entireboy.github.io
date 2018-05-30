@@ -7,18 +7,18 @@ categories: [ rabbitmq, docker ]
 tags: [ rabbitmq, docker, dockerfile, image, enable, plugin ]
 ---
 
-RabbitMQ의 [management plugin](https://www.rabbitmq.com/management.html)을 켜기 위해 다음 명령을 실행하려 한다.
+Docker 이미지에서 RabbitMQ의 [management plugin](https://www.rabbitmq.com/management.html)을 켜기 위해 다음 명령을 실행하려 한다.
 ```bash
 $ rabbitmq-plugins enable rabbitmq_management
 ```
 
-단순히 dockerfile에 이렇게 넣어주었는데..
+간단하게 dockerfile에 이렇게 넣어주었는데..
 
 ```docker
 RUN rabbitmq-plugins enable rabbitmq_management
 ```
 
-docker 이미지를 만들고 실행하면, 엄청난 알 수 없는 오류가 발생한다. T_T
+Docker 이미지를 만들고 실행하면, 엄청난 알 수 없는 오류가 발생한다. T_T
 
 ```bash
 $ docker run -it --rm my/test
