@@ -8,6 +8,7 @@ image
 
 link
 [다른 포스트]({{ site.baseurl }}{% post_url 2017-05-03-trip-italia-pass %})
+[A Shot A Day](http://asad.leocat.kr/){:target="_blank"}
 
 
 iframe
