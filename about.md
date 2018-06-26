@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-{{ site.author_name }}. A small programmer who like taking some photos:
+{{ site.author_name }}. A short-but-dreaming-high programmer who likes taking photos and brewing/enjoing coffee:
 - [A Shot A Day](http://asad.leocat.kr/){:target="_blank"}
 - [on 500px](https://500px.com/entireboy){:target="_blank"}
 
