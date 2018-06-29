@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Java] GC 로그 남기기"
+title:  "[Java] 로깅할 때 marker로 필터링하기"
 date:   2018-06-29 23:18:00 +0900
 published: true
 categories: [ java ]
-tags: [ java, slf4j, logback, marker, filter ]
+tags: [ java, log, logging, log4j, slf4j, logback, marker, filter ]
 ---
 
-개발 시에만 로깅을 하고 실서비스에서는 안 보여주고 싶은 로그가 있을 때, marker를 쓰면 은근 필터링하기 좋다. 또는, 개인정보가 담긴 로깅을 할 때 실서비스에서는 로깅하지 않도록 필터링할 수 있다. marker도 함께 로깅해서 로깅파일을 분석에 사용할 수도 있다.
+개발 시에만 로깅을 하고 실서비스에서는 안 보여주고 싶은 로그가 있을 때, marker를 쓰면 은근 필터링하기 좋다. 또는, 개인정보가 담긴 로깅을 할 때 실서비스에서는 로깅하지 않도록 필터링할 수 있다. marker도 함께 로깅해서 로깅파일을 분석에 사용할 수도 있다. 일부 appender를 분리하고 특정 marker가 달린/달리지않은 경우만 로깅을 할 수도 있다.
 
 
 # Marker
@@ -88,6 +88,8 @@ marker `MESSAGE`를 발견하면 `DENY` 처리해서 로깅이 되지 않도록 
 ```bash
 17:48:21.321 [main] DEBUG k.l.t.s.logger.MarkerFilterSample - [] Attempting to publish message
 ```
+
+filter 설정에 `OnMatch` 이외에 `OnMismatch`도 설정이 가능하다. 사용 가능한 값은 `ACCEPT`, `DENY`, `NEUTRAL`이고, default값은 `OnMatch`는 `NEUTRAL`이고 `OnMismatch`는 `DENY`이다.
 
 
 # 참고
