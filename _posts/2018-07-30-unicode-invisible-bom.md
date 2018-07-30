@@ -36,11 +36,10 @@ Caused by: java.net.UnknownHostException: <feff>my-mongo.leocat.kr: Name or serv
 
 아무래도 host명을 복붙하다가 BOM이 붙어있는 형태로 복사된 것 같다. 그리고, 파일 처음에만 BOM을 넣을 수 있는 것이 아니라 중간에도 넣을 수 있다고 한다.
 
-```
-If the BOM character appears in the middle of a data stream, Unicode says it should be interpreted as a "zero-width non-breaking space" (inhibits line-breaking between word-glyphs).
+> If the BOM character appears in the middle of a data stream, Unicode says it should be interpreted as a "zero-width non-breaking space" (inhibits line-breaking between word-glyphs).
+>
+> - from https://en.wikipedia.org/wiki/Byte_order_mark#Usage
 
-from https://en.wikipedia.org/wiki/Byte_order_mark#Usage
-```
 
 
 # 참고
