@@ -38,7 +38,7 @@ Caused by: java.net.UnknownHostException: <feff>my-mongo.leocat.kr: Name or serv
 
 > If the BOM character appears in the middle of a data stream, Unicode says it should be interpreted as a "zero-width non-breaking space" (inhibits line-breaking between word-glyphs).
 >
-> - from https://en.wikipedia.org/wiki/Byte_order_mark#Usage
+> \- from https://en.wikipedia.org/wiki/Byte_order_mark#Usage
 
 
 
