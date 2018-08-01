@@ -40,6 +40,7 @@ Caused by: java.net.UnknownHostException: <feff>my-mongo.leocat.kr: Name or serv
 >
 > \- from https://en.wikipedia.org/wiki/Byte_order_mark#Usage
 
+BOM 캐릭터는 눈에도 보이지 않아서 발견도 힘들고, 검색도 까다로워서 골치거리가 될 수 있다. T_T
 
 
 # 참고
