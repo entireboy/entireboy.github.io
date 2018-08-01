@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[RabbitMQ] 간단 delayed queue 설정"
+title:  "[RabbitMQ] 간단 지연 큐(delayed queue) 설정"
 date:   2018-07-31 23:18:00 +0900
 published: true
 categories: [ rabbitmq ]
