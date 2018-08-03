@@ -12,7 +12,7 @@ curl로 URL을 호출한 뒤 HTTP status code를 확인하고 싶다면, `-w` �
 > `-w/--write-out <format>`
 > Defines what to display on stdout after a completed and successful operation.
 
-[man page](https://linux.die.net/man/1/curl)에는 걸린 시간(`time_total`, `time_namelookup`, `time_connect` 등), 요청/응답 사이즈(`size_download`, `size_upload`, `size_header` 등)처럼 같이 사용할 수 있는 많은 옵션들이 있으니 참고 하자.
+[man page](https://linux.die.net/man/1/curl)에는 걸린 시간(`time_total`, `time_namelookup`, `time_connect` 등), 요청/응답 사이즈(`size_download`, `size_upload`, `size_header` 등)처럼 사용할 수 있는 많은 옵션들이 있으니 참고 하자.
 
 다음은 stdout 뒤에 status code, 요청/응답 사이즈 등을 찍는 예제이다.
 
