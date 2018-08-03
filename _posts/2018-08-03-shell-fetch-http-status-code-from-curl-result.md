@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Jenkins] 귀찮게 로그인 2번씩 해야 한다면 - LDAP timeout"
+title:  "[Shell] curl로 호출하고 HTTP status code 확인하기"
 date:   2018-08-03 23:18:00 +0900
 published: true
 categories: [ jenkins ]
