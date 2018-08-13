@@ -1,0 +1,7 @@
+<blockquote>
+  <p style="line-height:1em; text-decoration:none;">
+    이 포스트는 다음 라이선스에 따라 사용할 수 있습니다:&nbsp;
+    {% if include.img %}{% if include.url %}<a rel="license" href="{{ include.url }}">{% endif %}<img alt="License" style="border-width:0" src="{{ include.img }}" />{% if include.url %}</a>{% endif %}&nbsp;{% endif %}
+    {% if include.url %}<a rel="license" href="{{ include.url }}">{% endif %}{{ include.text }}{% if include.url %}</a>{% endif %}
+  </p>
+</blockquote>

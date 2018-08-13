@@ -23,3 +23,9 @@ link
 [이런 이름][rng-tools]
 [저런 이름][rng-tools]
 [rng-tools]: https://aaa.bb
+
+
+licenses (text만 필수)
+{% include license.html url='http://creativecommons.org/licenses/by-nc-sa/4.0/' img='https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png' text='Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License' %}
+{% include license.html url='http://creativecommons.org/licenses/by-nc-sa/4.0/' text='Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License' %}
+{% include license.html text='My License' %}
