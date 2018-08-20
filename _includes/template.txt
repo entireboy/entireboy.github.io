@@ -19,10 +19,19 @@ escape
 {% raw %}{{{% endraw %}
 
 
-link
+link - [id]
 [이런 이름][rng-tools]
 [저런 이름][rng-tools]
-[rng-tools]: https://aaa.bb
+[rng-tools]: https://aaa.bb "link alt"
+
+
+footnote - [^id]
+I get 10 times more traffic from [Google][1][^Google] than from
+[Yahoo][2] or [MSN][3].
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
+[^Google]: Google, [google.com](https://google.com).
 
 
 licenses (text만 필수)
