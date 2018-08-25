@@ -38,3 +38,14 @@ licenses (text만 필수)
 {% include license.html url='http://creativecommons.org/licenses/by-nc-sa/4.0/' img='https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png' text='Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License' %}
 {% include license.html url='http://creativecommons.org/licenses/by-nc-sa/4.0/' text='Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License' %}
 {% include license.html text='My License' %}
+
+
+translation 발번역
+> 본 글은 아래 글을 **발번역** 한 내용입니다. 누락되거나 잘못 옮겨진 내용이 있을(~~아니 많을;;~~) 수 있습니다.
+>
+> 원글: What Is Immutable Infrastructure? by Hazel Virdó
+> <https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure>
+>
+> 본 글은 다음 라이선스에 따라 사용할 수 있습니다: ![license](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png) [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+# 옮긴이 각주
+[^snowflake-server]: 스노우플레이크 서버(눈송이 서버): 옮긴이. 결정모양이 모두 다른 눈송이처럼
