@@ -4,7 +4,7 @@ title:  "[Shell] 디렉토리 별 디스크 사용량 확인"
 date:   2017-09-22 21:18:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, disk, usage, directory, folder, check ]
+tags: [ shell, bash, script, disk, usage, directory, folder, check ]
 ---
 
 디스크 정리 같은 것들이 필요할 때, 디렉토리 별로 디스크 사용량 확인이 필요하다.

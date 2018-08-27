@@ -4,7 +4,7 @@ title:  "[Shell] 배열 선언/만들기 (빈 배열도..)"
 date:   2018-02-18 21:18:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, create, declare, define, array, list, empty, append ]
+tags: [ shell, bash, script, create, declare, define, array, list, empty, append ]
 ---
 
 bash에서 배열을 만들 때는 괄호로 싸면 된다. 또는 각 index에 할당하면 알아서 배열로 취급.. 또는 element를 더해주면 된다.

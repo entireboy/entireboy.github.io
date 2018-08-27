@@ -4,7 +4,7 @@ title:  "[Shell] string 일부분 제거하기 (%, %%, #, ## 연산자)"
 date:   2018-01-18 21:18:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, remove, delete, string, substring, operator ]
+tags: [ shell, bash, script, remove, delete, string, substring, operator ]
 ---
 
 bash script에서 문자열을 맨앞이나 맨뒤에서 부터 잘라내 버리고 싶은 경우가 있다. 요놈들을 참조하면 원하는 만큼 매치된 문자열을 제거할 수 있다.

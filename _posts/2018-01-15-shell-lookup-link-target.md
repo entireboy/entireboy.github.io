@@ -4,7 +4,7 @@ title:  "[Shell] link 대상 확인"
 date:   2018-01-15 21:18:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, check, lookup, target, symbolic, link ]
+tags: [ shell, bash, script, check, lookup, target, symbolic, link ]
 ---
 
 링크가 걸린 원래 경로를 확인하고 싶다면 `readlink`명령을 사용하면 된다.

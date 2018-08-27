@@ -4,7 +4,7 @@ title:  "[Shell] 배열 loop"
 date:   2018-02-17 21:18:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, loop, list, array ]
+tags: [ shell, bash, script, loop, list, array ]
 ---
 
 bash에서 배열 순환(loop)하는 방법

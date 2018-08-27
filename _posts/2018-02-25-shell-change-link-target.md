@@ -4,7 +4,7 @@ title:  "[Shell] link 링크 변경"
 date:   2018-02-25 21:18:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, change, target, symbolic, link ]
+tags: [ shell, bash, script, change, target, symbolic, link ]
 ---
 
 symbolic link를 생성한 후 링크는 그대로 두고 가리키는 파일을 변경하고 싶은 경우가 있다. 몇 가지 방법이 있다.:
