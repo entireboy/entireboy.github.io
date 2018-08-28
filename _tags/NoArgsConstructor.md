@@ -1,0 +1,4 @@
+---
+name: NoArgsConstructor
+title: NoArgsConstructor
+---
