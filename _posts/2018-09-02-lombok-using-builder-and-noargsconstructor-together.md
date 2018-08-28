@@ -45,22 +45,6 @@ public class MyName {
 ```
 
 
-# 추측
-
-`@Builder`를 달면 다음과 같이 모든 필드를 전달인자로 받는 생성자가 만들어 진다. Builder가 모든 필드값을 받아서 이 생성자를 호출해서 객체를 생성하게 된다. 그런데 `@NoArgsConstructor`나 일부 필드만 을 가지는 생성자가 있는 경우 모든 필드를 가지는 생성자가 만들어지지 않아서 문제가 될 수 있는 것 같다.
-
-```java
-public class MyName {
-    MyName(String first, String last) {
-        this.first = first;
-        this.last = last;
-    }
-}
-```
-
-그리고 역시나 아래 `@AllArgsConstructor(access = AccessLevel.PACKAGE)`처럼 `public`이 아닌 생성자인 경우도 정상적으로 동작하지 않는다.
-
-
 # 해결방법
 
 `@NoArgsConstructor`를 달아주거나 모든 필드를 가지는 생성자를 손수 만들어 주면 된다.
