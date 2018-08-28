@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Lombok] @Builder와 @NoArgsConstructor 함께 사용하기"
-date:   2018-08-28 23:18:00 +0900
+date:   2018-09-02 23:18:00 +0900
 published: true
 categories: [ java ]
 tags: [ java, lombok, annotation, Builder, constructor, NoArgsConstructor, AllArgsConstructor ]
