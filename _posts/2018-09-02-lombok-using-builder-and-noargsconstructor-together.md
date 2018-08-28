@@ -7,7 +7,8 @@ categories: [ java ]
 tags: [ java, logging, gc, log ]
 ---
 
-아래처름 `@Builder`와 `@NoArgsConstructor`를 함께 사용하면, 컴파일 시 에러가 발생한다.
+아래처럼 `@Builder`와 `@NoArgsConstructor`를 함께 사용하면, 컴파일 시 에러가 발생한다.
+
 ```java
 // @Getter @Setter @EqualsAndHashCode 등등
 @Builder
@@ -41,6 +42,8 @@ public class MyName {
 
 # 참고
 
-- [Understanding the Java Garbage Collection Log](https://dzone.com/articles/understanding-garbage-collection-log)
-- [How to Enable Garbage Collection (GC) Logging](https://confluence.atlassian.com/confkb/how-to-enable-garbage-collection-gc-logging-300813751.html)
-- [GCeasy](http://gceasy.io/)
+
+
+https://projectlombok.org/features/Builder
+
+https://stackoverflow.com/questions/34241718/lombok-builder-and-jpa-default-constructor/35602246#35602246
