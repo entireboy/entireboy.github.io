@@ -70,10 +70,3 @@ public class MyName {
     MyName(String first, String last) { ... }
 }
 ```
-
-
-# 참고
-
-- [Lombok @Builder and JPA Default constructor - stackoverflow](https://stackoverflow.com/questions/34241718/lombok-builder-and-jpa-default-constructor/35602246#35602246) - 채택된 답변 보다 아래 답변이 더 나이쓰함!!
-- [@Builder - lombok](https://projectlombok.org/features/Builder)
-- [@NoArgsConstructor, @AllArgsConstructor - lombok](https://projectlombok.org/features/constructor)
