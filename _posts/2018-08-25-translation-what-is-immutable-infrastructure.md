@@ -145,6 +145,6 @@ tags: [ translation, translate, immutable infrastructure, mutable infrastructure
 [^configuration-drift]: 컨피그레이션 드리프트(Configuration drift): 옮긴이. 시간이 흘러 처음과는 다르게 설정(configuration)이 점점 다르기 변경되는 현상을 뜻하는 의미. [[발번역] 컨피그레이션 드리프트]({{ site.baseurl }}{% post_url 2018-08-24-translation-configuration-drift %})
 [^colo]: colo: 옮긴이. Collocation centre. IDC의 일종.
 [^snowflake-server]: 스노우플레이크 서버(눈송이 서버): 옮긴이. 결정모양이 모두 다른 눈송이처럼 같은 서비스의 서버들이지만 컨피그레이션 드리프트로 인해 모두 조금씩 달라진 서버 설정/상태를 의미한다.
-[^known-good]: known-good: 옮긴이. fully test되고 신뢰할만한 등의 의미로 사용되며, known-good software, known-good configuration 등으로 활용된다. <https://www.pcmag.com/encyclopedia/term/45850/known-good-software> <https://www.webopedia.com/TERM/L/Last_Known_Good_configuration.html>
+[^known-good]: known-good: 옮긴이. fully test되고 신뢰할만한 등의 의미로 사용되며, known-good software, known-good configuration 등으로 활용된다. cf. [Definition of: known-good software](https://www.pcmag.com/encyclopedia/term/45850/known-good-software), [Last Known Good Configuration](https://www.webopedia.com/TERM/L/Last_Known_Good_configuration.html)
 [^consistent-stage-environment]: 옮긴이. 실서비스와 스테이지 환경의 설정이 동일하다는 의미.
-[^centralized-logging]: centralized logging: 옮긴이. 여러 서비스와 인스턴스의 로그를 한 곳에서 모아 볼 수 있게 별도 로깅 시스템에 오아두는 것. <https://hackernoon.com/part-1-building-a-centralized-logging-application-5a537033da0a>
+[^centralized-logging]: centralized logging: 옮긴이. 여러 서비스와 인스턴스의 로그를 한 곳에서 모아 볼 수 있게 별도 로깅 시스템에 오아두는 것. cf. <https://hackernoon.com/part-1-building-a-centralized-logging-application-5a537033da0a>
