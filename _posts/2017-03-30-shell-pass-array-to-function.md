@@ -4,7 +4,7 @@ title:  "[Shell] Pass array to function - 함수에 배열 전달하기"
 date:   2017-03-30 22:53:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, pass, array, function ]
+tags: [ shell, bash, script, pass, array, function ]
 ---
 
 배열을 함수에 전달하고 싶을 때. (역시 매번 까먹어서 정리 =_=;;)

@@ -3,8 +3,8 @@ layout: post
 title:  "[Shell] curl로 호출하고 HTTP status code 확인하기"
 date:   2018-08-03 23:18:00 +0900
 published: true
-categories: [ jenkins ]
-tags: [ shell, bash, curl, http, http status code, status code, status, code, response, result ]
+categories: [ shell ]
+tags: [ shell, bash, script, curl, http, http status code, status code, status, code, response, result ]
 ---
 
 curl로 URL을 호출한 뒤 HTTP status code를 확인하고 싶다면, `-w` 옵션으로 찍어보면 된다. [curl man page](https://linux.die.net/man/1/curl)를 보면 아래와 같이 curl의 stdout 출력 이후에 `-w` 옵션으로 적어준 내용이 출력된다고 적혀 있다.

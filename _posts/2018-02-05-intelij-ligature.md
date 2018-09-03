@@ -3,8 +3,8 @@ layout: post
 title:  "[IntelliJ] ligature (기호/연산자 묶음??)"
 date:   2018-02-05 22:18:00 +0900
 published: true
-categories: [ IntelliJ ]
-tags: [ IntelliJ, operator, ligature, font ]
+categories: [ intellij ]
+tags: [ intellij, operator, ligature, font ]
 ---
 
 아래의 빨간 네모 안에 있는 것처럼 표기가 되면, 한눈에 알아보기 쉬워진다.
