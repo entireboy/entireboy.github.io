@@ -40,6 +40,17 @@ public class MyName {
     private String first;
     private String last;
 
+    public MyName() { ... }
+}
+
+  .. 또는 ..
+
+// @Getter @Setter @EqualsAndHashCode 등등
+@Builder
+public class MyName {
+    private String first;
+    private String last;
+
     public MyName(String last) { ... }
 }
 ```
@@ -47,7 +58,7 @@ public class MyName {
 
 # 해결방법
 
-`@NoArgsConstructor`를 달아주거나 모든 필드를 가지는 생성자를 손수 만들어 주면 된다.
+`@AllArgsConstructor`도 함께 달아주거나 모든 필드를 가지는 생성자를 손수 만들어 주면 된다.
 
 ```java
 // @Getter @Setter 등등
@@ -67,6 +78,7 @@ public class MyName {
 public class MyName {
     private String first;
     private String last;
+
     MyName(String first, String last) { ... }
 }
 ```
