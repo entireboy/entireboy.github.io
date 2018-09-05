@@ -23,7 +23,7 @@ MySQL에서 유니코드로 이모지를 저장하려면 `utf8`([alias for `utf8
 
 이 기본 문자 외에 자주 사용하지는 않지만 추가로 필요한 문자는 `supplementary characters`로 따로 정리되어 있으며, [이모지](https://en.wikipedia.org/wiki/Emoji)는 여기에 포함되어 있다.
 
-그래서.. 이모지를 저장하려면 `utf8mb4` charset을 사용해야 한다.
+그래서.. 이모지를 저장하려면 `utf8mb4` charset을 사용하면 된다.
 
 
 # 참고
