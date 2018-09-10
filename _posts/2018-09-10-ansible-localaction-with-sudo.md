@@ -22,7 +22,9 @@ TASK [Gathering Facts] *********************************************************
 ok: [test.leocat.kr]
 
 TASK [check file] **********************************************************************************
-fatal: [test.leocat.kr -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 1}
+fatal: [test.leocat.kr -> localhost]: FAILED! => {"changed": false, "failed": true,
+"module_stderr": "sudo: a password is required\n",
+"module_stdout": "", "msg": "MODULE FAILURE", "rc": 1}
 to retry, use: --limit @/Users/leocat/sample/ansible/test-local-action.retry
 
 PLAY RECAP *****************************************************************************************
