@@ -40,7 +40,7 @@ test.leocat.kr : ok=1 changed=0 unreachable=0 failed=1
   - name: check file
     local_action: stat path={{ MY_FILE_PATH }}
     register: myfile_for_copy
-- name: copy files if exist
+  - name: copy files if exist
     copy:
       src: "{{ MY_FILE_PATH }}"
       dest: "{{ SOMEWHERE_TO_COPY }}"
