@@ -58,4 +58,5 @@ tags: [ spring, logback, profile, active profile, logger, logging, java, log ]
 # 참고
 
 - [Logback Extensions - Spring doc](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html#boot-features-logback-extensions)
+- [Adding Active Profiles - Spring doc](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-profiles.html#boot-features-adding-active-profiles)
 - [여러 profile을 사용할 때 config override](https://stackoverflow.com/questions/23617831/what-is-the-order-of-precedence-when-there-are-multiple-springs-environment-pro)
