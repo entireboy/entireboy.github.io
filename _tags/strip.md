@@ -1,0 +1,4 @@
+---
+name: strip
+title: strip
+---
