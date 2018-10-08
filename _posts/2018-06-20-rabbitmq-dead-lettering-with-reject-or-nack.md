@@ -4,7 +4,7 @@ title:  "[RabbitMQ] nack/reject로 다른 큐로 보내기 (dead-letter)"
 date:   2018-06-20 23:18:00 +0900
 published: true
 categories: [ rabbitmq ]
-tags: [ rabbitmq, dead-letter, reject, nack, ack, routing, route, message, confirm ]
+tags: [ rabbitmq, dead-letter, reject, nack, ack, routing, route, message, confirm, queue, message queue, message processing ]
 ---
 
 RabbitMQ로 메시지를 처리하다 문제가 발생하면, 다음 메시지를 처리하기 위해 이 메시지를 건너뛰어야 하는 경우가 있다. 이 메시지를 건너뛰어야 꾸준히 들어오는 다음 메시지를 처리할 수 있기 때문이다. 일시적으로 다른 API 호출이나 연결 문제가 있는 메시지는 나중에 재시도 하면 정상처리 될 수 있기 때문에 문제가 되는 메시지는 잠시 다른 곳에 보관한다.
