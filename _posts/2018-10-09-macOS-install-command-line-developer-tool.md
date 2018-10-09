@@ -11,7 +11,8 @@ macOS는 버전업 할 때 마다, 잘 쓰던 커맨드라인 개발자 툴이 �
 
 ```bash
 $ git
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools),
+missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
 ```
 
 다음 명령으로 커맨드라인 개발자 툴을 설치해 준다. 혹은 xcode를 설치해도 된다.
