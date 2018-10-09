@@ -12,7 +12,7 @@ tags: [ clumsylation, translation, translate, kafka, consumer, retry, architectu
 > 원글: Retrying consumer architecture in the Apache Kafka by Łukasz Kyć
 > <https://blog.pragmatists.com/retrying-consumer-architecture-in-the-apache-kafka-939ac4cb851a>
 
-{% include image.html file='/assets/img/2018-09-10-translation-retrying-consumer-architecture-in-the-apache-kafka1.jpg' alt='mailbox' %}
+{% include image.html file='/assets/img/2018-10-10-translation-retrying-consumer-architecture-in-the-apache-kafka1.jpg' alt='mailbox' %}
 
 이 글에서 Kafka 메시지를 처리할 때 만날 수 있는 문제의 종류를 설명하고 어떻게 해결할 수 있을지 설명하려 한다. 진행하기 앞서 Kafka 기본을 먼저 살펴볼 것을 추천한다.
 
@@ -23,7 +23,7 @@ Apache Kafka는 유명한 분산 스트리밍 플랫폼 중 하나이다. 실시
 
 아래 그림은 한 토픽 파티션의 순차적인 구조를 보여준다:
 
-{% include image.html file='/assets/img/2018-09-10-translation-retrying-consumer-architecture-in-the-apache-kafka2.png' alt='mailbox' %}
+{% include image.html file='/assets/img/2018-10-10-translation-retrying-consumer-architecture-in-the-apache-kafka2.png' alt='mailbox' %}
 
 
 # 메시지 처리 문제
@@ -124,7 +124,7 @@ void consumeRetryTopic() {
 
 아래 그림이 메시지 흐름을 이해하는데 도움이 될 것이다:
 
-{% include image.html file='/assets/img/2018-09-10-translation-retrying-consumer-architecture-in-the-apache-kafka3.png' alt='mailbox' %}
+{% include image.html file='/assets/img/2018-10-10-translation-retrying-consumer-architecture-in-the-apache-kafka3.png' alt='mailbox' %}
 
 
 # 결론
