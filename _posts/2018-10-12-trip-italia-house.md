@@ -5,6 +5,7 @@ date:   2018-10-12 22:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, house, stay, bnb, hotel, home, slippers, toilet, exterior, structure, architecture ]
+toc: true
 ---
 
 # 슬리퍼
