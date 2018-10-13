@@ -4,7 +4,7 @@ title:  "[Shell] 디렉토리/파일 개수 세기"
 date:   2017-07-27 22:18:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, count, file, folder, directory ]
+tags: [ shell, bash, script, count, file, folder, directory ]
 ---
 
 > 이전 블로그에서 옮겨온 포스트 (일부 동작 안 하는 샘플 수정)

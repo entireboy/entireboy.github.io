@@ -4,7 +4,7 @@ title:  "[Shell] Echo without trailing newline - 줄바꿈 없는 echo"
 date:   2017-03-17 22:53:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, echo, new line, newline ]
+tags: [ shell, bash, script, echo, new line, newline ]
 ---
 
 `echo`명령을 쓰면 우리 눈에는 보이지 않는 줄바꿈 문자(new line)가 마지막에 포함되어 있다. 간혹 줄바꿈 때문에 다른 문자열인 것처럼 취급될 수 있으니, 줄바꿈 문자가 없어서 하는 경우는 `-n` 옵션을 주자.

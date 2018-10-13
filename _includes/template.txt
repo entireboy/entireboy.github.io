@@ -1,11 +1,51 @@
 {% include google-ad-content %}
 
 
-
+image
 {% include image.html file='/assets/img/trip/italia/train-emergency-exit-guide.jpg' alt='Trenitalia emergency exit guide' %}
-
-[다른 포스트]({{ site.baseurl }}{% post_url 2017-05-03-trip-italia-pass %})
-
 ![Spain Barcelona T10 Ticket]({{ site.baseurl }}/assets/img/trip/italia/barcelona-t10.jpg)
 
+
+link
+[다른 포스트]({{ site.baseurl }}{% post_url 2017-05-03-trip-italia-pass %})
+[A Shot A Day](http://asad.leocat.kr/){:target="_blank"}
+
+
+iframe
 <iframe width="500" height="282" src="https://www.youtube.com/embed/scsotLdqfRs" frameborder="0" allowfullscreen></iframe>
+
+
+escape
+{% raw %}{{{% endraw %}
+
+
+link - [id]
+[이런 이름][rng-tools]
+[저런 이름][rng-tools]
+[rng-tools]: https://aaa.bb "link alt"
+
+
+footnote - [^id]
+I get 10 times more traffic from [Google][1][^Google] than from
+[Yahoo][2] or [MSN][3].
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
+[^Google]: Google, [google.com](https://google.com).
+
+
+licenses (text만 필수)
+{% include license.html url='http://creativecommons.org/licenses/by-nc-sa/4.0/' img='https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png' text='Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License' %}
+{% include license.html url='http://creativecommons.org/licenses/by-nc-sa/4.0/' text='Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License' %}
+{% include license.html text='My License' %}
+
+
+translation 발번역
+> 본 글은 아래 글을 **발번역** 한 내용입니다. 누락되거나 잘못 옮겨진 내용이 있을(~~아니 많을;;~~) 수 있습니다.
+>
+> 원글: What Is Immutable Infrastructure? by Hazel Virdó
+> <https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure>
+>
+> 본 글은 다음 라이선스에 따라 사용할 수 있습니다: ![license](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png) [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+# 옮긴이 각주
+[^snowflake-server]: 스노우플레이크 서버(눈송이 서버): 옮긴이. 결정모양이 모두 다른 눈송이처럼

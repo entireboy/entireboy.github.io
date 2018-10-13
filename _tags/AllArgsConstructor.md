@@ -1,0 +1,4 @@
+---
+name: AllArgsConstructor
+title: AllArgsConstructor
+---

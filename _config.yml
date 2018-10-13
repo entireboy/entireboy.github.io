@@ -1,17 +1,18 @@
 # Site Info
-title:              "Storehouse"
+title:              "까먹지 말고 적어두기"
 description:        "까먹지 말고 적어두기"
 google_verify:      # Put your Google Verification here
 google_analytics:   UA-57355916-3 # Put your Google Analytics code
 
 # Author Info
-author_name:        "LeoCat"
+author_name:        "스뎅(thDeng)"
 author_email:
 author_gravatar:    33308f0fcdf80e9ec4e745b6e0625c5a # Gravatar md5 hash
 twitter_username:
 github_username:    # GitHub username
 
 # Site Settings
+domain:             "blog.leocat.kr"
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:year/:month/:day/:title # Post permalink
 timezone:           Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -31,7 +32,7 @@ sass:
 # Other Params
 include:            [ "robots.txt" ]
 exclude:            [ "generateTag.groovy", "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
-gems:
+plugins:
   - jekyll-sitemap
 
 

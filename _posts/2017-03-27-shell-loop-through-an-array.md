@@ -4,7 +4,7 @@ title:  "[Shell] Loop though an array - for 루프에 배열 전달하기"
 date:   2017-03-27 22:53:00 +0900
 published: true
 categories: [ shell ]
-tags: [ shell, bash, loop, for, array ]
+tags: [ shell, bash, script, loop, for, array ]
 ---
 
 shell script로 for loop을 돌리는 방법은 많다. 그 중 배열로 된 변수를 간단히 돌리는 방법..

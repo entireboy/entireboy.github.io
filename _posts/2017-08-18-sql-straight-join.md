@@ -7,7 +7,7 @@ categories: [ sql ]
 tags: [ sql, db, database, query, optimizer, join, optimize ]
 ---
 
-MySQL에 `STRAIGHT_JOIN`이라는 희안한 [join](https://dev.mysql.com/doc/refman/5.7/en/join.html)이 있다.
+MySQL에 `STRAIGHT_JOIN`이라는 희한한 [join](https://dev.mysql.com/doc/refman/5.7/en/join.html)이 있다.
 
 > `STRAIGHT_JOIN` is similar to `JOIN`, except that the left table is always read before the right table. This can be used for those (few) cases for which the join optimizer processes the tables in a suboptimal order.
 

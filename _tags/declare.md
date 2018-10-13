@@ -1,0 +1,4 @@
+---
+name: declare
+title: declare
+---

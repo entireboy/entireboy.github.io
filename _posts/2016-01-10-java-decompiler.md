@@ -4,7 +4,7 @@ title:  "[Java] Java Decompiler"
 date:   2016-01-10 02:08:36 +0900
 published: true
 categories: [ java, decompile ]
-tags: [ java, decompiler, decompile, jd-gui, JD, JD-IntelliJ, JD-Eclipse ]
+tags: [ java, decompiler, decompile, jd-gui, JD, jd-intellij, jd-eclipse, intelilj, eclipse ]
 ---
 
 컴파일된 class 파일을 디컴파일할 때 JD-GUI([http://jd.benow.ca/](http://jd.benow.ca/))를 쓰면 편하다. class 파일이나 jar 파일을 프로그램에 드래그하거나 메뉴에서 열면 된다.

@@ -1,0 +1,4 @@
+---
+name: mode
+title: mode
+---

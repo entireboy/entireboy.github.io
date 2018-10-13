@@ -1,0 +1,4 @@
+---
+name: trim
+title: trim
+---
