@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Trip] 이탈리아 집/숙소"
-date:   2017-09-11 22:18:00 +0900
+date:   2018-10-12 22:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, house, stay, bnb, hotel, home, slippers, toilet, exterior, structure, architecture ]
@@ -15,7 +15,7 @@ tags: [ trip, travel, italia, italy, house, stay, bnb, hotel, home, slippers, to
 
 ![Block floor in Siena]({{ site.baseurl }}/assets/img/trip/italia/house-floor-1.jpg)
 
-아래 사진은 볼로냐에서 묵었던 bnb 가정집인데, 학교 바닥 같은 느낌이다. 저 덩치 큰 멍멍이는 밥 먹을 때면 항상 내 발을 깔고 눕는데 참 정이 많다.
+아래 사진은 볼로냐에서 묵었던 bnb 가정집인데, 학교 바닥 같은 느낌이다. 저 덩치 큰 멍멍이는 밥 먹을 때면 항상 내 발을 깔고 눕는데.. 돌바닥이 차가웠는데, 저 따뜻함이 어찌나 좋던지 ㅋㅋ
 
 ![Floor in Bologna]({{ site.baseurl }}/assets/img/trip/italia/house-floor-2.jpg)
 
@@ -52,14 +52,14 @@ tags: [ trip, travel, italia, italy, house, stay, bnb, hotel, home, slippers, to
 
 # 방음
 
-호텔이 아닌 B&B 같은 이탈리아 일반 가정집은 방음이 잘 안 된다. 문이나 창문이 은근히 옛날식 그대로라 꽤 많은 소리들이 들어온다. 유네스코로 지정된 곳이 많아서 창문 하나 마음대로 바꿀 수 없다고 하니 어쩌겠는가??
+호텔이 아닌 B&B 같은 이탈리아 일반 가정집은 방음이 잘 안 된다. 문이나 창문이 은근히 옛날식 그대로라 꽤 많은 소리들이 들어온다. 미술관 가이드님의 얘기로는 유네스코로 지정된 곳이 많아서 창문 하나 마음대로 바꿀 수 없다고 하니.. 슬프다. (세상에서 가장 쓸데 없는 건물주 걱정;;)
 
-그래서 하고 싶은 얘기는.. 이웃에서 축구라도 보는 날이면 엄청 시끄럽다. 위에서도 설명했듯이 이탈리아 집 구조 특성상 뒷마당을 서로 맛대고 있는 형태가 많기 때문에 반대편 아파트에서 소리지르면 네모난 건물 전체가 울린다고 봐도 된다. (내가 묵었던 하루는 축구 경기 때문에 정말 대박이었어 T_T)
+그래서 하고 싶은 얘기는.. 이웃에서 축구라도 보는 날이면 엄청 시끄럽다. 위에서도 설명했듯이 이탈리아 집 구조 특성상 뒷마당을 서로 맛대고 있는 형태가 많기 때문에 반대편 아파트에서 소리지르면 네모난 건물 전체가 울린다고 봐도 된다. 내가 피렌체에 묵던 날 중 하루는 축구 경기 때문에 정말 대박이었어 T_T 머리만 대면 자는 나인데, 어찌나 시끄럽던지..
 
 
 # 보일러
 
-왜 인지는 모르겠지만, 대부분의 가정집 보일러는 주방 찬장에 들어 있다. 그래서 주방에서 따신 물을 쓰면 시끄럽다. :D
+왜 인지는 모르겠지만, 대부분의 가정집 보일러는 주방 찬장에 들어 있다. 그래서 주방에서 따신 물을 쓰면 시끄럽다. :D 아래 사진 오른쪽 찬장에 있는게 보일러
 ![Italia boiler in house]({{ site.baseurl }}/assets/img/trip/italia/house-boiler.jpg)
 
 
