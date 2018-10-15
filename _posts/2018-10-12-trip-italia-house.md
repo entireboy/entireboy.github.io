@@ -7,8 +7,6 @@ categories: [ trip, travel, italia, italy ]
 tags: [ trip, travel, italia, italy, house, stay, bnb, hotel, home, slippers, toilet, exterior, structure, architecture ]
 ---
 
-{:toc}
-
 # 슬리퍼
 
 이탈리아 집의 바닥은 대부분 타일로 되어 있거나 벽돌로 되어 있다. 타일 위를 걷고 있으면 마치 우리나라 화장실을 돌아다니는 기분이다. 대부분의 서양집이 그렇듯이 이탈리아 역시 신발을 신고 돌아다니니, 이탈리아를 여행갈 때는 여행용 슬리퍼를 하나 사서 가는 것도 좋다.
