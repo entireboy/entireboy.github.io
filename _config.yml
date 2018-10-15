@@ -34,7 +34,7 @@ include:            [ "robots.txt" ]
 exclude:            [ "generateTag.groovy", "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 plugins:
   - jekyll-sitemap
-  - jekyll-toc
+
 
 collections:
   tags:
