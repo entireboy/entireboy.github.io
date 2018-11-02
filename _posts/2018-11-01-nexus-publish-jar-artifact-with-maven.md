@@ -11,7 +11,7 @@ tags: [ nexus, repository, artifact , maven, upload, jar, publish ]
 
 외부에서 제공하는 jar 파일을 nexus나 JFrog 같은 repository에 업로드 해야 하는 경우가 있다.
 
-nexus UI 등을 통해서 업로드하면 진짜 편하지만, 회사에서 공용으로 운영하는 nexus 같은 경우는 관리상의 이유로 (지금 나처럼..) UI 권한이 없을 수도 있다. REST API를 curl 등으로 호출하는 방법도 있지만, 역시나 뒤죽박죽 될 수 있기 때문에 열어두지 않는 경우도 있다.
+nexus UI 등을 통해서 업로드하면 진짜 편하지만, 회사에서 공용으로 운영하는 nexus 같은 경우는 관리상의 이유로 (지금 나처럼..) UI 권한이 없을 수도 있다. nexus REST API를 curl 등으로 호출하는 방법도 있지만, 역시나 뒤죽박죽 될 수 있기 때문에 열어두지 않는 경우도 있다.
 
 이럴 때 maven을 사용하면, 간단히 업로드가 가능하다. 보통 라이브러리 형태의 프로젝트들은 배포하면서 release 버전을 찍어 업로드하기 때문에 gradle이나 maven 등으로 배포를 할테니 이걸 막아두지는 않을 것이다.
 
@@ -29,8 +29,9 @@ $ mvn \
 
 `-DgeneratePom=true` 옵션은 pom 파일을 자동으로 생성해 준다.
 
-Authentication
-인증이 필요한 경우 아래 설정을 넣어 주고 `repositoryId` 옵션도 함께 주면 된다. (e.g. `-DrepositoryId=mynexus`)
+# Authentication
+
+인증이 필요한 경우 아래 설정을 넣어 주고 `-DrepositoryId=mynexus` 옵션도 함께 주면 된다.
 
 ```xml
 <servers>
