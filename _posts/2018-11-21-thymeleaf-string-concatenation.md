@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Thymeleaf] 문자열 합치기"
+title:  "[Thymeleaf] 문자열 조합(합치기)"
 date:   2018-11-21 22:18:00 +0900
 published: true
 categories: [ thymeleaf ]
