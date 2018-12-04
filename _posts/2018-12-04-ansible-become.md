@@ -44,7 +44,7 @@ Deprecation warnings can be disabled by setting deprecation_warnings=False in an
   become: yes
 ```
 
-특정 사용자가 되는 명령은 몇 가지가 있기 때문에, `become_method`로 그 방법을 선택할 수 있다. `become_method`는 `sudo | su | pbrun | pfexec | doas | dzdo | ksu` 중 하나로 선택할 수 있다. 그 명령을 실행할 때 함께 줄 옵션을 `become_flags`로 설정할 수 있다.
+특정 사용자가 되는 명령은 몇 가지가 있기 때문에, `become_method`로 그 방법을 선택할 수 있다. `become_method`는 `sudo | su | pbrun | pfexec | doas | dzdo | ksu` 중 하나로 선택할 수 있고 `sudo`가 default이다. 그 명령을 실행할 때 함께 줄 옵션을 `become_flags`로 설정할 수 있다.
 
 `su`명령으로 사용자를 변경해서 command를 실행하는 샘플이다.
 
