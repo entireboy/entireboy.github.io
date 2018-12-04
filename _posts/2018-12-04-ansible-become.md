@@ -10,8 +10,9 @@ tags: [ ansible, become, sudo, privilege, switch, user, change, su ]
 (정확한 버전이 잘 기억나지 않지만) Ansible 2.4 버전 부터인가 `sudo` 대신 `become`을 사용하라고 아래와 같은 워닝이 나온다.
 
 ```bash
-[DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and make sure become_method is 'sudo' (default). This feature will be removed in version 2.9. Deprecation warnings can be disabled by setting
-deprecation_warnings=False in ansible.cfg.
+[DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and make sure become_method is 'sudo' (default).
+This feature will be removed in version 2.9.
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
 ```
 
 `sudo`는 2.9 버전 부터 없어진다고 강력하게 나오니, 메시지에 나온 것 처럼 `become`을 사용하자.
