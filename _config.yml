@@ -10,6 +10,7 @@ author_email:
 author_gravatar:    33308f0fcdf80e9ec4e745b6e0625c5a # Gravatar md5 hash
 twitter_username:
 github_username:    # GitHub username
+facebook_app_id:    2727004560857118
 
 # Site Settings
 domain:             "blog.leocat.kr"
