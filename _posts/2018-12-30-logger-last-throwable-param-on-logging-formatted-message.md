@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Logger] 형식화된 메시지(formatted message)를 로깅할 때 마지막 throwable(exception) 파라미터에 관해"
-date:   2018-12-29 22:18:00 +0900
+date:   2018-12-30 22:18:00 +0900
 published: true
 categories: [ java ]
 tags: [ java, logging, logger, log, formatted message, message, format, parameter, param, argument, arg, throwable, exception, stacktrace ]
