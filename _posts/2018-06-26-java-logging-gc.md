@@ -4,7 +4,7 @@ title:  "[Java] GC 로그 남기기"
 date:   2018-06-26 23:18:00 +0900
 published: true
 categories: [ java ]
-tags: [ java, logging, gc, log ]
+tags: [ java, logging, gc, log, logger ]
 ---
 
 Java 프로세스에서 GC가 발생할 때 마다 로그를 남기고 싶을 때, `java` 명령에 이런 옵션을 주면 된다.
