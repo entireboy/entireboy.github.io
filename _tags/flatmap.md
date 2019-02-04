@@ -1,0 +1,4 @@
+---
+name: flatmap
+title: flatmap
+---
