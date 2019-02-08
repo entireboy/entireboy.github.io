@@ -4,12 +4,11 @@ title: About
 permalink: /about
 ---
 
-`스뎅(thDeng)` 또는 `LeoCat`.
-
+내 이름, `스뎅(thDeng)`.  
 A short-but-dreaming-high programmer who likes taking photos and brewing/enjoying coffee:
-- [까먹지 말고 적어두기](http://blog.leocat.kr/){:target="_blank"} (here)
-- [A Shot A Day](http://asad.leocat.kr/){:target="_blank"}
-- [on 500px](https://500px.com/entireboy){:target="_blank"}
+
+![Home]({{ site.baseurl }}/assets/home.png){:height="20px" width="20px"} [까먹지 말고 적어두기](http://blog.leocat.kr/){:target="_blank"} (this site)  
+![Instagram]({{ site.baseurl }}/assets/logo/instagram.png){:height="20px" width="20px"} <https://www.instagram.com/entireboy/>
 
 ![email daum]({{ site.baseurl }}/assets/email/daum.gif)
 ![email google]({{ site.baseurl }}/assets/email/gmail.gif)
