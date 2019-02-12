@@ -1,5 +1,9 @@
 {% assign url = {{ site.baseurl }} | append: include.file %}
 
 <a href="{{ url | prepend: site.baseurl }}" target="_blank" class="image">
-  <img src="{{ url | prepend: site.baseurl }}" alt="{% if include.alt %}{{ include.alt }}{% else %}Image{% endif %}">
+  <img
+    src="{{ url | prepend: site.baseurl }}"
+    alt="{% if include.alt %}{{ include.alt }}{% else %}Image{% endif %}"
+    style="{% if include.border %}border:{{ include.border }} solid black;{% endif %} {% if include.float %}float:{{ include.float }};{% endif %}"
+    {% if include.width %}width="{{ include.width }}"{% endif %} {% if include.height %}height="{{ include.height }}"{% endif %}>
 </a>
