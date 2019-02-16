@@ -4,7 +4,7 @@ title:  "[발번역] 불변 인프라란 무엇인가?? - What is immutable infr
 date:   2018-09-01 23:18:00 +0900
 published: true
 categories: [ translation ]
-tags: [ clumsylation, translation, translate, immutable infrastructure, mutable infrastructure, immutable, mutable, infrastructure, infra ]
+tags: [ clumsylation, translation, translate, immutable infrastructure, mutable infrastructure, immutable, mutable, infrastructure, infra, centralized logging, logging, log ]
 ---
 
 > 본 글은 아래 글을 **[발번역]({{ site.baseurl }}/tags/clumsylation)** 한 내용입니다. 누락되거나 잘못 옮겨진 내용이 있을(~~아니 많을;;~~) 수 있습니다.
