@@ -19,6 +19,9 @@
 {% if site.google_verify %}
   <meta name="google-site-verification" content="{{ site.google_verify }}">
 {% endif %}
+{% if site.facebook_app_id %}
+  <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
+{% endif %}
 
 <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/assets/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/assets/favicon/apple-icon-60x60.png">
