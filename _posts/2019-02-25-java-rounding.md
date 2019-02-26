@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Java] 숫자 반올림/올림/버림"
+title:  "[Java] 숫자 반올림/올림/내림"
 date:   2019-02-25 22:18:00 +0900
 published: true
 categories: [ java ]
 tags: [ java, jdk, jdk9, number, numeric, rounding, round, RoundingMode, BigDecimal, scale, precision, deprecated ]
 ---
 
-항상 헷갈리는 반올림, 올림, 버림 `RoundingMode`를 정리해 보자.
+항상 헷갈리는 반올림, 올림, 내림 `RoundingMode`를 정리해 보자.
 
 ```java
 // 단순하게 소수점 제거하고 프린트 하는 함수 - 화면 사이즈상 줄바꿈이나 띄워쓰기 제거
@@ -39,7 +39,7 @@ print(BigDecimal.valueOf(-5.5D));
 |-1.6|-2|-1|-1|-2|-2|-2|
 |-5.5|-6|-5|-5|-6|-6|-5|
 
-반올림은 단어 그대로 `HALF_UP`이니 알기 쉽다. 그런데, `FLOOR`와 `DOWN`은 무슨 차이지?? `CEILING`과 `UP`은?? 자세히 보면 음수에서 차이가 난다. `5.5`의 `FLOOR`와 `DOWN`은 모두 `5`로 같지만, `-5.5`는 `FLOOR`는 `-6`이고 `DOWN`은 `-5`이다. `CEILING`과 `UP`도 마찬가지이다.
+학교에서 배우는 일반적인 반올림은 단어 그대로 `HALF_UP`이니 알기 쉽다. 그런데, 올림과 내림은?? `FLOOR`와 `DOWN`은 무슨 차이지?? `CEILING`과 `UP`은?? 자세히 보면 음수에서 차이가 난다. `5.5`의 `FLOOR`와 `DOWN`은 모두 `5`로 같지만, `-5.5`는 `FLOOR`는 `-6`이고 `DOWN`은 `-5`이다. `CEILING`과 `UP`도 마찬가지이다.
 
 간단히 그림으로 그려보면, 알기 쉽다. 가운데 `빨간줄`이 숫자 `0`이고, 오른쪽이 양수, 외쪽이 음수이다.
 
