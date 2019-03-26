@@ -4,7 +4,7 @@ title:  "[MySQL,MyBatis] LAST_INSERT_ID() - insert 후 PK값 얻어오기"
 date:   2017-07-22 21:18:00 +0900
 published: true
 categories: [ mysql, Mybatis ]
-tags: [ mysql, mybatis, LAST_INSERT_ID, insert, pk ]
+tags: [ mysql, mybatis, LAST_INSERT_ID, insert, PK ]
 ---
 
 > 이전 블로그에서 옮겨온 포스트
