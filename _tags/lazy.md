@@ -1,0 +1,4 @@
+---
+name: lazy
+title: lazy
+---
