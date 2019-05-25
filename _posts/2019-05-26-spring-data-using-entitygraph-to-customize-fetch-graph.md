@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[spring-data] @EntityGraph로 lazy 패치 같이 불러오기 (fetch-graph 커스터마이징)"
-date:   2019-05-25 22:18:00 +0900
+date:   2019-05-26 22:18:00 +0900
 published: true
 categories: [ spring-data ]
 tags: [ spring-data, spring, repository, entity, fetch, fetch graph, EntityGraph, EntityGraphType, annotation, lazy ]
