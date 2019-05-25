@@ -4,7 +4,7 @@ title:  "[spring-data] @EntityGraph로 lazy 패치 같이 불러오기 (fetch-gr
 date:   2019-05-26 22:18:00 +0900
 published: true
 categories: [ spring-data ]
-tags: [ spring-data, spring, repository, entity, fetch, fetch graph, EntityGraph, EntityGraphType, annotation, lazy ]
+tags: [ spring-data, spring, repository, entity, fetch, fetch graph, EntityGraph, EntityGraphType, annotation, lazy, eager ]
 ---
 
 [spring-data-jpa](https://spring.io/projects/spring-data-jpa)로 JPA를 쓰다가 보면 `LAZY` 패치타입으로 relation이 달려 있는 entity를 `n+1` 문제 없이 한번에 가져오고 싶을 때가 있다. 평소에는 `LAZY`로 쓰지만, 특정 시나리오에서는 한번에 패치하는게 필요하기도 하다.
@@ -42,7 +42,7 @@ dalkjflakjfdslkjfldkasjfldksaj
 
 ```
 
-가끔 필요한 경우를 위해 fetch type을 바꿀 필요도 없고, `QueryDSL`이나 `JPQL` 같이 쿼리를 별도로 만들지 않아도 되기 때문에 편하다.
+가끔 필요한 경우를 위해 fetch type을 바꿀 필요도 없고, `Querydsl`이나 `JPQL` 같이 쿼리를 별도로 만들지 않아도 되기 때문에 편하다.
 
 `@EntityGraph`의 `type`은 `EntityGraph.EntityGraphType.FETCH`와 `EntityGraph.EntityGraphType.LOAD` 2가지가 있다.
 
