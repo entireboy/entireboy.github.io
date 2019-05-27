@@ -15,22 +15,57 @@ Querydsl로 select를 할 때 `innerJoin()`이나 `leftJoin()`, `rightJoin()` �
 # innerJoin
 
 ```java
-QUser ..
-
+  public List<User> findMe(String street) {
+      return from(QUser.user)
+          .leftJoin(QUser.user.addresses, QAddress.address)
+          .where(QAddress.address.street.eq(street))
+          .fetch();
+  }
 ```
 
 아래처럼 where절에 조건이 들어가지만 select 대상에는 없는 것을 볼 수 있다.
 
 ```java
+select
+    user0_.id as id1_10_,
+    user0_.username as username2_10_
+from
+    user user0_
+left outer join
+    address addresses1_
+        on user0_.id=addresses1_.user_id
+where
+    addresses1_.street=?
 ```
 
 
 # fetchJoin
 
 ```java
+  public List<User> findMe(String street) {
+      return from(QUser.user)
+          .leftJoin(QUser.user.addresses, QAddress.address)
+          .fetchJoin()
+          .where(QAddress.address.street.eq(street))
+          .fetch();
+  }
 ```
 
 `fetchJoin`을 사용하면 select 대상에도 포함된다.
 
 ```java
+select
+    user0_.id as id1_10_0_,
+    addresses1_.id as id1_5_1_,
+    user0_.username as username2_10_0_,
+    addresses1_.street as street2_5_1_,
+    addresses1_.user_id as user_id3_5_0__,
+    addresses1_.id as id1_5_0__
+from
+    user user0_
+left outer join
+    address addresses1_
+        on user0_.id=addresses1_.user_id
+where
+    addresses1_.street=?
 ```

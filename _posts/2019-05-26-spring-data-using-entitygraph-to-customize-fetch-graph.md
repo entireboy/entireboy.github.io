@@ -21,6 +21,7 @@ public class User {
 
     @ToString.Exclude
     @OneToMany(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
     private List<Address> addresses = new ArrayList<>();
 }
 
@@ -37,7 +38,29 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 ```java
 
-dalkjflakjfdslkjfldkasjfldksaj
+select
+    user0_.id as id1_10_0_,
+    user0_.username as username2_10_0_
+from
+    user user0_
+where
+    user0_.id=?
+
+
+select
+    user0_.id as id1_10_0_,
+    addresses1_.id as id1_5_1_,
+    user0_.username as username2_10_0_,
+    addresses1_.street as street2_5_1_,
+    addresses1_.user_id as user_id3_5_0__,
+    addresses1_.id as id1_5_0__
+from
+    user user0_
+left outer join
+    address addresses1_
+        on user0_.id=addresses1_.user_id
+where
+    user0_.id=?
 
 
 ```
