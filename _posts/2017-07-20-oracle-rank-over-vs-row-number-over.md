@@ -4,7 +4,7 @@ title:  "[Oracle] RANK() OVER vs ROW_NUMBER() OVER"
 date:   2017-07-20 22:18:00 +0900
 published: true
 categories: [ oracle ]
-tags: [ oracle, rank, query, row number, db ]
+tags: [ oracle, rank, query, row number, db, database ]
 ---
 
 > 이전 블로그에서 옮겨온 포스트

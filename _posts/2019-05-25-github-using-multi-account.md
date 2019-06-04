@@ -4,7 +4,7 @@ title:  "[GitHub] 여러 GitHub 계정 사용하기"
 date:   2019-05-25 22:18:00 +0900
 published: true
 categories: [ github ]
-tags: [ github, multi, account ]
+tags: [ github, multi, account, rsa, ssh, key ]
 ---
 
 # 여러개의 GitHub 계정
@@ -25,7 +25,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-아래에 나오는 단계를 계정 마다 반복해 주면 된다.
+여러 계정을 사용하려면 아래에 나오는 단계를 계정 마다 반복해 주면 된다.
 
 
 # SSH key 생성
@@ -36,20 +36,20 @@ and the repository exists.
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
-`your_email@example.com`는 계정 마다의 메일 주소를 적고, 다음 프롬프트가 나오면 각 계정 마다 알아볼 수 있는 위치로 설정한다.
+`your_email@example.com`는 계정 마다의 메일 주소를 적고, 아래 프롬프트가 나오면 각 계정 마다 알아볼 수 있는 위치로 설정한다. 계정 마다 다른 위치를 지정해 주면 된다.
 
 ```bash
 Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 ```
 
-여기서는 샘플로 `/Users/you/.ssh/github_me`로 설정하면, 다음과 같이 `github_me`와 `github_me.pub` 파일이 생성된다. `github_me`는 외부에 공개되면 안 되는 private key 이고, `github_me.pub`는 public key로 공개돼도 된다.
+샘플로 `/Users/you/.ssh/github_me`로 설정하면, 다음과 같이 `github_me`와 `github_me.pub` 파일이 생성된다. `github_me`는 외부에 공개되면 안 되는 private key 이고, `github_me.pub`는 public key로 공개돼도 된다.
 
 ```bash
 $ ls /Users/you/.ssh/
 github_me    github_me.pub    id_rsa    id_rsa.pub
 ```
 
-SSH key를 등록해 준다.
+`ssh-add` 명령으로 SSH key를 등록해 준다.
 
 ```bash
 $ ssh-add /Users/you/.ssh/github_me
