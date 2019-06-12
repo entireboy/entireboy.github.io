@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[AdSense] 외국환 수표의 매입 기한이 지난 경우 재발행하기"
-date:   2019-05-27 22:18:00 +0900
+date:   2019-06-12 22:18:00 +0900
 published: true
 categories: [ adsense ]
 tags: [ google, adsense, reissue, payment, check, issue, payment ]
@@ -18,11 +18,11 @@ tags: [ google, adsense, reissue, payment, check, issue, payment ]
 - 수표 발급 후 60일이 지나도 현금으로 바뀌지 않은 수표는 아래처럼 `Reissue payment` 또는 `지급금 재발급` 버튼이 표시된다.
 - 아래 스냅샷의 빨간 네모를 클릭하면 된다.
 
-{% include image.html file='/assets/img/2019-05-27-adsense-reissue-payment1.png' alt='Reissue payment' %}
+{% include image.html file='/assets/img/2019-06-12-adsense-reissue-payment1.png' alt='Reissue payment' %}
 
 수표가 정말 현금으로 돌려받지 않았는지 발행 은행에 체크하고 며칠 뒤에 내 광고비 잔고로 다시 그 돈이 들어온다. 약 2-3주 정도 지나면 아래처럼 다시 refund 된다. 지급 기준을 넘게 되면 바로 수표나 은행 이체로 지급 된다.
 
-{% include image.html file='/assets/img/2019-05-27-adsense-reissue-payment2.png' alt='Reissue payment' %}
+{% include image.html file='/assets/img/2019-06-12-adsense-reissue-payment2.png' alt='Reissue payment' %}
 
 
 # 참고
