@@ -7,7 +7,7 @@ categories: [ spring ]
 tags: [ spring, spring-boot, tomcat, http, header, x-forwarded, x-forwarded-for, xff, proxy ]
 ---
 
-> **NOTE** Tomcat을 사용하는 경우, 내부 proxy(nginx, L4, ELB 등)의 IP 대역이 `10/8`, `192.168/16`, `169.254/16`, `127/8`, `172.16/12`, `::1`가 아닌 경우 `internalProxies`를 설정해 줘야 한다. (아래 내용 참조)
+> **TL;DR**: Tomcat을 사용하는 경우, 내부 proxy(nginx, L4, ELB 등)의 IP 대역이 `10/8`, `192.168/16`, `169.254/16`, `127/8`, `172.16/12`, `::1`가 아닌 경우 `internalProxies`를 설정해 줘야 한다. (아래 내용 참조)
 
 
 # x-forwarded 헤더

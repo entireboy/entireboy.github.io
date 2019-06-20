@@ -7,7 +7,7 @@ categories: [ java ]
 tags: [ java, spring, feign, open feign, rest client, http client, http, rest, client, configuration, netflix ]
 ---
 
-> TL;DR `open feign`의 configuration은 `@Configuration` 을 달아주면 **안 된다**.
+> **TL;DR**: `open feign`의 configuration은 `@Configuration` 을 달아주면 **안 된다**.
 
 `spring-cloud`에 REST client [open feign client](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html)가 있다. API endpoint 마다 사용하기 위해 여러 feign client를 만드는 경우 서로 다른 설정을 해줘야 해서 `configuration`을 만드는데, 이 때 `configuration`에 `@Configuration`을 달아주면 **안 된다**.
 

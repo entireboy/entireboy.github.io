@@ -7,8 +7,7 @@ categories: [ java ]
 tags: [ java, jdk, 11, string, strip, trim, whitespace, unicode ]
 ---
 
-> **TL;DR**
-> 유니코드의 whitespace에는 `tab 문자`, `공백`, `CR`, `LF` 이외에도 훨씬 많은 것들이 있다.
+> **TL;DR**: 유니코드의 whitespace에는 `tab 문자`, `공백`, `CR`, `LF` 이외에도 훨씬 많은 것들이 있다.
 > 이 모든 whitespace를 제거하려면, `trim()` 대신 JDK 11에 추가된 `strip()`을 사용해야 한다.
 
 

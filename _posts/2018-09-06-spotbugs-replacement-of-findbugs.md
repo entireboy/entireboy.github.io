@@ -13,7 +13,7 @@ tags: [ findbugs, spotbugs, tool, static analysis, bug, java ]
 
 몇 년간 release가 없긴 했지만, 문 닫은 이유가 더 슬프다. T_T
 
-> TL;DR: FindBugs was dead because the project lead left us without admin rights and any response for more then a year now.
+> **TL;DR**: FindBugs was dead because the project lead left us without admin rights and any response for more then a year now.
 >
 > \- from [[FB-Discuss] Announcing SpotBugs as FindBugs successor](https://mailman.cs.umd.edu/pipermail/findbugs-discuss/2017-September/004383.html)
 > and <https://github.com/findbugsproject/findbugs>
