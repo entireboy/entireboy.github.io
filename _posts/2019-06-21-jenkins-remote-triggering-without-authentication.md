@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Jenkins] 인증 없이 remote trigger(원격 빌드 유발) 사용하기"
+title:  "[Jenkins] 인증 없이 Trigger builds remotely(원격 빌드 유발) 사용하기"
 date:   2019-06-21 23:18:00 +0900
 published: true
 categories: [ jenkins ]
