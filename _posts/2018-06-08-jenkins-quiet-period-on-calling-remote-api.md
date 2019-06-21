@@ -4,7 +4,7 @@ title:  "[Jenkins] Remote API로 빌드 시 바로 실행되지 않고 pending�
 date:   2018-06-08 23:18:00 +0900
 published: true
 categories: [ jenkins ]
-tags: [ jenkins, remote, api, remote api, rest, job, build, pending, quiet period ]
+tags: [ jenkins, remote, api, remote api, remote trigger, trigger, rest, job, build, pending, quiet period, token, plugin ]
 ---
 
 [Jenkins](https://jenkins.io/) 빌드를 REST API 등으로 시작할 수 있다. Jenkins 매뉴얼(?) [Remote access API](https://wiki.jenkins.io/display/JENKINS/Remote+access+API)을 보면 자세히 설명이 되어 있다. 간단히 아래처럼 job의 `/build` API를 호출하면 된다.
