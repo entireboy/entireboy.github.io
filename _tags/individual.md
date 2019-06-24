@@ -1,0 +1,4 @@
+---
+name: individual
+title: individual
+---
