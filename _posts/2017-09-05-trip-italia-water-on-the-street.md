@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Trip] 이탈리아 길거리에서 물구하기"
+title:  "[Trip] 이탈리아 길거리에서 물 구하기"
 date:   2017-09-05 22:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]

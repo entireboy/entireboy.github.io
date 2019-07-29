@@ -4,7 +4,7 @@ title:  "[Trip] Bus in Italia - 이탈리아 대중교통(시내버스/지하철
 date:   2017-05-02 21:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
-tags: [ trip, travel, italia, italy, bus, roma pass, campania arte card, firenze card, venezia unica, venezia, venice, firenze, florence, napoli, roma, rome, circumvesuviana, pompeii ]
+tags: [ trip, travel, italia, italy, bus, roma pass, campania arte card, firenze card, venezia unica, venezia, venice, firenze, florence, napoli, roma, rome, circumvesuviana, pompeii, public transportation ]
 ---
 
 # 이탈리아 길거리 시리즈
@@ -32,7 +32,7 @@ tags: [ trip, travel, italia, italy, bus, roma pass, campania arte card, firenze
 티켓이 펀칭 후 일정 시간 동안 유효하기 때문에, 펀칭을 하지 않은 티켓은 검표를 할 때 아무리 보여줘도 안 된다. 누가 보던 안 보던 꼭 펀칭을 하고 다니자. 여행가서 벌금 맞으면 마음 아프다. T_T
 
 > 스페인 바르셀로나에서는 10번 탈 수 있는 T10 티켓을 판다. 75분 동안 유효하고, 환승할 때 그냥 개찰구에 넣으면 된다. 유효기간 이내라면 횟수 차감 없이 티켓이 나온다. 사용할 때 마다 티켓 뒷면에 몇 번 남았는지 횟수가 적힌다.
-> ![Spain Barcelona T10 Ticket]({{ site.baseurl }}/assets/img/trip/italia/barcelona-t10.jpg)
+> ![Spain Barcelona T10 Ticket]({{ site.baseurl }}/assets/img/trip/spain/barcelona-t10.jpg)
 
 {% include google-ad-content %}
 

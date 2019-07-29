@@ -4,7 +4,7 @@ title:  "[Trip] Train in Italia - 이탈리아 기차 예약하기/타기"
 date:   2017-04-28 23:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
-tags: [ trip, travel, italia, italy, train, express, rapid train, railway, book, eurail, eurail pass, sncf, circumvesuviana, coach, pompeii ]
+tags: [ trip, travel, italia, italy, train, express, rapid train, railway, book, eurail, eurail pass, sncf, circumvesuviana, coach, pompeii, public transportation ]
 ---
 
 # 이탈리아 길거리 시리즈

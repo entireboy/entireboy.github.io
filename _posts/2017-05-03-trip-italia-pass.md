@@ -4,7 +4,7 @@ title:  "[Trip] Pass in Italia - 이탈리아 패스 및 정기권"
 date:   2017-05-03 21:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
-tags: [ trip, travel, italia, italy, pass, roma pass, campania arte card, firenze card, venezia unica, venezia, venice, firenze, florence, siena, napoli, roma, rome, circumvesuviana, pompeii ]
+tags: [ trip, travel, italia, italy, pass, roma pass, campania arte card, firenze card, venezia unica, venezia, venice, firenze, florence, siena, napoli, roma, rome, circumvesuviana, pompeii, public transportation ]
 ---
 
 내가 사용했던 이탈리아 패스 위주로 정리. 이탈리아에서 [버스/지하철/트램 타는 방법]({{ site.baseurl }}{% post_url 2017-05-02-trip-italia-bus %})이나 [기차 타는 방법]({{ site.baseurl }}{% post_url 2017-04-28-trip-italia-train %})은 별도로 정리.

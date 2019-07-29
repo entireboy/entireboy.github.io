@@ -4,7 +4,7 @@ title:  "[Trip] 버스 타고 말레이시아-싱가폴 국경 넘기"
 date:   2019-07-12 22:18:00 +0900
 published: true
 categories: [ trip, travel ]
-tags: [ trip, travel, malaysia, singapore, cross the border, cross, border, bus ]
+tags: [ trip, travel, malaysia, singapore, cross the border, cross, border, bus, public transportation ]
 ---
 
 # 버스로 국경 넘기

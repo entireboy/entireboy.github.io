@@ -4,7 +4,7 @@ title:  "[Trip] ZTL in Italia(Italy) - 이탈리아 ZTL (Zona Traffico Limitato)
 date:   2017-08-27 21:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
-tags: [ trip, travel, italia, italy, ztl, zona a traffico limitato, assisi, perugia, park, parking ]
+tags: [ trip, travel, italia, italy, ztl, zona a traffico limitato, assisi, perugia, park, parking, public transportation ]
 ---
 
 # 이탈리아 길거리 시리즈
