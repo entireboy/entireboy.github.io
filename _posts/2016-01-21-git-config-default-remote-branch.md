@@ -4,7 +4,7 @@ title:  "[git] default remote/branch 설정"
 date:   2016-01-21 01:31:36 +0900
 published: true
 categories: [ git, remote ]
-tags: [ git, remote, repository, branch, default ]
+tags: [ git, remote, repository, branch, default, version control ]
 ---
 
 커맨드에서 git 명령을 쓰다 보면 remote나 branch명을 쓰기가 너무 귀찮다. [zsh](http://ohmyz.sh/)이라도 쓰면 tab키로 자동완성을 사용할 수 있지만, 그마저도 귀찮을 때가 많다. =_=

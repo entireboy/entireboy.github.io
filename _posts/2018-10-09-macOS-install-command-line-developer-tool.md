@@ -4,7 +4,7 @@ title:  "[macOS] macOS 업데이트 이후 git 등 커맨드라인 툴이 동작
 date:   2018-10-09 23:18:00 +0900
 published: true
 categories: [ macOS ]
-tags: [ macOS, update, version up, upgrade, OS, command line tool, git, tool, developer tool, install ]
+tags: [ macOS, update, version up, upgrade, OS, command line tool, git, tool, developer tool, install, version control ]
 ---
 
 macOS는 버전업 할 때 마다, 잘 쓰던 커맨드라인 개발자 툴이 사라진다. 아래처럼 `git`과 같은 개발자 도구가 없어져서 에러를 뱉는다.

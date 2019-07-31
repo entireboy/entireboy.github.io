@@ -4,7 +4,7 @@ title:  "[GitHub] 여러 GitHub 계정 사용하기"
 date:   2019-05-25 22:18:00 +0900
 published: true
 categories: [ github ]
-tags: [ github, multi, account, rsa, ssh, key ]
+tags: [ github, multi, account, rsa, ssh, key, version control ]
 ---
 
 # 여러개의 GitHub 계정

@@ -4,7 +4,7 @@ title:  "[GitHub] GitHub Enterprise에서 GitHub Pages 사용"
 date:   2017-11-10 21:18:00 +0900
 published: true
 categories: [ github ]
-tags: [ github, pages, enterprise, publish, static, site, page, blog ]
+tags: [ github, pages, enterprise, publish, static, site, page, blog, version control ]
 ---
 
 # GutHub Pages

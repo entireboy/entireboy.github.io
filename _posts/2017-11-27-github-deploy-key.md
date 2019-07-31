@@ -4,7 +4,7 @@ title:  "[GitHub] (공용 서버 등에서) 로그인 없이 GitHub 사용하기
 date:   2017-11-27 23:18:00 +0900
 published: true
 categories: [ github ]
-tags: [ github, enterprise, ssh, deploy, key, gitlab ]
+tags: [ github, enterprise, ssh, deploy, key, gitlab, version control ]
 ---
 ```
 이 내용은 GitHub Enterprise 에서도 가능한 방법이다.
