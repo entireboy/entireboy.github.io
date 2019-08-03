@@ -4,7 +4,7 @@ title:  "[Trip] 스페인 마드리드 지하철과 기차(renfe 렌페)"
 date:   2019-07-25 22:18:00 +0900
 published: true
 categories: [ trip, travel ]
-tags: [ trip, travel, spain, madrid, metro, subway, renfe, train, express, rapid train, railway, bus, electric scooter, escooter, public transportation ]
+tags: [ trip, travel, spain, madrid, metro, subway, renfe, train, express, rapid train, railway, bus, electric scooter, escooter, public transportation, transit ]
 ---
 
 스페인 마드리드 다녀오며 탔던 이런저런 교통수단 정리 (까먹지 않으려고)

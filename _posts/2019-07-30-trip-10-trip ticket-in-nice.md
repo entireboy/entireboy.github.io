@@ -4,7 +4,7 @@ title:  "[Trip] 여럿이 니스 갈 때 10회권 사용하기"
 date:   2019-07-30 21:18:00 +0900
 published: true
 categories: [ trip, travel ]
-tags: [ trip, travel, france, nice, ticket, public transportation, bus, tram ]
+tags: [ trip, travel, france, nice, ticket, public transportation, bus, tram, transit ]
 ---
 
 프랑스 니스는 트램과 버스의 가격이 1.5유로로 같고, 서로간 환승도 가능하다. 버스나 트램을 타고 안에 있는 펀칭 기계에 표를 넣으면 된다. 펀칭하면 뒷면에 현재 시각이 적혀 나오고, 그 시간 부터 74분 동안 버스와 트램을 오가며 탈 수 있다.

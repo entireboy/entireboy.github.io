@@ -4,7 +4,7 @@ title:  "[Trip] 공유 전동스쿠터/전동킥보드 천국 마드리드"
 date:   2019-07-27 23:18:00 +0900
 published: true
 categories: [ trip, travel ]
-tags: [ trip, travel, spain, madrid, electric scooter, escooter, bike, scooter, sharing, public transportation ]
+tags: [ trip, travel, spain, madrid, electric scooter, escooter, bike, scooter, sharing, public transportation, transit ]
 ---
 
 # 공유 교통수단

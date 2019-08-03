@@ -4,7 +4,7 @@ title:  "[Trip] Bus in Italia - 이탈리아 대중교통(시내버스/지하철
 date:   2017-05-02 21:18:00 +0900
 published: true
 categories: [ trip, travel, italia, italy ]
-tags: [ trip, travel, italia, italy, bus, roma pass, campania arte card, firenze card, venezia unica, venezia, venice, firenze, florence, napoli, roma, rome, circumvesuviana, pompeii, public transportation ]
+tags: [ trip, travel, italia, italy, bus, roma pass, campania arte card, firenze card, venezia unica, venezia, venice, firenze, florence, napoli, roma, rome, circumvesuviana, pompeii, public transportation, transit ]
 ---
 
 # 이탈리아 길거리 시리즈
