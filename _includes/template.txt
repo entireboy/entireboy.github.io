@@ -3,6 +3,10 @@
 
 image
 {% include image.html file='/assets/img/trip/italia/train-emergency-exit-guide.jpg' alt='Trenitalia emergency exit guide' %}
+{% include image.html file='/assets/img/trip/italia/train-emergency-exit-guide.jpg'
+  alt='Trenitalia emergency exit guide'
+  width='400px'
+  height='500px' %}
 ![Spain Barcelona T10 Ticket]({{ site.baseurl }}/assets/img/trip/spain/barcelona-t10.jpg)
 
 
