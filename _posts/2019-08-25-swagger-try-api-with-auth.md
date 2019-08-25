@@ -35,7 +35,9 @@ swagger로 API 호출 테스트를 할 때도 이 인증 정보를 함께 보내
 이제 API를 테스트로 호출해 보면 `curl` 부분에 아래처럼 `-H`로 헤더가 설정된 것을 볼 수 있다.
 
 ```bash
-curl -X GET "http://127.0.0.1:8080/v1/my/name" -H "accept: application/json;charset=UTF-8" -H "authorization: Basic aGVsbG86d29ybGQ="
+curl -X GET "http://127.0.0.1:8080/v1/my/name"
+  -H "accept: application/json;charset=UTF-8"
+  -H "authorization: Basic aGVsbG86d29ybGQ="
 ```
 
 
