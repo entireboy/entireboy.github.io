@@ -114,6 +114,8 @@ public class PropertyTest {
 }
 ```
 
+{% include google-ad-content %}
+
 그런데 왜 안 될까?? `containsInAnyOrder`를 `hasItem(allOf())`로 바꿔서 테스트해 봐도 동일한 오류가 발생한다.
 
 결국 `containsInAnyOrder`를 제거하고 테스트하니 아래처럼 오류 메시지가 보였다. 테스트만을 위해 `Foo` 클래스님을 private inner class로 만들었더니 접근이 안 된단다. (아.. 토나와. 처음부터 쫌만 더 친절히 알려주지!! T_T)
