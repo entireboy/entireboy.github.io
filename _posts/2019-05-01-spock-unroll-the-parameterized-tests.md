@@ -3,7 +3,7 @@ layout: post
 title:  "[Spock] @Unroll - where 절에 있는 테스트 데이터 풀어서 보여주기"
 date:   2019-05-01 22:18:00 +0900
 published: true
-categories: [ spock ]
+categories: [ java ]
 tags: [ spock, test, unroll, where, parameterized test, data driven test, groovy, java ]
 ---
 

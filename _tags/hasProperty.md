@@ -1,0 +1,4 @@
+---
+name: hasProperty
+title: hasProperty
+---
