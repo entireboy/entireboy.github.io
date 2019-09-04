@@ -15,7 +15,8 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
 
 @Transactional(readOnly = true)
 public void testReadOnly() {
-    log.info("Transaction readonly flag: {}", TransactionSynchronizationManager.isCurrentTransactionReadOnly());
+    log.info("Transaction readonly flag: {}",
+        TransactionSynchronizationManager.isCurrentTransactionReadOnly());
 
     // do my task
 }
