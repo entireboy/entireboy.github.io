@@ -7,7 +7,7 @@ categories: [ translation ]
 tags: [ clumsylation, translation, translate, immutable infrastructure, mutable infrastructure, immutable, mutable, infrastructure, infra, centralized logging, logging, log ]
 ---
 
-> 본 글은 아래 글을 **[발번역]({{ site.baseurl }}/tags/clumsylation)** 한 내용입니다. 누락되거나 잘못 옮겨진 내용이 있을(~~아니 많을;;~~) 수 있습니다.
+> 본 글은 아래 글을 **[발번역]({{ site.baseurl }}/tags/clumsylation)** 한 내용입니다. 누락되거나 잘못 옮겨진 내용이 있을(~~아니 많을;;~~) 수 있습니다. 어색하거나 잘못된 표현은 <a href="{{ site.baseurl }}/about">알려주세요</a>.
 >
 > 원글: What Is Immutable Infrastructure? by Hazel Virdó
 > <https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure>

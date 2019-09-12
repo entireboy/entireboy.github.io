@@ -7,7 +7,7 @@ categories: [ translation ]
 tags: [ clumsylation, translation, translate, break, chain, rxjava, compose, Transformer, flatmap, alternative, operator ]
 ---
 
-> 본 글은 아래 글을 **[발번역]({{ site.baseurl }}/tags/clumsylation)** 한 내용입니다. 누락되거나 잘못 옮겨진 내용이 있을(~~아니 많을;;~~) 수 있습니다.
+> 본 글은 아래 글을 **[발번역]({{ site.baseurl }}/tags/clumsylation)** 한 내용입니다. 누락되거나 잘못 옮겨진 내용이 있을(~~아니 많을;;~~) 수 있습니다. 어색하거나 잘못된 표현은 <a href="{{ site.baseurl }}/about">알려주세요</a>.
 >
 > 원글: Don't break the chain: use RxJava's compose() operator by Dan Lew
 > <https://blog.danlew.net/2015/03/02/dont-break-the-chain/>
