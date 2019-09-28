@@ -49,6 +49,8 @@ job 설정에서 `빌드 후 조치`에 `Trigger parameterized build on other pr
 
 job 이름을 변경해도 자동으로 따라 바뀌니 걱정하지 않아도 된다.
 
+{% include google-ad-content %}
+
 
 ## 특정 조건으로 job 반복 멈추기
 
