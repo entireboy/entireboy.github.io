@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[slf4j] lombok @Slf4j로 추가된 logger가 호출되는지 테스트"
-date:   2019-02-25 22:18:00 +0900
+date:   2019-10-01 22:18:00 +0900
 published: false
 categories: [ java ]
 tags: [ java, test, logger, logging, lombok, slf4j, spock, groovy, mock ]
