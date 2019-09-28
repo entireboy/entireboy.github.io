@@ -32,7 +32,7 @@ $ curl -i -X POST \
 --user '{USERNAME}'
 ```
 
-이 quiet period는 `젠킨스 관리` > `시스템 설정` 화면에서, 아래와 같이 시간 조절이 가능하다.
+이 quiet period는 `젠킨스 관리` > `시스템 설정` 화면에서, 아래와 같이 시간 조절이 가능하다. ([Quiet Period 설정]({{ site.baseurl }}{% post_url 2019-09-27-jenkins-quiet-period-feature %}))
 
 {% include image.html file='/assets/img/2018-06-08-jenkins-quiet-period-on-calling-remote-api2.png' alt='quiet period config' %}
 
@@ -53,6 +53,7 @@ http://{JENKINS_SERVER}/job/{JOB_NAME}/build \
 
 # 참고
 
+- [Quiet Period 설정]({{ site.baseurl }}{% post_url 2019-09-27-jenkins-quiet-period-feature %})
 - [How can I schedule a job to run in the future, but only one time ever - stack overflow](https://stackoverflow.com/questions/35029486/how-can-i-schedule-a-job-to-run-in-the-future-but-only-one-time-ever/39858002)
 - [Remote access API](https://wiki.jenkins.io/display/JENKINS/Remote+access+API)
 - [Quiet Period Feature - Jenkins Blog](https://jenkins.io/blog/2010/08/11/quiet-period-feature/)
