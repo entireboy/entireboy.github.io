@@ -4,7 +4,7 @@ title:  "[Trip] 공유 전동스쿠터/전동킥보드 천국 마드리드"
 date:   2019-07-27 23:18:00 +0900
 published: true
 categories: [ trip, travel ]
-tags: [ trip, travel, spain, madrid, electric scooter, escooter, bike, scooter, sharing, public transportation, transit ]
+tags: [ trip, travel, spain, madrid, electric scooter, escooter, bike, scooter, sharing, public transportation, transit, seoul ]
 ---
 
 # 공유 교통수단
@@ -58,6 +58,19 @@ tags: [ trip, travel, spain, madrid, electric scooter, escooter, bike, scooter, 
 {% include image.html file='/assets/img/trip/spain/lime-s-in-google-map-search-result.png' alt='Lime-S in Google Map search result' width='350px' %}
 
 그리고 요즘 이벤트를 하는데, 친구에게 잠금해제(unlock) 쿠폰을 무료로 보내줄 수 있다. 둘이 함께 탄다면 서로 잠금해제 쿠폰을 보내주면 1유로 저렴하게 탈 수 있다.
+
+
+## Lime-S 서울
+
+(2019. 10. 04. 추가)
+
+회사 앞에서 Lime-S를 발견했다. 한두달 전에 서울 직원 채용 공고는 봤는데, 벌써 진출이다.
+
+{% include image.html file='/assets/img/trip/spain/lime-s-in-seoul1.jpg' alt='Lime-S in Seoul' width='350px' %}
+
+Lime-S 서울 가격은 unlock에 1200원 1분에 180원이고, 아직은 강남 3구만 서비스 중이다.
+
+{% include image.html file='/assets/img/trip/spain/lime-s-in-seoul2.jpg' alt='Lime-S fare in Seoul' width='350px' %}
 
 
 # 결론
