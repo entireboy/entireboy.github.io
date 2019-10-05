@@ -2,7 +2,7 @@
 layout: post
 title:  "[Spock] (Set 같은) Collection 전달인자 모킹(mocking)하기"
 date:   2019-10-09 22:18:00 +0900
-published: false
+published: true
 categories: [ java ]
 tags: [ spock, test, mock, collection, set, parameter ]
 ---
