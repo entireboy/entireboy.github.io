@@ -11,12 +11,12 @@ Querydsl로 조회를 할 때 entity 전체가 아닌 일부 column만 꺼내오
 
 ```java
 List<Tuple> userContacts = query.from(user)
-.select(user.name, user.mobile, user.address)
-.fetch();
+  .select(user.name, user.mobile, user.address)
+  .fetch();
 
 for (Tuple contact : userContacts) {
-     System.out.println("user: " + contact.get(user.name));
-     System.out.println("mobile: " + contact.get(user.mobile));
+  System.out.println("user: " + contact.get(user.name));
+  System.out.println("mobile: " + contact.get(user.mobile));
 }}
 ```
 
@@ -24,10 +24,10 @@ for (Tuple contact : userContacts) {
 
 ```java
 List<UserContactDto> userContacts = query.from(user)
-.select(Projections.constructor(UserContactDto.class,
-  user.name,
-  user.mobile,
-  user.address))
+  .select(Projections.constructor(UserContactDto.class,
+    user.name,
+    user.mobile,
+    user.address))
 .fetch();
 ```
 
