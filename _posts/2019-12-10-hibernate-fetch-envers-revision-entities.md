@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Hibernate] envers REV(revision number)를 long으로 바꾸기"
-date:   2019-06-04 22:18:00 +0900
+title:  "[Hibernate] envers revision entity 조회하기"
+date:   2019-12-10 22:18:00 +0900
 published: true
 categories: [ hibernate ]
 tags: [ hibernate, envers, audit, history, rev, revision, repository, fetch, lookup, find ]
