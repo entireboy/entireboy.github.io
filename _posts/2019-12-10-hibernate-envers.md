@@ -51,3 +51,11 @@ public List<OrderAuditDto> findOrderAuditsByShopNumber(Long userId) {
 `forRevisionsOfEntity` 메소드는 오버라이딩된 여러 메소드가 있지만, incubating 상태인 녀석들이 많다. 조만간 정식으로 나오기를..
 
 그리고 `forRevisionsOfEntityWithChanges` 메소드는 `Object []`이 4개로 늘어나고 마지막에는 entity의 어떤 property가 변경됐는지도 함께 준다.
+
+
+# 참고
+
+- [Hibernate Envers-Get all entities, revision numbers, revision dates and revision types of an Entity by its ID - Stack Overflow](https://stackoverflow.com/questions/44752324/hibernate-envers-get-all-entities-revision-numbers-revision-dates-and-revision)
+- [Hibernate Envers – Query data from your audit log](https://thoughts-on-java.org/hibernate-envers-query-data-audit-log/)
+- [Spring data jpa의 Audit 기능과 Spring data envers](https://gist.github.com/dlxotn216/94c34a2debf848396cf82a7f21a32abe)
+- [[Hibernate] envers REV(revision number)를 long으로 바꾸기]({{ site.baseurl }}{% post_url 2019-06-04-hibernate-change-envers-REV-revision-number-to-long %})
