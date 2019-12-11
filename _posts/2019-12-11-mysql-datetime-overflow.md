@@ -7,6 +7,8 @@ categories: [ mysql ]
 tags: [ mysql, datetime, type, field, overflow, precision, fractional seconds, fractional, second ]
 ---
 
+> **TL;DR**: 시간을 표시하는 `DATETIME`, `TIME`, `TIMESTAMP`과 같은 타입은 지정된 정확도(precision)를 넘어가면 반올림 되고, 00시를 넘어서 날짜 자체가 다음 날로 넘어갈 수 있으니 정확도를 잘 체크하자.
+
 MySQL의 `DATETIME`, `TIME`, `TIMESTAMP` 타입은 초단위를 최대 6자리 [microseconds(ms) 정확도 까지 저장](https://dev.mysql.com/doc/refman/8.0/en/fractional-seconds.html)할 수 있다. `DATETIME(6)`, `TIME(2)`과 같이 필요한 자리수를 지정하면 된다.
 
 ```sql
@@ -40,8 +42,7 @@ VALUES (1, '2019-12-11T00:00:00.000000'),
        (7, '2019-12-11T23:59:59.9999999'),
        (8, '2019-12-12');
 
-mysql> SELECT *
-FROM mydate;
+mysql> SELECT * FROM mydate;
 +----+----------------------------+
 | id | created_at                 |
 +----+----------------------------+
