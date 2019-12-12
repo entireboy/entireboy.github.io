@@ -15,7 +15,7 @@
 
   <div class="box-searchbar">
     <form id="text_search_form" action="https://www.google.co.kr/search" onsubmit="javascript:if (!$('#search_keyword').val()) {alert('검색어를 넣어 주세요 :D'); return false;} $('#search_query').val('site:{{ site.domain }} ' + $('#search_keyword').val());" target="_blank">
-      <input type="hidden" name="q" id="search_query">
+      <input type="hidden" name="q" id="search_query" alt="검색">
   		<input placeholder="검색" form="text_search_form" type="text" maxlength="200" size="30" id="search_keyword">
       <i class="em em-mag" onclick="$('#text_search_form').submit()"></i>
     </form>
