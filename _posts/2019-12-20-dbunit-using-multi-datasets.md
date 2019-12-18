@@ -15,8 +15,12 @@ tags: [ dbunit, test, dataset, database, setup, teardown, xml, spock ]
 DbUnit을 쓰면서 데이터셋을 여러 xml 파일에 나눠담고, 필요할 때 마다 골라서 쓰려고 했다.
 
 ```groovy
-@DatabaseSetup(connection = "dbUnitDatabaseConnection", value = ["order.xml", "refundedOrder.xml"], type = DatabaseOperation.CLEAN_INSERT)
-@DatabaseTearDown(connection = "dbUnitDatabaseConnection", value = ["order.xml", "refundedOrder.xml"], type = DatabaseOperation.DELETE_ALL)
+@DatabaseSetup(connection = "dbUnitDatabaseConnection",
+               value = ["order.xml", "refundedOrder.xml"],
+               type = DatabaseOperation.CLEAN_INSERT)
+@DatabaseTearDown(connection = "dbUnitDatabaseConnection",
+                  value = ["order.xml", "refundedOrder.xml"],
+                  type = DatabaseOperation.DELETE_ALL)
 ```
 
 그런데, 막상 실행하면 이런 에러가..
@@ -46,17 +50,25 @@ org.dbunit.dataset.NoSuchColumnException: order.RESULT_CODE -  (Non-uppercase in
 
 # 여러 데이터셋은 `@DatabaseSetups` 를 사용하자
 
-이리저리 테스트 하다 보니 `@DatabaseSetups`를 사용해서 묶어주면 여러 xml의 데이터셋을 넣어주는걸 볼 수 있었다.
+이리저리 찾고 테스트 하다 보니 `@DatabaseSetups`를 찾을 수 있었다. 여러 xml의 데이터셋을 넣어주니, 어머 너무 잘 동작한다. +_+d
 
 ```groovy
 @DatabaseSetups([
-    @DatabaseSetup(connection = "dbUnitDatabaseConnection", value = ["order.xml"], type = DatabaseOperation.CLEAN_INSERT),
-    @DatabaseSetup(connection = "dbUnitDatabaseConnection", value = ["refundedOrder.xml"], type = DatabaseOperation.INSERT),
+    @DatabaseSetup(connection = "dbUnitDatabaseConnection",
+                   value = ["order.xml"],
+                   type = DatabaseOperation.CLEAN_INSERT),
+    @DatabaseSetup(connection = "dbUnitDatabaseConnection",
+                   value = ["refundedOrder.xml"],
+                   type = DatabaseOperation.INSERT),
 ])
 @DatabaseTearDowns([
-    @DatabaseTearDown(connection = "dbUnitDatabaseConnection", value = ["order.xml"], type = DatabaseOperation.DELETE_ALL),
-    @DatabaseTearDown(connection = "dbUnitDatabaseConnection", value = ["refundedOrder.xml"], type = DatabaseOperation.DELETE_ALL),
+    @DatabaseTearDown(connection = "dbUnitDatabaseConnection",
+                      value = ["order.xml"],
+                      type = DatabaseOperation.DELETE_ALL),
+    @DatabaseTearDown(connection = "dbUnitDatabaseConnection",
+                      value = ["refundedOrder.xml"],
+                      type = DatabaseOperation.DELETE_ALL),
 ])
 ```
 
-여기서 조심할 점은 `@DatabaseSetup`의 `type`을 모두 `CLEAN_INSERT`으로 설정하면, 두번째 `@DatabaseSetup`으로 데이터셋을 넣을 때 첫번째 `@DatabaseSetup`이 넣은 데이터를 다 지워버린다는 것이다. 첫번째 `@DatabaseSetup`은 `CLEAN_INSERT`로 하고 두번째 이후 부터는 `INSERT`로 해주니 지워지지 않고 추가로 잘 들어간다.
+단, 여기서 **조심할 점**은 `@DatabaseSetup`의 `type`을 모두 `CLEAN_INSERT`으로 설정하면, 두번째 `@DatabaseSetup`으로 데이터셋을 넣을 때 첫번째 `@DatabaseSetup`이 넣은 데이터를 다 지워버린다는 것이다. 첫번째 `@DatabaseSetup`은 `CLEAN_INSERT`로 하고 두번째 이후 부터는 `INSERT`로 해주니 지워지지 않고 추가로 잘 들어간다.
