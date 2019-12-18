@@ -10,7 +10,7 @@ tags: [ dbunit, test, dataset, database, setup, teardown, xml, spock ]
 
 # DbUnit 으로 여러 데이터셋을 사용하자
 
-여기의 테스트는 spock 테스트이고, groovy 코드이다. `@DatabaseSetup` 등의 annotation에 배열(`[]`)이 사용된걸 중괄호(`{}`, curly braces)로 바꿔주면 (아마) 잘 될 것이다.
+> 여기의 테스트는 spock 테스트이고, groovy 코드이다. `@DatabaseSetup` 등의 annotation에 배열(`[]`)이 사용된걸 중괄호(`{}`, curly braces)로 바꿔주면 (아마) 잘 될 것이다.
 
 DbUnit을 쓰면서 데이터셋을 여러 xml 파일에 나눠담고, 필요할 때 마다 골라서 쓰려고 했다.
 
