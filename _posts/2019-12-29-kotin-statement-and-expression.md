@@ -7,10 +7,9 @@ categories: [ kotlin ]
 tags: [ kotlin, java, statement, expression, if, else, when, switch, comparison ]
 ---
 
-자바의 if-else는 `문(statement)`이고, 코틀린의 if-else는 `식(expression)`이다.
-
-
 # statement 와 expression
+
+자바의 if-else는 `문(statement)`이고, 코틀린의 if-else는 `식(expression)`이다.
 
 `문`과 `식`은 무슨 차이가 있을까?? `식`은 값을 만들어낸다. 아주 간단히 값을 return을 한다고 생각해도 좋을 것 같다. 아래 코드는 코틀린의 if-else인데, `식`이기 때문에 if와 else 블럭의 값을 리턴해 주어서 바로 `maxValue`에 값으로 대입할 수 있다.
 
