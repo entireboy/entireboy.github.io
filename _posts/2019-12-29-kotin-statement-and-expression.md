@@ -39,12 +39,12 @@ public static void main(String[] args) {
 }
 ```
 
-맨처음 샘플에서 처럼 코틀린의 if-else는 자바의 3항 연산자처럼 사용할 수 있기 때문에, 코틀린은 별도로 3항 연산자를 제공하지 않는다. 그리고 저렇게 if-else를 사용하는 코드를 많이 볼 수 있다.
+맨처음 샘플에서 처럼 코틀린의 if-else는 자바의 3항 연산자처럼 사용할 수 있기 때문에, 코틀린은 별도로 3항 연산자를 제공하지 않는다. (Elvis operator(`?:`)는 제공한다.) 그리고 저렇게 if-else를 사용하는 코드를 많이 볼 수 있다.
 
 
 # when (switch)
 
-if-else와 마찬가지로 자바의 switch와 같은 when도 `식`으로 값을 리턴한다. `getMnemonic`함수는 enum 값에 따라 문자열을 리턴한다.
+자바의 switch와 같은 역할을 하는 when도 값을 리턴하는 `식`이다.
 
 ```kotlin
 enum class Color {
@@ -66,7 +66,7 @@ println(getMnemonic(Color.RED))
 // 결과 "Richard"
 ```
 
-만일, 이 코드가 자바였다면.. 매번 return 넣어줄 생각만 해도;; 중간에 break나 return 하나 빼먹으면 그 결과는..
+위 코드의 `getMnemonic`함수는 enum 값에 따라 문자열을 리턴한다. 만일, 이 코드가 자바였다면.. 매번 return 넣어줄 생각만 해도;;
 
 ```java
 private static String getMnemonic(Color color) {
@@ -75,7 +75,11 @@ private static String getMnemonic(Color color) {
       return "Richard";
     case ORANGE:
       return "Of";
+    case YELLOW:
+      return "York";
     /* case .. 어휴 이쯤에서 포기 */
   }
 }
 ```
+
+중간에 break나 return 하나 빼먹으면 그 결과는..
