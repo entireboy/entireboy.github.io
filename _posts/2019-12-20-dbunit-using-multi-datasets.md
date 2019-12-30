@@ -26,7 +26,7 @@ DbUnit을 쓰면서 데이터셋을 여러 xml 파일에 나눠담고, 필요할
 그런데, 막상 실행하면 이런 에러가..
 
 ```java
-org.dbunit.dataset.NoSuchColumnException: order.RESULT_CODE -  (Non-uppercase input column: result_code) in ColumnNameToIndexes cache map. Note that the map's column names are NOT case sensitive.
+org.dbunit.dataset.NoSuchColumnException: order.REFUNDED_AT -  (Non-uppercase input column: refunded_at) in ColumnNameToIndexes cache map. Note that the map's column names are NOT case sensitive.
     at org.dbunit.dataset.AbstractTableMetaData.getColumnIndex(AbstractTableMetaData.java:117) ~[dbunit-2.5.2.jar:na]
     at org.dbunit.dataset.AbstractTable.getColumnIndex(AbstractTable.java:78) ~[dbunit-2.5.2.jar:na]
     at org.dbunit.dataset.DefaultTable.getValue(DefaultTable.java:197) ~[dbunit-2.5.2.jar:na]
@@ -48,9 +48,39 @@ org.dbunit.dataset.NoSuchColumnException: order.RESULT_CODE -  (Non-uppercase in
 ```
 
 
+# 원인: Column 이 다른 데이터셋 사용
+
+이런저런 테스트를 해보니, 두 데이터셋의 column이 서로 다르면 이런 현상이 생기기도 한다.
+
+```xml
+<!-- order.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <order id="1" user_id="123" sales_price="10000"
+         ordered_at="2019-12-20 00:00:00.000000" />
+  <order_item id="1" order_id="1" item_id="100" />
+  <order id="2" user_id="123" sales_price="20000"
+         ordered_at="2019-12-20 00:00:00.000000" />
+  <order_item id="2" order_id="2" item_id="200" />
+  <order_item id="3" order_id="2" item_id="300" />
+</dataset>
+
+
+<!-- refundedOrder.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <order id="101" user_id="123" sales_price="10000"
+         ordered_at="2019-12-20 00:00:00.000000" refunded_at="2019-12-20 00:10:00.000000" />
+  <order_item id="101" order_id="101" item_id="100" />
+</dataset>
+```
+
+예를 들어, `order.xml` 파일에는 환불이 없는 주문 데이터만 담겨 있고, `refundedOrder.xml` 파일에는 환불도 포함되어 있다고 하자. 환불 데이터는 다른 테이블에 저장되고 `order` 테이블에는 환불이 된 경우 최초 환불시간을 `refunded_at` column에 넣는다. DbUnit 특성상 column을 `NULL`로 채우기 위해서는 xml 파일에서 필드를 제거해야 한다. 그래서 `order.xml` 파일에는 `refunded_at` 필드가 없고, `refundedOrder.xml` 파일에는 `refunded_at` 필드가 존재하는 상황이 되어 위와 같은 오류 메시지를 볼 수 있다.
+
+
 # 여러 데이터셋은 `@DatabaseSetups` 를 사용하자
 
-이리저리 찾고 테스트 하다 보니 `@DatabaseSetups`를 찾을 수 있었다. 여러 xml의 데이터셋을 넣어주니, 어머 너무 잘 동작한다. +_+d
+이리저리 찾고 테스트 하다 보니 `@DatabaseSetups`를 찾을 수 있었다. 여러 xml의 데이터셋을 넣어주니, 어머 너무 잘 동작한다. +_+d 필드가 서로 달라도 잘 동작한다.
 
 ```groovy
 @DatabaseSetups([
