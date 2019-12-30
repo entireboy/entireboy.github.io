@@ -59,6 +59,7 @@ org.dbunit.dataset.NoSuchColumnException: order.REFUNDED_AT -  (Non-uppercase in
   <order id="1" user_id="123" sales_price="10000"
          ordered_at="2019-12-20 00:00:00.000000" />
   <order_item id="1" order_id="1" item_id="100" />
+  
   <order id="2" user_id="123" sales_price="20000"
          ordered_at="2019-12-20 00:00:00.000000" />
   <order_item id="2" order_id="2" item_id="200" />
