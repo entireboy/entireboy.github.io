@@ -1,20 +1,22 @@
 ---
 layout: post
-title:  "[JaCoCo] 코틀린과 자바 프로젝트에 JaCoCo 설정하기"
+title:  "[JaCoCo] Gradle 프로젝트에 JaCoCo 설정하기"
 date:   2020-01-11 22:18:00 +0900
 published: true
 categories: [ test ]
-tags: [ jacoco, test, report, kotlin, java, gradle, project, junit ]
+tags: [ jacoco, test, code coverage, code, coverage, report, kotlin, java, gradle, project, junit ]
 ---
 
-[JaCoCo](https://www.jacoco.org/jacoco/)는 Java 코드의 커버리지를 체크하는 라이브러리이다. 여기서는 Java 코드와 Kotlin 코드가 섞인 프로젝트를 함께 커버리지 체크하는 JaCoCo 설정을 살펴본다. (사실 자꾸 까먹어서 기록용..)
+[JaCoCo](https://www.jacoco.org/jacoco/)는 Java 코드의 커버리지를 체크하는 라이브러리이다. 테스트코드를 돌리고 그 커버리지 결과를 눈으로 보기 좋도록 html이나 xml, csv 같은 리포트를 생성한다. 그리고 테스트 결과가 내가 설정한 커버리지 기준을 만족하는지 확인하는 기능도 있다. 우리팀 같은 경우는 프로젝트의 커버리지가 올라갈 때 마다 이 기준을 조금씩 올려가고 있고, 이 커버리지 기준을 만족시키지 못 하면 배포를 하지 못 하게 하고 있다.
 
-이전 버전 JaCoCo 같은 경우는 Java와 Kotlin 등 여러 언어의 소스가 섞여 있을 때는 [소스 경로를 모두 체크하도록 설정](http://vgaidarji.me/blog/2017/12/20/how-to-configure-jacoco-for-kotlin-and-java-project/)해 줘야 했던 것 같지만, 지금(v0.8.5)은 큰 설정 없이 사용할 수 있다.
+여기서는 Java와 Kotlin 코드가 섞인 Gradle 프로젝트를 커버리지 체크하는 JaCoCo 설정을 살펴본다. (사실 자꾸 까먹어서 기록용..) 이전 버전 JaCoCo 플러그인 같은 경우는 Java와 Kotlin 등 여러 언어의 소스가 섞여 있을 때는 [소스 경로를 모두 체크하도록 설정](http://vgaidarji.me/blog/2017/12/20/how-to-configure-jacoco-for-kotlin-and-java-project/)해 줘야 했던 것 같지만, 지금(Gradle 6.0.1, JaCoCo 8.0.5)은 큰 설정 없이 사용할 수 있다. 이 글에서는 두 언어의 코드가 함께 체크되는 것을 볼 것이다.
+
+전체 샘플 코드는 [kotlin-jacoco-sample](https://github.com/entireboy/kotlin-jacoco-sample)에서 확인할 수 있다.
 
 
 # JaCoCo 플러그인 추가
 
-Gradle 설정에 JaCoCo 플러그인을 추가하고, [플러그인 설정](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html)을 한다.
+Gradle 설정에 JaCoCo 플러그인을 추가하고, [플러그인 설정](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html)을 한다. `reportsDir`로 테스트 결과 리포트를 저장할 경로를 바꿀 수 있다.
 
 ```kotlin
 plugins {
@@ -25,48 +27,51 @@ jacoco {
   // JaCoCo 버전
   toolVersion = "0.8.5"
 
-//  테스트결과 리포트를 저장할 경로 설정
+//  테스트결과 리포트를 저장할 경로 변경
+//  default는 "${project.reporting.baseDir}/jacoco"
 //  reportsDir = file("$buildDir/customJacocoReportDir")
 }
 ```
 
-`reportsDir`로 테스트 결과 리포트를 저장할 경로를 바꿀 수 있다. default는 `${project.reporting.baseDir}/jacoco` 이다.
 
+# Gradle task 설정 - 테스트 리포트 저장과 커버리지 체크
 
-# Gradle task 설정 - 결과 리포트 저장과 커버리지 체크
+JaCoCo Gradle 플러그인에는 `jacocoTestReport`와 `jacocoTestCoverageVerification` task가 있다.
 
-JaCoCo 플러그인에는 `jacocoTestReport`와 `jacocoTestCoverageVerification` task가 있다.
-
-- [jacocoTestReport](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.tasks.JacocoReport.html): JaCoCo 테스트 결과를 리포트 형태로 저장하는 task이다. html 파일로도 떨궈줘서 쉽게 확인할 수 있다.
-- [jacocoTestCoverageVerification](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.tasks.JacocoCoverageVerification.html): 내가 원하는 커버리지 까지 체크가 됐는지 확인해 주는 task이다. 브랜치 커버리지를 최소한 80% 이상으로 유지하고 싶다면, 이 task를 설정하고 실행하면 된다. `test` task와 같이 성공/실패로 결과를 보여준다.
+- [jacocoTestReport](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.tasks.JacocoReport.html): 바이너리 커버리지 결과를 사람이 읽기 좋은 형태의 리포트로 저장한다. html 파일로 생성해 사람이 쉽게 눈으로 확인할 수도 있고, SonarQube 등으로 연동하기 위해 xml, csv 같은 형태로도 리포트를 생성할 수 있다.
+- [jacocoTestCoverageVerification](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.tasks.JacocoCoverageVerification.html): 내가 원하는 커버리지 기준을 만족하는지 확인해 주는 task이다. 예를 들어, 브랜치 커버리지를 최소한 80% 이상으로 유지하고 싶다면, 이 task에 설정하면 된다. `test` task처럼 Gradle 빌드의 성공/실패로 결과를 보여준다.
 
 ```kotlin
 tasks.jacocoTestReport {
   reports {
-    // 원하는 리포트를 켜고 끌 수 있다
+    // 원하는 리포트를 켜고 끌 수 있다.
     html.isEnabled = true
     xml.isEnabled = false
     csv.isEnabled = false
 
-//  각 리포트 타입 마다 리포트 저장 경로를 설정할 수 있다
+//  각 리포트 타입 마다 리포트 저장 경로를 설정할 수 있다.
 //  html.destination = file("$buildDir/jacocoHtml")
 //  xml.destination = file("$buildDir/jacoco.xml")
   }
 }
 
 tasks.jacocoTestCoverageVerification {
-// 이 커버리지 기준은 이 글의 맨 아래에서 다시 설명하겠다.
+  // 이 커버리지 기준은 이 글의 맨 아래에서 다시 설명하겠다.
   violationRules {
     rule {
+      element = "CLASS"
+
       limit {
-        maximum = "0.5".toBigDecimal()
+        counter = "BRANCH"
+        value = "COVEREDRATIO"
+        minimum = "0.90".toBigDecimal()
       }
     }
   }
 }
 ```
 
-그리고 JaCoCo 관련 task가 실행될 때 기존에 만들어 졌던 파일 때문에 정상적으로 저장되지 않을 수 있어서 `test` task에 다음 설정을 추가해 준다. 그러면 기존 파일을 제거하고 제대로 저장하게 된다. ([JaCoCo specific task configuration](https://docs.gradle.org/current/userguide/jacoco_plugin.html#sec:jacoco_specific_task_configuration))
+JaCoCo 플러그인은 자동으로 모든 `Test` 타입의 task에 [JacocoTaskExtension](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.plugins.JacocoTaskExtension.html)을 추가하고, `test` task에서 그 설정을 변경할 수 있게 한다. ([JaCoCo specific task configuration](https://docs.gradle.org/current/userguide/jacoco_plugin.html#sec:jacoco_specific_task_configuration)) 그래서 아래 설정처럼 `test` task에서 extension을 설정할 수 있다. 아래 설정은 커버리지 결과 데이터를 저장할 경로를 변경하는 것이고, unit test와 integration test 등을 분리할 때 사용하면 유용할 수 있다.
 
 ```kotlin
 tasks.test {
@@ -76,7 +81,7 @@ tasks.test {
 }
 ```
 
-아래 코드는 플러그인에서 `test` task에 default로 설정된 값들이다. `destinationFile`처럼 오버라이드 할 수 있다. ([JacocoTaskExtension](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.plugins.JacocoTaskExtension.html) 참고)
+아래 코드는 플러그인에서 `test` task에 default로 설정된 값들이다. 위의 `destinationFile`처럼 오버라이드 할 수 있다. ([JacocoTaskExtension](https://docs.gradle.org/current/dsl/org.gradle.testing.jacoco.plugins.JacocoTaskExtension.html) 참고)
 
 ```kotlin
 tasks.getByName<Test>("test") {
@@ -98,7 +103,10 @@ tasks.getByName<Test>("test") {
 }
 ```
 
-테스트를 JUnit5로 작생했기 때문에 함께 동작할 수 있도록 다음 설정을 해준다. `test` task 뿐만 아니라 모든 `Test` 타입의 task에서는 JUnit을 사용한다고 Gradle에 알려준다.
+
+# 코드 준비와 테스트 실행
+
+JaCoCo 테스트를 돌려볼 소스 코드와 테스트 코드를 준비한다. 여기서는 JUnit5로 테스트를 작생했기 때문에 테스트 시 JUnit이 함께 동작할 수 있도록 다음 설정을 해준다.
 
 ```kotlin
 tasks.withType<Test> {
@@ -106,10 +114,7 @@ tasks.withType<Test> {
 }
 ```
 
-
-# 코드 준비와 테스트 실행
-
-JaCoCo 테스트를 돌려볼 소스 코드와 테스트 코드를 준비한다. 테스트는 JUnit5로 작성됐다.
+위 설정은 모든 `Test` 타입의 task에서는 JUnit을 사용한다고 Gradle에 알려주는 것이다.
 
 ```java
 // src/main/java/kr/leocat/test/kotlinjacocosample/JavaFoo.java
@@ -198,7 +203,7 @@ internal class KotlinFooTest {
 }
 ```
 
-이제 기본 설정도 끝났고 코드도 준비 됐으니, 리포트를 생성하고 커버리지 체크를 실행해 보자.
+이제 기본 설정도 끝났고 코드도 준비 됐으니, 리포트를 생성(`jacocoTestReport`)하고 커버리지 체크(`jacocoTestCoverageVerification`)를 실행해 보자. 어떤 task가 실행되는지 보기 위해 `--console verbose` 옵션을 추가했다.
 
 ```bash
 $ ./gradlew --console verbose test jacocoTestReport jacocoTestCoverageVerification
@@ -214,13 +219,15 @@ $ ./gradlew --console verbose test jacocoTestReport jacocoTestCoverageVerificati
 > Task :jacocoTestReport
 
 > Task :jacocoTestCoverageVerification FAILED
-[ant:jacocoReport] Rule violated for bundle kotlin-jacoco-sample: instructions covered ratio is 0.5, but expected minimum is 0.9
+[ant:jacocoReport] Rule violated for class kr.leocat.test.kotlinjacocosample.JavaFoo: branches covered ratio is 0.33, but expected minimum is 0.90
+[ant:jacocoReport] Rule violated for class kr.leocat.test.kotlinjacocosample.KotlinFoo: branches covered ratio is 0.33, but expected minimum is 0.90
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':jacocoTestCoverageVerification'.
-> Rule violated for bundle kotlin-jacoco-sample: instructions covered ratio is 0.5, but expected minimum is 0.9
+> Rule violated for class kr.leocat.test.kotlinjacocosample.JavaFoo: branches covered ratio is 0.33, but expected minimum is 0.90
+  Rule violated for class kr.leocat.test.kotlinjacocosample.KotlinFoo: branches covered ratio is 0.33, but expected minimum is 0.90
 
 * Try:
 Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -231,12 +238,14 @@ BUILD FAILED in 3s
 8 actionable tasks: 8 executed
 ```
 
-`jacocoTestReport` task는 정상적으로 실행돼서 리포트가 `build/reports/jacoco/test/html/index.html`에 생성된 것을 확인할 수 있다. 그리고 `jacocoTestCoverageVerification` task는 위에서 설정한 커버리지 체크 기준을 넘지 못 했기 때문에 실패한 것을 볼 수 있다. 설정한 90%를 넘어야 하는데, 50% 밖에 되지 않는다. 위의 실행 결과에서 0.5로 표시됐다.
+`jacocoTestReport` task는 정상적으로 실행돼서 리포트가 `build/reports/jacoco/test/html/index.html`에 생성된 것을 확인할 수 있다. (아래 스크린샷) 하지만, `jacocoTestCoverageVerification` task는 위에서 설정한 커버리지 체크 기준을 넘지 못 했기 때문에 실패한 것을 볼 수 있다. 브랜치 커버리지가 설정한 90%를 넘어야 하는데, 2개 클래스 모두 33% 밖에 되지 않는다. 위의 실행 결과에서 0.33으로 표시됐다. (자세한 커버리지 설정은 이 글 맨 아래를 참고)
 
 {% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project1.png' alt='JaCoCo package report' %}
 {% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project2.png' alt='JaCoCo class report' %}
 {% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project3.png' alt='JaCoCo method report' %}
-{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project4png' alt='JaCoCo file report' %}
+{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project4.png' alt='JaCoCo file report' %}
+
+{% include google-ad-content %}
 
 
 # 여러 task를 함께 실행
@@ -257,13 +266,15 @@ val testCoverage by tasks.registering {
 }
 ```
 
-`dependsOn`으로 이 task를 실행하면 `test`와 `jacocoTestReport`, `jacocoTestCoverageVerification`를 실행하도록 지정한다. 그리고, 이 task들은 실행하는 순서가 정해져 있으니 `mustRunAfter`로 순서를 지정해 준다. 테스트(`test`)를 먼저 실행하고, 그 결과로 리포트를 생성(`jacocoTestReport`)하고, 커버리지가 원하는 기준 만큼 도달했는지 체크(`jacocoTestCoverageVerification`)해야 한다. `jacocoTestCoverageVerification` task가 먼저 실행되었는데 운 나쁘게도 실패한다면 `jacocoTestReport` task가 [실행되지 않기 때문에 순서를 맞춰 주는 것이 좋다](https://reflectoring.io/jacoco/#comment-4315685529).
+`testCoverage` task를 실행하면 `test`와 `jacocoTestReport`, `jacocoTestCoverageVerification`를 실행하도록 `dependsOn`으로 설정한다. 그리고, 이 task들은 실행하는 순서가 정해져 있으니 `mustRunAfter`로 순서를 지정해 준다. 테스트(`test`)를 먼저 실행하고, 그 결과로 리포트를 생성(`jacocoTestReport`)하고, 커버리지가 원하는 기준 만큼 도달했는지 체크(`jacocoTestCoverageVerification`)해야 한다.
+
+순서를 지정하지 않으면 `jacocoTestCoverageVerification` task가 `jacocoTestReport` task가 먼저 실행될 수 있다. 이 때 커버리지를 통과하지 못 하면 `jacocoTestCoverageVerification` task에서 Gradle 빌드가 멈추게 되고 `jacocoTestReport` task가 실행되지 않는다. 그러면 리포트 자체가 새로 생성되지 못 하고 이전의 리포트를 계속 보게 되는 경우가 생길 수 있다. 때문에 [실행되는 순서를 맞춰 주는 것이 좋다](https://reflectoring.io/jacoco/#comment-4315685529).
 
 ```
 test -> jacocoTestReport -> jacocoTestCoverageVerification
 ```
 
-마지막으로 이 task의 `group`을 `verification`으로 지정해 주면, 다른 Gradle 테스트 관련 task와 함께 그루핑 된 것을 볼 수 있다.
+이 task의 `group`을 `verification`으로 지정해 주면, 다른 Gradle 테스트 관련 task와 함께 그루핑 된 것을 볼 수 있다.
 
 ```bash
 $ ./gradlew tasks
@@ -284,9 +295,9 @@ test - Runs the unit tests.
 testCoverage - Runs the unit tests with coverage
 ```
 
-{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project5.png' alt='Gradle tasks' %}
+{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project5.png' alt='Gradle tasks' width="300px" %}
 
-`testCoverage` task를 실행해 보면, 원하는 순서대로 실행되는 것을 볼 수 있다.
+준비가 다 됐으니 `testCoverage` task를 실행해 보면 원하는 순서대로 실행되는 것을 볼 수 있다.
 
 ```bash
 $ ./gradlew --console verbose testCoverage
@@ -308,9 +319,9 @@ BUILD SUCCESSFUL in 3s
 ```
 
 
-# `test` task 실행 시 JaCoCo task 실행하도록 설정
+# test task 실행 시 JaCoCo task 실행하도록 설정
 
-(내가 task를 만들고도 나는 잘 못 외우니까) `testCoverage` task 마저 귀찮을 때는 `test` task를 실행할 때 마다 자동으로 JaCoCo task 들이 실행되도록 `finalizedBy`로 설정해 줄 수 있다.
+`testCoverage` task를 만들긴 했는데, 나는 기억력이 워낙 안 좋으니까 자꾸 까먹을 것만 같다. 그럴 때는 `test` task를 실행할 때 마다 자동으로 JaCoCo task 들이 실행되도록 `finalizedBy`로 설정해 줄 수 있다.
 
 ```kotlin
 tasks.test {
@@ -318,6 +329,7 @@ tasks.test {
 
   finalizedBy("jacocoTestReport")
 }
+
 tasks.jacocoTestReport {
   // ... (생략) ...
 
@@ -336,11 +348,11 @@ tasks.jacocoTestReport {
 tasks.jacocoTestCoverageVerification {
   violationRules {
     rule {
-      // 'element'가 없으면 전체 파일을 합친 값이다.
+      // 'element'가 없으면 프로젝트의 전체 파일을 합친 값을 기준으로 한다.
       limit {
         // 'counter'를 지정하지 않으면 default는 'INSTRUCTION'
         // 'value'를 지정하지 않으면 default는 'COVEREDRATIO'
-        maximum = "0.5".toBigDecimal()
+        minimum = "0.30".toBigDecimal()
       }
     }
 
@@ -355,17 +367,17 @@ tasks.jacocoTestCoverageVerification {
       limit {
         counter = "BRANCH"
         value = "COVEREDRATIO"
-        minimum = "0.9".toBigDecimal()
+        minimum = "0.90".toBigDecimal()
       }
 
       // 라인 커버리지를 최소한 80% 만족시켜야 한다.
       limit {
         counter = "LINE"
         value = "COVEREDRATIO"
-        minimum = "0.8".toBigDecimal()
+        minimum = "0.80".toBigDecimal()
       }
 
-      // 빈 줄을 제외한 파일의 라인수를 최대 200라인으로 제한한다.
+      // 빈 줄을 제외한 코드의 라인수를 최대 200라인으로 제한한다.
       limit {
         counter = "LINE"
         value = "TOTALCOUNT"
@@ -376,13 +388,21 @@ tasks.jacocoTestCoverageVerification {
 }
 ```
 
-설정 가능한 `counter` 아래와 같다. ([JacocoLimit counter](https://docs.gradle.org/current/javadoc/org/gradle/testing/jacoco/tasks/rules/JacocoLimit.html#getCounter--) 참고)
+커버리지 체크 기준이 되는 `element`는 다음 중에 하나를 선택할 수 있다. 위의 샘플처럼 `CLASS`를 선택하면 클래스 단위로 브랜치와 라인 커버리지를 체크한다. ([JacocoLimit element](https://docs.gradle.org/current/javadoc/org/gradle/testing/jacoco/tasks/rules/JacocoViolationRule.html#getElement--) 참고)
+
+- BUNDLE (default): 패키지 번들
+- PACKAGE: 패키지
+- CLASS: 클래스
+- SOURCEFILE: 소스파일
+- METHOD: 메소드
+
+설정 가능한 `counter`는 아래와 같다. ([JacocoLimit counter](https://docs.gradle.org/current/javadoc/org/gradle/testing/jacoco/tasks/rules/JacocoLimit.html#getCounter--) 참고)
 
 - LINE: 빈 줄을 제외한 실제 코드의 라인 수
-- BRANCH: 조건문의 분기 수
+- BRANCH: 조건문 등의 분기 수
 - CLASS: 클래스 수
 - METHOD: 메소드 수
-- INSTRUCTION(default): Java 바이트코드 명령 수. [Java bytecode instruction listings](https://en.wikipedia.org/wiki/Java_bytecode_instruction_listings)
+- INSTRUCTION (default): Java 바이트코드 명령 수. [Java bytecode instruction listings](https://en.wikipedia.org/wiki/Java_bytecode_instruction_listings)
 - COMPLEXITY: 복잡도. 자세한 복잡도 계산은 [Coverage Counters - JaCoCo docs](https://www.eclemma.org/jacoco/trunk/doc/counters.html) 참고
 
 그리고 `value`는 아래 중에서 선택할 수 있다. ([JacocoLimit value](https://docs.gradle.org/current/javadoc/org/gradle/testing/jacoco/tasks/rules/JacocoLimit.html#getValue--) 참고)
@@ -391,9 +411,9 @@ tasks.jacocoTestCoverageVerification {
 - MISSEDCOUNT: 커버되지 않은 개수
 - COVEREDCOUNT: 커버된 개수
 - MISSEDRATIO: 커버되지 않은 비율. 0부터 1 사이의 숫자로, 1이 100%이다.
-- COVEREDRATIO(default): 커버된 비율. 0부터 1 사이의 숫자로, 1이 100%이다.
+- COVEREDRATIO (default): 커버된 비율. 0부터 1 사이의 숫자로, 1이 100%이다.
 
-테스트를 돌려보면 아래와 같은 실패 결과를 볼 수 있다. 브랜치 커버리지 90%를 원했지만 30% 밖에 되지 못 하고, 라인 커버리지는 50% 밖에 되지 못 해서 실패했다.
+위와 같이 설정해서 테스트를 돌려보면 아래와 같은 실패 결과를 볼 수 있다. 브랜치 커버리지 90%를 원했지만 33% 밖에 되지 못 하고, 라인 커버리지는 42% 밖에 되지 못 해서 실패했다. 커버리지 수치는 `BigDecimal`을 강제한다. 내가 지정한 유효자리수 까지만 표기가 되며, 그 자리수를 넘어가면 반올림 된다. 위의 샘플에서 설정한 라인 커버리지 80%를 `0.80` 대신 `0.8`로 쓰게 되면, `0.42`가 아닌 `0.4`로 표시되는걸 볼 수 있다.
 
 ```bash
 $ ./gradlew --console verbose test
@@ -409,15 +429,15 @@ $ ./gradlew --console verbose test
 > Task :jacocoTestReport
 
 > Task :jacocoTestCoverageVerification FAILED
-[ant:jacocoReport] Rule violated for bundle kotlin-jacoco-sample: branches covered ratio is 0.3, but expected minimum is 0.9
-[ant:jacocoReport] Rule violated for bundle kotlin-jacoco-sample: lines covered ratio is 0.5, but expected minimum is 0.8
+[ant:jacocoReport] Rule violated for class kr.leocat.test.kotlinjacocosample.JavaFoo: branches covered ratio is 0.33, but expected minimum is 0.90
+[ant:jacocoReport] Rule violated for class kr.leocat.test.kotlinjacocosample.JavaFoo: lines covered ratio is 0.42, but expected minimum is 0.80
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':jacocoTestCoverageVerification'.
-> Rule violated for bundle kotlin-jacoco-sample: branches covered ratio is 0.3, but expected minimum is 0.9
-  Rule violated for bundle kotlin-jacoco-sample: lines covered ratio is 0.5, but expected minimum is 0.8
+> Rule violated for class kr.leocat.test.kotlinjacocosample.JavaFoo: branches covered ratio is 0.33, but expected minimum is 0.90
+  Rule violated for class kr.leocat.test.kotlinjacocosample.JavaFoo: lines covered ratio is 0.42, but expected minimum is 0.80
 
 * Try:
 Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -428,12 +448,35 @@ BUILD FAILED in 2s
 8 actionable tasks: 1 executed, 7 up-to-date
 ```
 
-JaCoCo는 여러 룰을 위한하는 경우 처음 위반한 룰만 리포팅한다. ([Enforcing code coverage metrics](https://docs.gradle.org/current/userguide/jacoco_plugin.html#sec:jacoco_report_violation_rules))
+JaCoCo는 여러 룰을 위한하는 경우 처음 위반한 룰만 리포팅한다. ([Enforcing code coverage metrics](https://docs.gradle.org/current/userguide/jacoco_plugin.html#sec:jacoco_report_violation_rules) 참고)
 
 
 # JaCoCo 테스트에서 제외하기
 
 커버리지를 올리지 않아도 되는 코드들이 있다. 예를 들어, QueryDsl을 사용하면 자동으로 생성되는 구현체인 `Q*.class` 같은 파일이나, spring-batch 등의 배치 설정 파일들이 있다. 이런 파일들은 커버리지 체크에서 제외할 수 있다. `excludes`로 제외할 클래스명을 지정할 수 있고, 와일드카드(* 과 ?)를 사용할 수 있다.
+
+```kotlin
+tasks.jacocoTestCoverageVerification {
+  violationRules {
+    rule {
+      element = "CLASS"
+
+      limit {
+        counter = "LINE"
+        value = "TOTALCOUNT"
+        maximum = "8".toBigDecimal()
+      }
+
+      // 위의 테스트 코드에서는 KotlinFoo 클래스 validation을 제거하면 빌드가 성공한다.
+      excludes = listOf(
+//      "*.test.*",
+        "*.Kotlin*"
+      )
+    }
+}
+```
+
+이 설정은 라인수가 8줄을 넘지 않아야 하는 커버리지 체크이고, 샘플에 있는 `KotlinFoo` 클래스를 커버리지 체크에서 제외해서 빌드가 정상적으로 성공한다. `excludes`를 제거하면 테스트가 실패하는 것을 볼 수 있다. 여기서 조심할 점은 경로가 아닌 **클래스명** 을 적어줘야 한다는 것이다. (다른 프로젝트에서 쓰듯이 경로명으로 설정하면서 미친듯이 삽질을 했는데, 클래스명으로 하니 잘 동작한다.)
 
 
 # 참고
