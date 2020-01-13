@@ -1,0 +1,4 @@
+---
+name: duplicated
+title: duplicated
+---
