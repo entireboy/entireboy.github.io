@@ -93,7 +93,7 @@ public class OrderRepositoryImpl extends QuerydslRepositorySupport
   }
 ```
 
-하지만 그 결과는 두둥!! 3개!!
+결과는 2개(order1, order2)를 기대했지만 그 결과는 두둥!! 3개!! spock 테스트 결과를 보면 id가 1인 `Order`가 2개나 나왔다.
 
 ```
 Condition not satisfied:
@@ -104,7 +104,7 @@ actual.size() == 2
 [Order(id=1, userName="펭수"),Order(id=1, userName="펭수"),Order(id=2, userName="펭수")]
 ```
 
-query도 확인해 보면 내가 원하는 형태이다.
+query도 확인해 보면 내가 원하는 형태인데 말이다.
 
 ```sql
 select
