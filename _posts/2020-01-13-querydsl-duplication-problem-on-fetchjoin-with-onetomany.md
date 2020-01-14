@@ -149,6 +149,27 @@ public List<Order> findAllByUserName(String userName) {
 }
 ```
 
+이 방법은 Hibernate의 `hibernate.default_batch_fetch_size` 설정으로 성능 향상 효과를 볼 수 있다.
+
+```yaml
+jpa:
+  properties:
+    hibernate.default_batch_fetch_size: 30
+```
+
+`Order`의 children으로 달린 `OrderItem`을 설정해 준 개수 만큼 `in 절`로 쿼리를 하게 되기 때문에 `N+1`문제를 해결할 수 있다. `hibernate.default_batch_fetch_size`는 기본 batch size를 설정하는데, `@BatchSize` annotation으로 특정 entity에서만 batch size를 조절할 수도 있다.
+
+```java
+public class Order {
+
+  // .. (생략) ..
+
+  @BatchSize(size = 10)
+  @OneToMany(mappedBy = "order", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
+  private List<OrderItem> orderItems = new ArrayList<>();
+}
+```
+
 
 # 해결 방법 #2 - distinct
 
@@ -161,5 +182,32 @@ public List<Order> findAllByUserName(String userName) {
     .where(order.userName.eq(userName))
     .distinct()
     .fetch();
+}
+```
+
+`distinct()`를 사용하면 join 된 테이블의 데이터가 모두 전송된다. 그리고 메모리에서 중복되는 parent(`Order`)의 데이터를 모두 날려 버리기 때문에, 원하는 결과는 나오지만 불필요한 데이터 전송량이 증가하는 문제가 있을 수 있다.
+
+
+# 해결 방법 #3 - 각 하나씩 찔러보기
+
+이건 안 좋은 방법이라 안 쓰려 했지만, 팀에서 공유하다 옆에 계신 분이 안 좋아도 참고나 하라고 써보자 해서 추가
+
+`fetchjoin`을 사용하지 않고 가져온 parent의 children을 하나하나 돌면서 `getId()` 등을 호출해서 lazy loading을 직접 처리해 준다. 그리고 children을 가져오는 `getOrderItems()` 까지만 호출하면 안 되고, children의 member 까지 호출해야 한다.
+
+이 방법은 `N+1` fetch를 하게 되기 때문에 성능 문제가 클 수 있다.
+
+```java
+public List<Order> findAllByUserName(String userName) {
+  List<Order> result = from(order)
+    .where(order.userName.eq(userName))
+    .fetch();
+
+  result.stream.map(Order::getOrderItems).forEach(Hibernate::initialize);
+  trans.stream()
+    .map(Order::getOrderItems)
+    .flatMap(Collection::stream)
+    .forEach(orderItem::getId);
+
+  return result;
 }
 ```
