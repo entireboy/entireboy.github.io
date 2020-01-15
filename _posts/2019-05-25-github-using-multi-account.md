@@ -109,6 +109,55 @@ Hi THERE! You've successfully authenticated, but GitHub does not provide shell a
 ```
 
 
+# 계정 전환하기
+
+(2020. 01. 16. 추가. 사용하면서 알게된 계정 전환 방법 내용 추가)
+
+여러 SSH key를 쓰는 경우 GitHub이 어떤 계정으로 push를 하는지 구분할 수 없기 때문에 계정 전환이 필요하다. GitHub 뿐만 아니라 다른 SSH 인증을 사용하는 모든 곳에서는 사용할 SSH key 선택이 필요하다.
+
+```bash
+$ # -l 옵션: 현재 agent에 등록된 SSH key 목록
+$ ssh-add -l
+4096 SHA256:zyxhfwjfewokjfd another_email@example.com (RSA)
+4096 SHA256:abcdkfsjklerwjl your_email@example.com (RSA)
+
+$ git push origin
+ERROR: Permission to my-id/my-repo denied to another_email.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+위와 같이 여러 SSH key가 등록된 경우 push할 권한이 없는 `another_email` 계정이 선택되어 실패하는 것을 볼 수 있다. 지금 사용하지 않는 `another_email`계정의 SSH key를 제거한다.
+
+```bash
+$ # -d 옵션: agent에서 SSH key 하나만 삭제
+$ ssh-add -d ~/.ssh/github_another
+Identity removed: /Users/you/.ssh/github_another (another_email@example.com)
+
+$ ssh-add -l
+4096 SHA256:abcdkfsjklerwjl your_email@example.com (RSA)
+
+$ git push origin
+# ... (생략 / 성공) ...
+```
+
+또는 전체를 제거하고 사용할 SSH key만 등록한다.
+
+```bash
+$ # -D 옵션: agent에 등록된 모든 SSH key 삭제
+$ ssh-add -D
+All identities removed.
+
+$ ssh-add -K ~/.ssh/github_me
+Identity added: /Users/you/.ssh/github_me (your_email@example.com)
+
+$ ssh-add -l
+4096 SHA256:abcdkfsjklerwjl your_email@example.com (RSA)
+```
+
+
 # 참고
 
 - [여러 개의 github 계정 사용하기](https://aweekj.github.io/using-multiple-accounts-in-git/)
