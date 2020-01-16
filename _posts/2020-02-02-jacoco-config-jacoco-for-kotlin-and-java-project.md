@@ -7,11 +7,13 @@ categories: [ test ]
 tags: [ jacoco, test, code coverage, code, coverage, report, kotlin, java, gradle, project, junit ]
 ---
 
+> 이 글은 회사 [기술블로그에 작성한 내용](https://woowabros.github.io/experience/2020/02/02/jacoco-config-on-gradle-project.html)이다.
+
 [JaCoCo](https://www.jacoco.org/jacoco/)는 Java 코드의 커버리지를 체크하는 라이브러리이다. 테스트코드를 돌리고 그 커버리지 결과를 눈으로 보기 좋도록 html이나 xml, csv 같은 리포트로 생성한다. 그리고 테스트 결과가 내가 설정한 커버리지 기준을 만족하는지 확인하는 기능도 있다. 우리팀 같은 경우는 프로젝트의 커버리지가 올라갈 때 마다 이 기준을 조금씩 올려가고 있고, 이 커버리지 기준을 만족시키지 못 하면 배포를 하지 못 하게 하고 있다. 브랜치 커버리지가 100%인 프로젝트도 있다.
 
 여기서는 Java와 Kotlin 코드가 섞인 Gradle 프로젝트를 커버리지 체크하는 JaCoCo 설정을 살펴본다. (사실 자꾸 까먹어서 기록용..) 이전 버전 JaCoCo 플러그인 같은 경우는 Java와 Kotlin 등 여러 언어의 소스가 섞여 있을 때는 [소스 경로를 모두 체크하도록 설정](http://vgaidarji.me/blog/2017/12/20/how-to-configure-jacoco-for-kotlin-and-java-project/)해 줘야 했던 것 같지만, 지금(Gradle 6.0.1, JaCoCo 8.0.5)은 큰 설정 없이 사용할 수 있다. 이 글에서는 두 언어의 코드가 함께 체크되는 것을 볼 것이다.
 
-전체 샘플 코드는 [jacoco-on-gradle-sample](https://github.com/entireboy/jacoco-on-gradle-sample)에서 확인할 수 있다.
+전체 샘플 코드는 [jacoco-on-gradle-sample](https://github.com/entireboy/jacoco-on-gradle-sample)에서 확인할 수 있고, Gradle 설정은 Kotlin DSL로 작성됐다.
 
 
 # JaCoCo 플러그인 추가
@@ -238,7 +240,7 @@ BUILD FAILED in 3s
 8 actionable tasks: 8 executed
 ```
 
-Gradle 빌드가 실패했다. 정상이다. 커버리지 체크 설정(`minimum = "0.90"`)을 실패하도록 했기 때문이다. `jacocoTestReport` task는 정상적으로 실행된 것을 볼 수 있고, `build/reports/jacoco/test/html/index.html` 경로에 가보면 아래 스크린샷과 같은 리포트가 생성된 것을 확인할 수 있다. 하지만, `jacocoTestCoverageVerification` task는 위에서 설정한 커버리지 체크 기준을 넘지 못 했기 때문에 실패한 것을 볼 수 있다. 브랜치 커버리지가 설정한 90%를 넘어야 하는데, 2개 클래스 모두 33% 밖에 되지 않는다. 위의 실행 결과에서 0.33으로 표시됐다. (자세한 커버리지 설정은 이 글 맨 아래에서 다시 설명한다.)
+Gradle 빌드가 실패했다. 정상이다. 커버리지 체크 설정(`minimum = "0.90"`)을 실패하도록 높게 설정했기 때문이다. `jacocoTestReport` task는 정상적으로 실행된 것을 볼 수 있고, `build/reports/jacoco/test/html/index.html` 경로에 가보면 아래 스크린샷과 같은 리포트가 생성된 것을 확인할 수 있다. 하지만, `jacocoTestCoverageVerification` task는 위에서 설정한 커버리지 체크 기준을 넘지 못 했기 때문에 실패한 것을 볼 수 있다. 브랜치 커버리지가 설정한 90%를 넘어야 하는데, 2개 클래스 모두 33% 밖에 되지 않는다. 위의 실행 결과에서 0.33으로 표시됐다. (자세한 커버리지 설정은 이 글 맨 아래에서 다시 설명한다.)
 
 만들어진 html 리포트를 브라우저로 열면 다음과 같이 각 커버리지 항목 마다 총 개수와 놓친 개수를 표시해 준다.
 
@@ -326,7 +328,7 @@ BUILD SUCCESSFUL in 3s
 
 # test task 실행 시 JaCoCo task 실행하도록 설정
 
-`testCoverage` task를 만들긴 했는데, 나는 기억력이 워낙 안 좋으니까 자꾸 까먹을 것만 같다. 그럴 때는 `test` task를 실행할 때 마다 자동으로 JaCoCo task 들이 실행되도록 `finalizedBy`로 설정해 줄 수 있다.
+`testCoverage` task를 만들긴 했는데, (나는 기억력이 워낙 안 좋으니까..) 자꾸 까먹을 것만 같다. 그럴 때는 `test` task를 실행할 때 마다 자동으로 JaCoCo task 들이 실행되도록 `finalizedBy`로 설정해 줄 수 있다.
 
 ```kotlin
 tasks.test {
@@ -483,7 +485,7 @@ tasks.jacocoTestCoverageVerification {
 }
 ```
 
-이 설정은 라인수가 8줄을 넘지 않아야 하는 커버리지 체크이고, 샘플에 있는 `KotlinFoo` 클래스를 커버리지 체크에서 제외해서 빌드가 정상적으로 성공한다. `excludes` 부분을 제거하면 테스트가 실패하는 것을 볼 수 있다. 여기서 조심할 점은 경로가 아닌 **패키지 + 클래스명** 을 적어줘야 한다는 것이다. 다른 프로젝트에서 쓰듯이 경로명으로 설정하면서 미친듯이 삽질을 했는데, 클래스명으로 하니 잘 동작한다.
+이 설정은 라인수가 8줄을 넘지 않아야 하는 커버리지 체크이고, 샘플에 있는 `KotlinFoo` 클래스를 커버리지 체크에서 제외해서 빌드가 정상적으로 성공한다. `excludes` 부분을 제거하면 테스트가 실패하는 것을 볼 수 있다. 여기서 조심할 점은 경로가 아닌 **패키지 + 클래스명** 을 적어줘야 한다는 것이다. 다른 프로젝트에서 쓰듯이 경로명으로 설정하면서 미친듯이 삽질을 했는데, 매뉴얼 다시 똑바로 읽고 클래스명으로 하니 잘 동작한다.
 
 > List&lt;String&gt; excludes
 >
