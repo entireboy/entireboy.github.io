@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[JaCoCo] Gradle 프로젝트에 JaCoCo 설정하기"
-date:   2020-01-02 22:22:22 +0900
+date:   2020-02-02 22:22:22 +0900
 published: true
 categories: [ test ]
 tags: [ jacoco, test, code coverage, code, coverage, report, kotlin, java, gradle, project, junit ]
