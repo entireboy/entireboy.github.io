@@ -4,7 +4,7 @@ title:  "[Jenkins] 성공할 때 까지 잡 반복시키기 - quiet period(delay
 date:   2019-09-28 23:18:00 +0900
 published: true
 categories: [ jenkins ]
-tags: [ jenkins, repeat, run, job, quiet period, delay, until, status, stable, unstable, build ]
+tags: [ jenkins, repeat, run, job, quiet period, delay, until, status, stable, unstable, build, parameterized trigger, trigger, plugin ]
 ---
 
 # 문제
