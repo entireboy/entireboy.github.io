@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[JaCoCo] Gradle 프로젝트에 JaCoCo 설정하기"
-date:   2020-02-02 22:22:22 +0900
+date:   2020-01-02 22:22:22 +0900
 published: true
 categories: [ test ]
 tags: [ jacoco, test, code coverage, code, coverage, report, kotlin, java, gradle, project, junit ]
@@ -245,15 +245,15 @@ $ ./gradlew --console verbose test jacocoTestReport jacocoTestCoverageVerificati
 > Task :jacocoTestReport
 
 > Task :jacocoTestCoverageVerification FAILED
-[ant:jacocoReport] Rule violated for class com.woowahan.thdeng.test.jacoco.KotlinFoo: branches covered ratio is 0.33, but expected minimum is 0.90
-[ant:jacocoReport] Rule violated for class com.woowahan.thdeng.test.jacoco.JavaFoo: branches covered ratio is 0.33, but expected minimum is 0.90
+[ant:jacocoReport] Rule violated for class kr.leocat.test.kotlinjacocosample.JavaFoo: branches covered ratio is 0.33, but expected minimum is 0.90
+[ant:jacocoReport] Rule violated for class kr.leocat.test.kotlinjacocosample.KotlinFoo: branches covered ratio is 0.33, but expected minimum is 0.90
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':jacocoTestCoverageVerification'.
-> Rule violated for class com.woowahan.thdeng.test.jacoco.KotlinFoo: branches covered ratio is 0.33, but expected minimum is 0.90
-  Rule violated for class com.woowahan.thdeng.test.jacoco.JavaFoo: branches covered ratio is 0.33, but expected minimum is 0.90
+> Rule violated for class kr.leocat.test.kotlinjacocosample.JavaFoo: branches covered ratio is 0.33, but expected minimum is 0.90
+  Rule violated for class kr.leocat.test.kotlinjacocosample.KotlinFoo: branches covered ratio is 0.33, but expected minimum is 0.90
 
 * Try:
 Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -269,13 +269,15 @@ Gradle 빌드가 실패했습니다. 네, 정상이예요. 커버리지 체크 �
 
 만들어진 html 리포트를 브라우저로 열면 다음과 같이 각 커버리지 항목 마다 총 개수와 놓친 개수를 표시해 줍니다.
 
-![JaCoCo package report]({{ site.url }}/img/2020-02-02/jacoco-config-on-gradle-project1.png)
-![JaCoCo class report]({{ site.url }}/img/2020-02-02/jacoco-config-on-gradle-project2.png)
-![JaCoCo method report]({{ site.url }}/img/2020-02-02/jacoco-config-on-gradle-project3.png)
+{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project1.png' alt='JaCoCo package report' %}
+{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project2.png' alt='JaCoCo class report' %}
+{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project3.png' alt='JaCoCo method report' %}
 
 코드 파일에서는 커버가 된 라인은 초록색, 놓친 부분은 빨간색으로 표시해 줍니다. 노란색은 모든 조건이 아닌 일부만 테스트된 라인입니다. 브랜치 커버리지를 예를 들면 if문에서 true나 false 중 한 가지 조건만 테스트한 경우가 될 수 있습니다. `name == "Hello"`는 false만 테스트 됐고, `name == "펭"`은 true만 테스트 돼서 노란색으로 표시 됐습니다.
 
-![JaCoCo file report]({{ site.url }}/img/2020-02-02/jacoco-config-on-gradle-project4.png)
+{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project4.png' alt='JaCoCo file report' %}
+
+{% include google-ad-content %}
 
 
 # 여러 task를 함께 실행
@@ -325,7 +327,7 @@ test - Runs the unit tests.
 testCoverage - Runs the unit tests with coverage
 ```
 
-![Gradle tasks]({{ site.url }}/img/2020-02-02/jacoco-config-on-gradle-project5.png){: style="width:40%; display: block; margin: auto; "}
+{% include image.html file='/assets/img/2020-01-11-jacoco-config-jacoco-for-kotlin-and-java-project5.png' alt='Gradle tasks' width="300px" %}
 
 준비가 다 됐으니 `testCoverage` task를 실행해 보면 원하는 순서대로 task가 실행되는 것을 볼 수 있습니다.
 
