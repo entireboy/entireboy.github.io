@@ -24,8 +24,8 @@ Jenkins 설정 > Global Tool Configuration > JDK > JDK installation
 ```
 
 
-{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins1.png' %}
-{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins2.png' %}
+{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins1.png' width='450px' %}
+{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins2.png' width='450px' %}
 
 JDK 섹션에서 `ADD JDK`를 클릭해서 골라서 사용할 JDK를 등록한다.
 
@@ -40,7 +40,7 @@ JDK 섹션에서 `ADD JDK`를 클릭해서 골라서 사용할 JDK를 등록한�
 
 이제 job 설정에서 실행할 JDK를 선택하면 된다. `Global Tool Configuration`에서 설정한 JDK 이름이 보인다.
 
-{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins5.png' %}
+{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins5.png' width='450px' %}
 
 
 # Jenkinsfile을 사용하는 경우 (pipeline)
