@@ -82,7 +82,7 @@ $ ./gradlew clean compileKotlin
 
 > The most important part of the class name that corresponds to the fragment interface is the `Impl` postfix.
 
-`CustomizedOrderRepository`라고 인터페이스를 만들었다면, 구현체 이름은 인터페이스에 `Impl`을 붙인 형태인 `CustomizedOrderRepositoryImpl`이라고 해야 한다. (아.. 구현체만 rename 했다가 클래스 못 찾아서 것나 삽질;; 이 내용은 글 가장 아래에 다시 다룬다.)
+`CustomizedOrderRepository`라고 인터페이스를 만들었다면, 구현체 이름은 인터페이스에 `Impl`을 붙인 형태인 `CustomizedOrderRepositoryImpl`이라고 해야 한다. (아.. 구현체만 rename 했다가 클래스 못 찾아서 겁나 삽질;; 이 내용은 글 가장 아래에 다시 다룬다.)
 
 ```kotlin
 // /src/main/kotlin/kr/leocat/test/order/OrderRepository.kt
