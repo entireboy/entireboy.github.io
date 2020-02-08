@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Kotlin] enum이나 sealed class 그리고 대수적 타입(algebraic data type)"
+title:  "[Kotlin] enum/sealed class 그리고 대수적 타입(algebraic data type)"
 date:   2020-02-08 22:18:00 +0900
 published: true
 categories: [ kotlin ]

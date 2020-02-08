@@ -83,3 +83,8 @@ private static String getMnemonic(Color color) {
 ```
 
 중간에 break나 return 하나 빼먹으면 그 결과는..
+
+
+# 참고
+
+- [[Kotlin] enum/sealed class 그리고 대수적 타입(algebraic data type)]({{ site.baseurl }}{% post_url 2020-02-08-kotlin-enum-and-algebraic-data-type %})
