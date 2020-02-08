@@ -117,5 +117,6 @@ enum과 sealed class는 `합타입`이다.
 # 참고
 
 - [대수적 데이터 타입이(algebraic data type)이란? With Kotlin](https://medium.com/@lazysoul/%EB%8C%80%EC%88%98%EC%A0%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85%EC%9D%B4-algebraic-data-type-%EC%9D%B4%EB%9E%80-26d9e73d96b6)
+- [[Kotlin] 코틀린으로 보는 문(statement)과 식(expression)]({{ site.baseurl }}{% post_url 2019-12-29-kotlin-statement-and-expression %})
 - [Algebraic data type(대수적 타입) - Wikipedia](https://en.wikipedia.org/wiki/Algebraic_data_type)
 - [Sum type(합타입) - Wikipedia](https://en.wikipedia.org/wiki/Sum_type)
