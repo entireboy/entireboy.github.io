@@ -13,7 +13,6 @@ Jenkins를 처음 설치하면 아래 경로에 비밀번호 파일이 생성되
 /var/jenkins_home/secrets/initialAdminPassword
 ```
 
-[[ 사진 ]]
 {% include image.html file='/assets/img/2020-02-16-jenkins-initial-admin-password-on-jenkins-docker-image1.png' alt='Require init admin password' %}
 
 
