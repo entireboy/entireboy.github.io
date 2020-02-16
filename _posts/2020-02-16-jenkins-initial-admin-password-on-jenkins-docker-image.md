@@ -14,6 +14,8 @@ Jenkins를 처음 설치하면 아래 경로에 비밀번호 파일이 생성되
 ```
 
 [[ 사진 ]]
+{% include image.html file='/assets/img/2020-02-16-jenkins-initial-admin-password-on-jenkins-docker-image1.png' alt='Require init admin password' %}
+
 
 그런데 docker 이미지로 띄우면 volume을 설정해도 안 보인다. (못 찾는건가 =_=)
 
@@ -42,6 +44,8 @@ jenkins260   | *************************************************************
 jenkins260   | *************************************************************
 jenkins260   |
 ```
+
+{% include image.html file='/assets/img/2020-02-16-jenkins-initial-admin-password-on-jenkins-docker-image2.png' alt='Initial admin password on log' %}
 
 
 # 컨테이너 내 파일 확인
