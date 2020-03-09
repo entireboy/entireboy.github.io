@@ -1,0 +1,4 @@
+---
+name: reduce
+title: reduce
+---
