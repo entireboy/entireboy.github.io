@@ -26,10 +26,9 @@ http {
 설정을 해주지 않으면 기본값은 `1m`이고, 제한을 두지 않으려면 `0`으로 설정하면 된다.
 
 ```
-Syntax:	client_max_body_size size;
-Default:
-client_max_body_size 1m;
-Context:	http, server, location
+Syntax: client_max_body_size size;
+Default: client_max_body_size 1m;
+Context: http, server, location
 ```
 
 `nginx.conf` 파일을 수정하고, 재시작해주면 끗
