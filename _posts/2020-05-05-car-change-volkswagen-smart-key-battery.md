@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[car] 폭스바겐 스마트키/폴딩키 배터리 교체"
+title:  "[Car] 폭스바겐 스마트키/폴딩키 배터리 교체"
 date:   2020-05-05 21:18:00 +0900
 published: true
 categories: [ car ]
