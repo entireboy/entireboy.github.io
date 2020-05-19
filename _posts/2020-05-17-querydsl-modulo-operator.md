@@ -12,7 +12,7 @@ Querydsl 에서 나머지(mod 연산, modulo)를 구하는 연산이 필요할 �
 ```java
 public List<Order> findOddOrderIds() {
     return from(order)
-    .where(order.id.castToNum(Long.class).mod(2).eq(1)); // ID가 홀수인 것만 다 꺼내옴
+    .where(order.id.castToNum(Long.class).mod(2L).eq(1L)); // ID가 홀수인 것만 다 꺼내옴
 }
 ```
 
