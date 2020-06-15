@@ -15,9 +15,9 @@ Kotlin 컬렉션에는 컬랙션 내의 데이터를 모두 모으는(accumulate
 val numbers = listOf(7, 4, 8, 1, 9)
 
 val sum = numbers.reduce { total, num -> total + num }
-println("reduced: $sum") // reduced: 21
+println("reduced: $sum") // reduced: 29
 val sumFromTen = numbers.fold(10) { total, num -> total + num }
-println("folded: $sumFromTen") // folded: 31
+println("folded: $sumFromTen") // folded: 39
 ```
 
 Java의 stream 에서는 둘 다 `reduce()`이다.
