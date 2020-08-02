@@ -4,7 +4,7 @@ title:  "[Data] Precision(정확률)과 Recall(재현률)"
 date:   2020-08-02 21:18:00 +0900
 published: true
 categories: [ data analytics ]
-tags: [ data analytics, precision, recall, search, recommender system ]
+tags: [ data analytics, precision, recall, accuracy, search, recommender system ]
 ---
 
 > 이전 블로그에서 옮겨온 포스트
