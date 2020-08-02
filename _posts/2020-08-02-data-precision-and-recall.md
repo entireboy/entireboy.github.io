@@ -35,7 +35,7 @@ As shown in the first two figures on the left, these measures assume:
 
 **PRECISION** is the ratio of the number of relevant records retrieved to the total number of irrelevant and relevant records retrieved. It is usually expressed as a percentage.
 
-한마디로 **RECALL** 은 추천 가능한 (추천했을 때 욕 안 먹는) 아이템 중에 얼마나 추천해주었는가?? **PRECISION** 은 추천해준 것 중 제대로 추천해준 것이 얼마나 되는가?? 정도?? ㅋㅋ 또 다른 말로는 **PRECISION** 은 얼마나 정확하게 추천해주는가(믿을만한가)?? 원하지 않는 것을 얼마나 잘 제거했는가?? **RECALL** 은 이 추천이 추천 가능한 아이템을 얼마나 커버(재현)할 수 있는가?? 원하는 것을 얼마나 잘 추천하는가?? (역시 장담은 못 한다) 정도?? ㅋㅋ
+한마디로 **RECALL** 은 추천 가능한 (추천했을 때 욕 안 먹는) 아이템 중에 얼마나 추천해주었는가?? **PRECISION** 은 추천해준 것 중 제대로 추천해준 것이 얼마나 되는가?? 정도?? ㅋㅋ 또 다른 말로는 **PRECISION** 은 얼마나 정확하게 추천해주는가(믿을만한가)?? 원하지 않는 것을 얼마나 잘 제거했는가?? **RECALL** 은 이 추천 시스템이 추천 가능한 아이템을 얼마나 커버(재현)할 수 있는가?? 원하는 것을 얼마나 잘 추천하는가?? (역시 장담은 못 한다) 정도?? ㅋㅋ
 (원문은 검색의 예로 설명을 했고, 나는 추천을 예로 설명을...-ㅅ-;)
 
 
@@ -47,7 +47,7 @@ As shown in the first two figures on the left, these measures assume:
 
 일반적으로 recall 이 높으면 precision이 낮고, recall이 낮으면 precision이 높다고 한다. 어디까지나 일반적인 것이다.
 
-{% include image.html file='/assets/img/data-precision-and-recall1.gif' alt='precision and recall' %}
+{% include image.html file='/assets/img/data-precision-and-recall6.gif' alt='precision and recall' %}
 
 두 그래프는 서로 다른 검색 엔진이나 추천 시스템을 사용했을 때의 차이가 있을 수 있음을 보여주는 것이다. precision과 recall 중 어떤 것이 더 중요한지는 시스템의 특성에 따라 다르기 때문에 시스템에 따라서 중요도가 달라질 수 있다. 검색의 경우는 사용자들이 검색된 내용의 상위 몇 개만을 보려고 하기 때문에 precision이 매우 높아야 한다.
 
