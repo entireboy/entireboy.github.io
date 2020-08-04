@@ -28,7 +28,7 @@ $ tar xvf xvfz pinpoint-agent-2.0.4.tar.gz
   ...
 $ ls
 pinpoint-agent-2.0.4        pinpoint-agent-2.0.4.tar.gz
-$
+$ 
 ```
 
 `--strip` 옵션을 주고 풀면 그 숫자만큼 경로를 제외하고 압축을 풀게 된다. `--strip 1` 옵션을 주면 상위 1개의 경로를 제외하고 압축을 푼다.
@@ -48,4 +48,4 @@ $
 
 # 참고
 
-- [Extract without First Directory]([https://www.marksanborn.net/linux/extract-without-first-directory/](https://www.marksanborn.net/linux/extract-without-first-directory/))
+- [Extract without First Directory](https://www.marksanborn.net/linux/extract-without-first-directory/)
