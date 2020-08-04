@@ -9,7 +9,7 @@ tags: [ shell, tar, extract, remove, without, first, parent, path ]
 
 압축파일에 내가 원하지 않는 경로가 포함되어 있을 때가 있다.
 
-예를 들면, pinpoint 2.0.4 버전의 압축파일은 `pinpoint-agent-2.0.4` 경로 하위에 모든 파일이 포함되어 있다.
+예를 들면, pinpoint 2.0.4 버전의 압축파일([pinpoint-agent-2.0.4.tar.gz](https://github.com/naver/pinpoint/releases/download/v2.0.4/pinpoint-agent-2.0.4.tar.gz))은 `pinpoint-agent-2.0.4` 경로 하위에 모든 파일이 포함되어 있다.
 
 ```bash
 $ tar tf pinpoint-agent-2.0.4.tar.gz
@@ -28,7 +28,7 @@ $ tar xvf xvfz pinpoint-agent-2.0.4.tar.gz
   ...
 $ ls
 pinpoint-agent-2.0.4        pinpoint-agent-2.0.4.tar.gz
-$ 
+$
 ```
 
 `--strip` 옵션을 주고 풀면 그 숫자만큼 경로를 제외하고 압축을 풀게 된다. `--strip 1` 옵션을 주면 상위 1개의 경로를 제외하고 압축을 푼다.
