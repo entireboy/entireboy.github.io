@@ -12,7 +12,7 @@ Querydsl로 select를 할 때 `innerJoin()`이나 `leftJoin()`, `rightJoin()` �
 하지만 함께 join된 테이블의 값을 같이 꺼내고 싶은 경우, 다시 select를 해야 하는 `n+1` 문제가 발생할 수 있다. 이럴 때 `fetchJoin`을 사용하면 한번에 꺼내온다.
 
 
-# innerJoin
+# innerJoin, leftJoin, rightJoin
 
 ```java
   public List<User> findMe(String street) {
