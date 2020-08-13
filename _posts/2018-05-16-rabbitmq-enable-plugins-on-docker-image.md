@@ -4,7 +4,7 @@ title:  "[RabbitMQ] RabbitMQ 플러그인 켜진 Docker 이미지 만들기"
 date:   2018-05-16 23:18:00 +0900
 published: true
 categories: [ rabbitmq, docker ]
-tags: [ rabbitmq, docker, dockerfile, image, enable, plugin, queue, message queue ]
+tags: [ rabbitmq, docker, dockerfile, image, enable, plugin, queue, message queue, mq ]
 ---
 
 Docker 이미지에서 RabbitMQ의 [management plugin](https://www.rabbitmq.com/management.html)을 켜기 위해 다음 명령을 실행하려 한다.

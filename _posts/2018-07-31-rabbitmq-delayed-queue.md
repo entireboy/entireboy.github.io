@@ -4,7 +4,7 @@ title:  "[RabbitMQ] 간단 지연 큐(delayed queue) 설정"
 date:   2018-07-31 23:18:00 +0900
 published: true
 categories: [ rabbitmq ]
-tags: [ rabbitmq, delayed queue, delay, ttl, dead-letter, routing, route, message, expire ]
+tags: [ rabbitmq, delayed queue, delay, ttl, dead-letter, routing, route, message, expire, message queue, mq,  ]
 ---
 
 간혹 큐로 메시지를 주고 받을 때, 메시지를 보낸 즉시가 아닌 일정 시간(delay) 이후에 받고 싶은 경우가 있다. RabbitMQ에서는 몇 가지 방법으로 구현할 수 있다.

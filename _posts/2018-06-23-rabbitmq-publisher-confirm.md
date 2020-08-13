@@ -4,7 +4,7 @@ title:  "[RabbitMQ] Publisher Confirm - 메시지 전송도 안 잃어버리기"
 date:   2018-06-23 22:18:00 +0900
 published: true
 categories: [ rabbitmq ]
-tags: [ rabbitmq, publisher, confirm, message, ack, queue, message queue ]
+tags: [ rabbitmq, publisher, confirm, message, ack, queue, message queue, mq, message processing ]
 ---
 
 RabbitMQ에서 메시지를 꺼내서 처리할 때만 ACK를 보내는게 아니라, 정상적으로 보냈는지 확인할 ACK도 받고 싶을 때 Publisher Confirm을 사용하면 된다. publisher confirm과 transaction은 함께 사용할 수 없다.
