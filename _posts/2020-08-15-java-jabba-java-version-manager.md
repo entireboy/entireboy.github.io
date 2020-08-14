@@ -25,7 +25,7 @@ $ curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.
 ```bash
 export JABBA_HOME="$HOME/.jabba"
 [ -s "$JABBA_HOME/jabba.sh" ] && source "$JABBA_HOME/jabba.sh"
-``
+```
 
 
 # Usage
