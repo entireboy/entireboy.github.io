@@ -7,7 +7,9 @@ categories: [ java ]
 tags: [ java, jabba, version, manager, jdk, openjdk, intellij ]
 ---
 
-여러 프로젝트를 개발하다 보면 여러 버전의 java 환경이 필요하게 된다. A 프로젝트는 java 8 이고, B 프로젝트는 java 11 이고..
+간혹 여러 프로젝트를 개발하다 보면 여러 버전의 java 환경이 필요하게 된다.
+
+A 프로젝트는 java 8을 사용하고, B 프로젝트는 java 11 이고..
 
 [jabba](https://github.com/shyiko/jabba)를 사용하면 여러 JDK 버전을 설치할 수 있고, 원할 때 마다 골라서 사용할 수 있다.
 
@@ -64,7 +66,7 @@ adopt@1.11.0-6
 
 {% include image.html file='/assets/img/2020-08-15-java-jabba-java-version-manager1.png' alt='Add JDK' %}
 
-JDK가 설치되는 jabba의 기본 경로는 `~/.jabba/jdk`이기 때문에 숨겨진 경로(`.`로 시작하는 경로/파일)이다. 그래서 `Cmd + Shift + G` (또는 `Ctrl + Shift + G`) 단축키로 이동할 경로를 직접 적어줘야 숨겨진 경로로 이동할 수 있다. (물론 숨겨진 파일을 다 보는 옵션을 켜도 된다.)
+JDK가 설치되는 jabba의 기본 경로는 `~/.jabba/jdk`이기 때문에 숨겨진 경로(`.`로 시작하는 경로/파일)이다. 그래서 단축키 `Cmd + Shift + G`(또는 `Ctrl + Shift + G`)로 이동할 경로를 직접 적어줘야 숨겨진 경로로 이동할 수 있다. (물론 숨겨진 파일을 다 보는 옵션을 켜도 된다.)
 
 {% include image.html file='/assets/img/2020-08-15-java-jabba-java-version-manager2.png' alt='Add JDK' %}
 
