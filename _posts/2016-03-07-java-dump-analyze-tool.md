@@ -9,6 +9,13 @@ tags: [ java, thread dump, heap dump, analyze, tool, dump ]
 
 하도 까먹어서 정리 중 =_= 매번 쓰면서도 이름이 기억 안 남;;
 
+# 0. fastThread
+
+  (2020. 08. 25. 추가)
+  <https://fastthread.io/>
+
+  이 사이트는 덤프 파일을 업로드 하면 분석해 준다. 역시 설치형은 미리 설치되어 있지 않으면 만사가 귀찮으니 그럴 때는..
+
 # 1. ThreaLogic
 
   <https://java.net/projects/threadlogic> -> <https://github.com/sparameswaran/threadlogic>
