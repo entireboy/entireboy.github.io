@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[nginx] 특정 URL 로그 변경하기 (개인정보 마스킹 등)"
+title:  "[nginx] 특정 request의 access log 변경하기 (개인정보 마스킹 등)"
 date:   2020-08-26 21:18:00 +0900
 published: true
 categories: [ nginx ]
