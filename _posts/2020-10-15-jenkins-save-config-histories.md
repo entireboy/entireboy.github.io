@@ -65,6 +65,8 @@ Jenkins 시스템 설정에서 이력의 보관개수/보관기간 등을 지정
 
 > Deprecated:This plugin has been marked as deprecated. In general, this means that this plugin is either obsolete, no longer being developed, or may no longer work. See the documentation for further information about the cause for the deprecation, and suggestions on how to proceed. The deprecation process is also documented here.
 
+{% include google-ad-content %}
+
 
 # 백업과 빠른 복구
 
