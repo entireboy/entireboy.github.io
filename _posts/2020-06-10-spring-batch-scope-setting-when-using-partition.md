@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[spring-batch] Partition 사용할 때 scope 설정"
+title:  "[Spring Batch] Partition 사용할 때 scope 설정"
 date:   2020-06-10 21:18:00 +0900
 published: true
 categories: [ spring ]
-tags: [ spring, spring-batch, scope, config, setting, partition ]
+tags: [ spring, spring batch, scope, config, setting, partition ]
 ---
 
 Spring Batch 파티션(partition)을 사용하면 파티션이 공용으로 사용하게 되는 bean들이 생성된다. 이 때 scope 설정을 잘못 하면 아래와 같은 오류를 볼 수 있다.

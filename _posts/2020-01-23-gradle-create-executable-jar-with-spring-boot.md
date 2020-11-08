@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[Gradle] spring-boot 플러그인으로 실행가능한 executable jar 만들기 (feat. 그런데 실행이 안 돼요)"
+title:  "[Gradle] Spring Boot 플러그인으로 실행가능한 executable jar 만들기 (feat. 그런데 실행이 안 돼요)"
 date:   2020-01-23 22:38:00 +0900
 published: true
 categories: [ gradle ]
-tags: [ gradle, build, package, executable jar, executable, jar, spring, spring-boot, bootJar ]
+tags: [ gradle, build, package, executable jar, executable, jar, spring, spring boot, bootJar ]
 ---
 
 [Spring Boot Gradle Plugin](https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/html/)을 사용하면 손쉽게 실행가능한 jar(executable jar)를 만들 수 있다. jar 뿐만 아니라 war 등도 만들 수 있다. 설정도 아주 쉽다.

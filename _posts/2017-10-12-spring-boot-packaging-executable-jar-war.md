@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[spring-boot] 실행가능한 jar/war 파일 만들기"
+title:  "[Spring Boot] 실행가능한 jar/war 파일 만들기"
 date:   2017-10-12 21:38:00 +0900
 published: true
 categories: [ spring ]
-tags: [ spring, spring-boot, framework, package, packaging, executable, war, jar, tomcat, jetty ]
+tags: [ spring, spring boot, framework, package, packaging, executable, war, jar, tomcat, jetty ]
 ---
 
 `spring-boot`로 개발을 마치고 실제 서비스를 해야 한다면, jar나 war 파일을 만들어서 배포를 해야 한다. 서비스할 때도 소스 코드를 들고 가서 `./gradlew bootRun` 같은 명령을 실행할 수는 없으니..

@@ -4,12 +4,12 @@ title:  "[Querydsl] Spring과 함께 사용할 때 UnsupportedOperationException
 date:   2020-11-08 22:18:00 +0900
 published: true
 categories: [ querydsl ]
-tags: [ querydsl, spring-boot, UnsupportedOperationException, dependency management, dependency, version, mismatch ]
+tags: [ querydsl, spring, spring-boot, UnsupportedOperationException, dependency management, dependency, version, mismatch ]
 ---
 
 # 문제
 
-Spring boot와 함께 Querydsl 을 사용하는 프로젝트를 설정하는데, 정말 불친절한 `UnsupportedOperationException` 발생 =_= 어찌나 불친절한지 예외 클래스 이름 빼면 아무 내용도 없음;;;
+Spring Boot와 함께 Querydsl 을 사용하는 프로젝트를 설정하는데, 정말 불친절한 `UnsupportedOperationException` 발생 =_= 어찌나 불친절한지 예외 클래스 이름 빼면 아무 내용도 없음;;;
 
 ```bash
 java.lang.UnsupportedOperationException
@@ -41,7 +41,7 @@ java.lang.UnsupportedOperationException
 
 # 원인
 
-프로젝트의 Querydsl dependency로 `4.2.2` 를 사용하고 있었는데, Spring boot 버전을 최신 버전인 `2.3.5.RELEASE` 로 변경했다. Spring boot dependency manager에서 참조하는 Querydsl 은 `4.3.1` 이었고, 이 버전이 서로 맞지 않아서 이런 에러가 발생했다.
+프로젝트의 Querydsl dependency로 `4.2.2` 를 사용하고 있었는데, Spring Boot 버전을 최신 버전인 `2.3.5.RELEASE` 로 변경했다. Spring Boot dependency manager에서 참조하는 Querydsl 은 `4.3.1` 이었고, 이 버전이 서로 맞지 않아서 이런 에러가 발생했다.
 
 다음은 사용 중인 `build.gradle.kts`(Kotlin dsl) 일부분이다.
 
@@ -109,4 +109,4 @@ dependencies {
 # 참고
 
 - [Spring Boot QueryDsl returns Caused by: java.lang.UnsupportedOperationException: null](https://stackoverflow.com/questions/62112312/spring-boot-querydsl-returns-caused-by-java-lang-unsupportedoperationexception)
-- [Dependency versions - Spring boot doc](https://docs.spring.io/spring-boot/docs/2.3.5.RELEASE/reference/html/appendix-dependency-versions.html)
+- [Dependency versions - Spring Boot doc](https://docs.spring.io/spring-boot/docs/2.3.5.RELEASE/reference/html/appendix-dependency-versions.html)

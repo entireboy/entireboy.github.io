@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[spring-boot] Tomcat 대신 Jetty 사용하기"
+title:  "[Spring Boot] Tomcat 대신 Jetty 사용하기"
 date:   2017-10-09 21:38:00 +0900
 published: true
 categories: [ spring ]
-tags: [ spring, spring-boot, framework, was, jetty, tomcat, embedded, web, server ]
+tags: [ spring, spring boot, framework, was, jetty, tomcat, embedded, web, server ]
 ---
 
 `spring-boot-starter-web`을 사용하면 dependency로 embedded Tomcat이 따라온다. 프로젝트를 실행하면 이 Tomcat 위에서 돌게 된다.

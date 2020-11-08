@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[spring-cloud-aws] 메시지 단위로 VisibilityTimeout 변경하기"
+title:  "[Spring Cloud for AWS] 메시지 단위로 VisibilityTimeout 변경하기"
 date:   2019-06-24 22:18:00 +0900
 published: true
 categories: [ spring ]
-tags: [ spring, spring-cloud, spring-cloud-aws, aws, sqs, set, visibility timeout, visibility, timeout, individual, message ]
+tags: [ spring, spring cloud, spring cloud aws, aws, sqs, set, visibility timeout, visibility, timeout, individual, message ]
 ---
 
 # Visibility timeout

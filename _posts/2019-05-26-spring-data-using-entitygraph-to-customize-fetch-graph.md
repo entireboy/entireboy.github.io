@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[spring-data] @EntityGraph로 lazy 패치 같이 불러오기 (fetch-graph 커스터마이징)"
+title:  "[Spring Data] @EntityGraph로 lazy 패치 같이 불러오기 (fetch-graph 커스터마이징)"
 date:   2019-05-26 22:18:00 +0900
 published: true
 categories: [ spring-data ]
-tags: [ spring-data, spring, repository, entity, fetch, fetch graph, EntityGraph, EntityGraphType, annotation, lazy, eager, select ]
+tags: [ spring data, spring, repository, entity, fetch, fetch graph, EntityGraph, EntityGraphType, annotation, lazy, eager, select ]
 ---
 
 [spring-data-jpa](https://spring.io/projects/spring-data-jpa)로 JPA를 쓰다가 보면 `LAZY` 패치타입으로 relation이 달려 있는 entity를 `n+1` 문제 없이 한번에 가져오고 싶을 때가 있다. 평소에는 `LAZY`로 쓰지만, 특정 시나리오에서는 한번에 패치하는게 필요하기도 하다.
