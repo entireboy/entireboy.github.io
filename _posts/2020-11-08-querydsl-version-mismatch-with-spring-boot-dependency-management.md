@@ -4,7 +4,7 @@ title:  "[Querydsl] Spring과 함께 사용할 때 UnsupportedOperationException
 date:   2020-11-08 22:18:00 +0900
 published: true
 categories: [ querydsl ]
-tags: [ querydsl, spring, spring-boot, UnsupportedOperationException, dependency management, dependency, version, mismatch ]
+tags: [ querydsl, spring, spring boot, UnsupportedOperationException, dependency management, dependency, version, mismatch ]
 ---
 
 # 문제
