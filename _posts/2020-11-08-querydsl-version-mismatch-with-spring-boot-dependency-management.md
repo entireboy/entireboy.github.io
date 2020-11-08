@@ -36,7 +36,7 @@ java.lang.UnsupportedOperationException
 	at kr.leocat.test.service.test.UserIntegrationTest.queryDslTest(UserIntegrationTest.groovy:33)
 ```
 
-구세주 같은 나와 [동일한 문제]([https://stackoverflow.com/questions/62112312/spring-boot-querydsl-returns-caused-by-java-lang-unsupportedoperationexception](https://stackoverflow.com/questions/62112312/spring-boot-querydsl-returns-caused-by-java-lang-unsupportedoperationexception))를 겪는 분들 덕분에 해결
+구세주 같은 나와 [동일한 문제](https://stackoverflow.com/questions/62112312/spring-boot-querydsl-returns-caused-by-java-lang-unsupportedoperationexception)를 겪는 분들 덕분에 해결
 
 
 # 원인
