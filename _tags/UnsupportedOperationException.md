@@ -1,0 +1,4 @@
+---
+name: UnsupportedOperationException
+title: UnsupportedOperationException
+---
