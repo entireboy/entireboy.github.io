@@ -53,7 +53,7 @@ caseInsensitiveStrategy: !!com.github.database.rider.core.api.configuration.Orth
 properties:
   batchedStatements:  false
   qualifiedTableNames: false
-	schema: ""
+  schema: ""
   caseSensitiveTableNames: false
   batchSize: 100
   fetchSize: 100
