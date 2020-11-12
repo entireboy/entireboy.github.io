@@ -9,7 +9,7 @@ tags: [ kotest, kotlin, test, config, global, project ]
 
 여러 프로젝트나 모듈 전체에 Kotest 설정을 하고 싶은 경우가 있다. integration test에 있는 모든 테스트가 spring context와 함께 테스트를 해야 한다. 이 때, 모든 integration test 마다 spring context를 띄우고 내리는 설정을 한다면, 누락하기도 쉽고 복붙도 귀찮고..
 
-```Kotlin
+```kotlin
 class MyTest: FunSpec(
     override fun listeners() = listOf(SpringListener) // 요거 빼먹으면 안 된다
 
