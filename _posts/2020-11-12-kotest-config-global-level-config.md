@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "[Kotest] 프로젝트 전역 설정"
+date:   2020-11-12 22:18:00 +0900
+published: true
+categories: [ kotest ]
+tags: [ kotest, kotlin, test, config, global, project ]
+---
+
+여러 프로젝트나 모듈 전체에 Kotest 설정을 하고 싶은 경우가 있다. integration test에 있는 모든 테스트가 spring context와 함께 테스트를 해야 한다. 이 때, 모든 integration test 마다 spring context를 띄우고 내리는 설정을 한다면, 누락하기도 쉽고 복붙도 귀찮고..
+
+```Kotlin
+class MyTest: FunSpec(
+    override fun listeners() = listOf(SpringListener) // 요거 빼먹으면 안 된다
+
+    init {
+        // 여기 테스트 코드
+    }
+})
+
+class AnotherMyTest: FunSpec(
+    override fun listeners() = listOf(SpringListener) // 요거 빼먹으면 안 된다
+)
+
+class DefinatelyAnotherMyTest: FunSpec(
+    override fun listeners() = listOf(SpringListener) // 요거 빼먹으면 안 된다
+)
+```
+
+테스트 마다 일일이 복사해서 넣기 힘드니, `AbstractProjectConfig`를 상속해서 전역 설정을 만들어 두면 모든 테스트에서 실행되게 할 수 있다.
+
+```kotlin
+object ProjectConfig : AbstractProjectConfig() {
+    // 1 보다 큰 값이면 병렬로 테스트를 실행하고, 이 숫자는 동시에 처리할 spec의 개수
+    override val parallelism = 8
+
+    // 테스트가 실행되고 끝날 때 spring test context 를 실행/종료 시켜줌
+    override fun listeners(): List<SpringTestListener> = listOf(SpringListener)
+
+    // 이런저런 필요한 override ..
+}
+```
