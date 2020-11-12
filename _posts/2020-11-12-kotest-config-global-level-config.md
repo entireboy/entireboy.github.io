@@ -40,3 +40,9 @@ object ProjectConfig : AbstractProjectConfig() {
     // 이런저런 필요한 override ..
 }
 ```
+
+
+# 참고
+
+- [Project Level Config - Kotest Docs](https://kotest.io/project_config/)
+- [ProjectConfig sample](https://github.com/bcneng/salary-tracker-api/blob/2f301cff91f0f485b414e6c5f9f60d9dba0c20c2/src/test/kotlin/net/bcneng/salarytrackerbe/ProjectConfig.kt)
