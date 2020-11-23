@@ -42,6 +42,16 @@ object ProjectConfig : AbstractProjectConfig() {
 ```
 
 
+# 주의
+
+테스트 실행 시에 `AbstractProjectConfig` 클래스를 상속 받은 object 나 class 를 찾아서 모든 config를 합쳐서 사용한다. 여러 config 파일로 분리해서 설정해 두는 것이 가능한데, 이 경우 동일한 설정이 여러 config 파일에 존재하면 임의의 값이 선택된다.
+
+> In the case of clashes, one value will be arbitrarily picked, so it is not recommended adding competing settings to different configs.
+> from <https://kotest.io/project_config/>
+
+parallel 설정을 unit test에서는 8로 하고, integration test에서 는 1로 하려고 했는데.. 어떻게 해야 깔끔하게 정리가 될까 T_T
+
+
 # 참고
 
 - [Project Level Config - Kotest Docs](https://kotest.io/project_config/)
