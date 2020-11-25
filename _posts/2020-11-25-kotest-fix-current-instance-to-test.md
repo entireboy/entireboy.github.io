@@ -11,6 +11,7 @@ tags: [ kotest, kotlin, test, fix, time, current, instant ]
 
 예를 들어, 심야 시간에 푸시를 보내지 않도록 하기 위해 현재 시각을 체크해서 오후 11시 부터 아침 8시 까지는 `true`를 반환하는 `doNotDisturb` 메소드를 만들었다고 하자. 이 메소드를 테스트하기 위해 밤낮으로 테스트를 돌릴 수 없으니 현재 시각을 고정해서 테스트를 진행하게 된다.
 
+
 # Kotest
 
 `withConstantNow` 를 사용하면 현재 시각을 쉽게 고정할 수 있다.
@@ -66,6 +67,7 @@ class Test : FunSpec() {
     }
 }
 ```
+
 
 # JUnit
 
