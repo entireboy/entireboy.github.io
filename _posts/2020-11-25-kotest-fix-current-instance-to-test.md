@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Kotest] 프로젝트 전역 설정"
+title:  "[Kotest] 시각을 고정시켜서 테스트하기"
 date:   2020-11-25 22:18:00 +0900
 published: true
 categories: [ kotest ]
