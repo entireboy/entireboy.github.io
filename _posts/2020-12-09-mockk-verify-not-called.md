@@ -7,7 +7,7 @@ categories: [ kotest ]
 tags: [ mockk, kotest, kotlin, test, mock, verify ]
 ---
 
-MockK[https://mockk.io/](https://mockk.io/)을 이용해서 mocking 된 객체의 메소드가 호출된 것을 확인하기 위해 `verify` 를 사용한다.
+MockK([https://mockk.io/](https://mockk.io/))을 이용해서 mocking 된 객체의 메소드가 호출된 것을 확인하기 위해 `verify` 를 사용한다.
 
 ```kotlin
 // save() 메소드가 1번 호출됐는지 확인
