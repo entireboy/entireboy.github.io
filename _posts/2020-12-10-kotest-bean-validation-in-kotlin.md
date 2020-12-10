@@ -56,6 +56,8 @@ data class UserDto(
 
 {% include image.html file='/assets/img/2020-12-10-kotest-bean-validation-in-kotlin3.png' alt='Correct annotations' %}
 
+사실, [정공법](https://stackoverflow.com/questions/52345291/bean-validation-not-working-with-kotlin-jsr-380)은 따로 있는 것 같지만, 나는 잘 동작하지 않았다. Kotlin compile 옵션으로 `-Xemit-jvm-type-annotations`를 추가하면 된다지만.. 왜지?? 왜 나만 안 되지?? 어딘가 빠진 설정이 있는지도..
+
 이 내용은 [JSR 380](https://beanvalidation.org/2.0-jsr380/), [JSR 349](https://beanvalidation.org/1.1/), [JSR 303](https://beanvalidation.org/1.0/) 스펙이 따른 bean validation 이고, `Hibernate Validator`와 같은 구현체가 있다. 그리고, 필수 체크가 아니기 때문에 설정이 잘 되어 있는지 integration test 등을 통한 확인이 꼭 필요하다. Dependency 버전업을 했는데, 적용이 안 될 수도 있기 때문에..
 
 
@@ -63,3 +65,4 @@ data class UserDto(
 
 - [Annotation Use-site Targets - Kotlin docs](https://kotlinlang.org/docs/reference/annotations.html#annotation-use-site-targets)
 - [SpringBoot - Kotlin에서 @Valid가 동작하지 않는 원인(JSR-303, JSR-380)](https://velog.io/@lsb156/SpringBoot-Kotlin에서-Valid가-동작하지-않는-원인JSR-303-JSR-380)
+- [bean validation not working with kotlin (JSR 380)](https://stackoverflow.com/questions/52345291/bean-validation-not-working-with-kotlin-jsr-380)
