@@ -7,7 +7,7 @@ categories: [ spring ]
 tags: [ spring, spring cloud, gateway, sample, actuator, endpoint, kotlin ]
 ---
 
-Gateway 가 필요할 때 간단한 설정으로 사용할 수 있는 [Spring Cloud Gateway]([https://spring.io/projects/spring-cloud-gateway](https://spring.io/projects/spring-cloud-gateway))가 있다. Public 망과 private 망을 서로 연결해 주는 역할을 하거나, 일부 host의 요청만 거르거나, 일부 path의 호출만 허용하는 등의 필터링 역할도 할 수 있다.
+Gateway 가 필요할 때 간단한 설정으로 사용할 수 있는 [Spring Cloud Gateway]([https://spring.io/projects/spring-cloud-gateway](https://spring.io/projects/spring-cloud-gateway))가 있다. Public 망과 private 망을 서로 연결해 주는 역할을 하거나, 일부 host의 요청만 거르거나, 일부 path의 호출만 허용하는 등의 필터링 역할도 할 수 있다. 그리고 서킷 브레이커와 통합도 쉽고, [트래픽 제한](https://github.com/spring-cloud/spring-cloud-gateway/blob/master/spring-cloud-gateway-sample/src/main/java/org/springframework/cloud/gateway/sample/ThrottleGatewayFilter.java) 등의 역할도 가능하다. Spring WebFlux 위에서 동작하기 때문에 성능도 상당히 좋다.
 
 
 # 샘플
