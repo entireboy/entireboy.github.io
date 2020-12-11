@@ -83,7 +83,7 @@ internal fun Pair<String, String>.toBasicAuthHeaderValue(): String =
     """Basic ${String(Base64.getEncoder().encode("$first:$second".toByteArray(UTF_8)), UTF_8)}"""
 ```
 
-위의 gateway 설정은 아래처럼 포워딩 하는 설정이다. `{{my-api}}` 는 설정에서 읽어온 `my-api.url` 값이다.
+위의 gateway 설정은 아래처럼 포워딩 하는 설정이다. `{my-api}` 는 설정에서 읽어온 `my-api.url` 값이다.
 
 `method`, `host`, `path` 등으로 gateway 에서 호출 받을 url을 지정한다.
 
@@ -94,7 +94,7 @@ GET http://localhost:8080/api/my-api/v1/users
 
 ->
 
-GET http://{{my-api}}/v1/users
+GET http://{my-api}/v1/users
 Authorization: Basic aaabbbcccddd
 ```
 
@@ -133,7 +133,7 @@ http://localhost:8080/actuator/gateway/routes
       "[[StripPrefix parts = 2], order = 0]",
       "[[AddRequestHeader Authorization = 'Basic aaabbbcccddd'], order = 0]"
     ],
-    "uri": "http://{{my-api}}",
+    "uri": "http://{my-api}",
     "order": 0
   },
   {
