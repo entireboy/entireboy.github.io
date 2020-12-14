@@ -1,0 +1,4 @@
+---
+name: wildcard
+title: wildcard
+---
