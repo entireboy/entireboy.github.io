@@ -4,7 +4,7 @@ title:  "[nginx] 413 Request Entity Too Large 오류"
 date:   2020-04-21 21:18:00 +0900
 published: true
 categories: [ nginx ]
-tags: [ nginx, request, too large, file, upload, size, http, proxy ]
+tags: [ nginx, request, too large, file, upload, size, http, proxy, 413, status, Request Entity Too Large ]
 ---
 
 [nginx](https://nginx.org/)로 reverse proxy 를 사용할 때, 용량이 큰 파일을 업로드하면 `413 Request Entity Too Large` 라는 메시지를 볼 수 있다.
