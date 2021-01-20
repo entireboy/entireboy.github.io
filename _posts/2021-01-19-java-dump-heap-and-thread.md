@@ -8,6 +8,7 @@ tags: [ java, dump, heap, thread, heap dump, thread dump, command ]
 ---
 
 매번 찾기 귀찮아서 정리
+
 [덤프 분석툴]({{ site.baseurl }}{% post_url 2016-03-07-java-dump-analyze-tool %})
 
 
