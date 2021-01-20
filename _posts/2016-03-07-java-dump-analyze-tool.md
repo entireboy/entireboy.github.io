@@ -4,7 +4,7 @@ title:  "[Java] thread dump / heap dump 분석 툴"
 date:   2016-03-07 01:27:36 +0900
 published: true
 categories: [ java, analyze ]
-tags: [ java, thread dump, heap dump, analyze, tool, dump ]
+tags: [ java, thread dump, heap dump, analyze, tool, dump, thread, heap ]
 ---
 
 하도 까먹어서 정리 중 =_= 매번 쓰면서도 이름이 기억 안 남;;
