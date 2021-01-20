@@ -9,6 +9,8 @@ tags: [ java, thread dump, heap dump, analyze, tool, dump, thread, heap ]
 
 하도 까먹어서 정리 중 =_= 매번 쓰면서도 이름이 기억 안 남;;
 
+[덤프 뜨기]({{ site.baseurl }}{% post_url 2021-01-19-java-dump-heap-and-thread %})
+
 # 0. fastThread
 
   (2020. 08. 25. 추가)
