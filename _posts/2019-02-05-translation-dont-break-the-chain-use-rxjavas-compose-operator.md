@@ -14,7 +14,7 @@ tags: [ clumsylation, translation, translate, break, chain, rxjava, compose, Tra
 
 > **옮긴이의 TL;DR** 체인 형태의 코드는 체인을 끊지 말고 일관된 (체인) 형태로 읽을 수 있어야 한다.
 >
-> **옮긴이.** 샘플은 RxJava이지만, Java의 stream/Optional이나 Reactor 같이 체인 형태의 다양한 코드에서도 적용되는 내용이다. 샘플의 RxJava compose()는 Java stream의 map()이나 Reactor Mono/Flux의 map() 등으로 대체할 수 있다.
+> **옮긴이.** 샘플은 RxJava이지만, Java의 stream/Optional이나 Reactor 같이 체인 형태의 다양한 코드에서도 적용되는 내용이다. 샘플의 RxJava compose()는 Java stream의 map()이나 Reactor Mono/Flux의 transform() 등으로 대체할 수 있다.
 
 
 RxJava의 장점 중 하나는 연속된(series) operator[^operator]들(체인)을 통해 데이터가 어떻게 바뀌는지를 알 수 있다는 것이다.:
@@ -169,5 +169,5 @@ operator를 재사용 가능한 코드로 교체하고 싶다면 `compose()`를 
 [^scheduler]: Scheduler. RxJava에서는 스케줄러를 통해 코드가 동작할 별도의 스레드를 지정할 수 있다. IO 대기처럼 연산은 거의 없고 시간이 오래 걸리는 작업은 별도의 스케줄러가 담당하도록 하고 메인 스레드는 다른 일을 하도록 할 수 있다. Schedulers.computation(), Schedulers.io() 등으로 미리 정의된 스케줄러를 사용할 수도 있고, 스레드풀처럼 별도로 스케줄러를 만들어서 사용할 수도 있다. <http://reactivex.io/documentation/scheduler.html>
 [^observable]: Observable. Java의 Stream과 비슷한 개념으로, 아이템을 만들어 낸다. <http://reactivex.io/documentation/observable.html>
 [^shudder]: ㄷㄷㄷ. 원문에도 "shudder"라 되어 있음. <http://dic.daum.net/word/view.do?wordid=ekw000151575&q=shudder>
-[^transformer]: Transformer로는 RxJava의 Observable.compose()나 Java stream의 map(), Reactor Mono/Flux의 map() 등이 있다.
+[^transformer]: Transformer로는 RxJava의 Observable.compose()나 Java stream의 map(), Reactor Mono/Flux의 transform() 등이 있다. [Using the transform Operator - Reactor 3 Reference Guide](https://projectreactor.io/docs/core/release/reference/index.html#_using_the_transform_operator)
 [^emit]: emit. 아이템 등을 '배출한다', '출력한다' 등의 의미를 나타내는 RxJava의 표현.

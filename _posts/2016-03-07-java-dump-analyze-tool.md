@@ -18,7 +18,13 @@ tags: [ java, thread dump, heap dump, analyze, tool, dump, thread, heap ]
 
   이 사이트는 덤프 파일을 업로드 하면 분석해 준다. 역시 설치형은 미리 설치되어 있지 않으면 만사가 귀찮으니 그럴 때는..
 
-# 1. ThreaLogic
+# 1. IntelliJ IDEA
+
+  [IntelliJ IDEA 에서도 힙덤프 분석](https://blog.jetbrains.com/idea/2020/03/profiling-tools-and-intellij-idea-ultimate/)을 할 수 있다.
+
+  단!! (가장 중요한 포인트) **Ultimate 버전에서만 가능**하다. 회사에서 대부분 라이선스 사주니 애용하자. =_=
+
+# 2. ThreaLogic
 
   <https://java.net/projects/threadlogic> -> <https://github.com/sparameswaran/threadlogic>
 
@@ -26,7 +32,7 @@ tags: [ java, thread dump, heap dump, analyze, tool, dump, thread, heap ]
 
   백업 파일 뒤적이다 우연히 오래 전에 받아둔 ThreadLogic 발견. [1.1.205 버전]({{ site.baseurl }}/assets/file/tool/ThreadLogic-1.1.205.jar)
 
-# 2. VisualVM
+# 3. VisualVM
 
   <https://visualvm.java.net/>
 
@@ -36,6 +42,6 @@ tags: [ java, thread dump, heap dump, analyze, tool, dump, thread, heap ]
   ${JAVA_HOME}/bin/jvisualvm
   ```
 
-# 3. IBM HeapAnalyzer
+# 4. IBM HeapAnalyzer
 
   <https://www.ibm.com/developerworks/community/groups/service/html/communityview?communityUuid=4544bafe-c7a2-455f-9d43-eb866ea60091>
