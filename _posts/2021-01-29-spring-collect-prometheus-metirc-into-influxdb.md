@@ -3,7 +3,7 @@ layout: post
 title:  "[Spring Metrics] Prometheus를 통해 수집한 정보를 InfluxDB에 저장하기"
 date:   2021-01-29 22:18:00 +0900
 published: true
-categories: [ spring ]
+categories: [ metric collect ]
 tags: [ spring, spring metrics, metric, collect, prometheus, influxdb, micrometer ]
 ---
 
