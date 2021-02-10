@@ -8,7 +8,7 @@ image
   width='400px'
   height='500px' %}
 ![Spain Barcelona T10 Ticket]({{ site.baseurl }}/assets/img/trip/spain/barcelona-t10.jpg)
-
+![Spain Barcelona T10 Ticket]({{ site.baseurl }}/assets/img/trip/spain/barcelona-t10.jpg){: width="45%" style="float:left; margin:5px"}
 
 link
 [다른 포스트]({{ site.baseurl }}{% post_url 2017-05-03-trip-italia-pass %})
