@@ -2,6 +2,7 @@
 layout: post
 title:  "[함께 일하기] 온라인 근무와 회고"
 date:   2021-02-10 22:18:00 +0900
+description: 온라인 근무를 길게 하게 되면서, 팀이 함께 일하기 위해 고민했던 것들을 공유합니다. 뒤돌면 있던 팀원들이 없는 환경에서 보다 더 많이 이야기 하고 더 많은 의견을 나누기 위해 노력했던 내용들입니다.
 published: true
 categories: [ culture ]
 tags: [ team, culture, agile, retrospect, remote work, online work,  ]
@@ -70,14 +71,14 @@ ogimage: /assets/img/2021/2021-02-10-culture-work-together5.png
 
 그런데, 맛난 음식과 커피를 눈앞에 두고 하다 보니, 먹고 나면 눕고 싶고, 누우면 자고 싶고.. 그러면 스르르 잠이 들고..
 
-![오늘은 내가 요리사](/assets/img/2021/2021-02-10-culture-work-together1.jpg){: width="45%" style="float:left; margin:5px"}
-![잠이가 와요](/assets/img/2021/2021-02-10-culture-work-together2.jpg){: width="45%" style="margin:5px"}
+![오늘은 내가 요리사]({{ site.baseurl }}/assets/img/2021/2021-02-10-culture-work-together1.jpg){: width="45%" style="float:left; margin:5px"}
+![잠이가 와요]({{ site.baseurl }}/assets/img/2021/2021-02-10-culture-work-together2.jpg){: width="45%" style="margin:5px"}
 > 실장님(이 때는 팀장님)이 라구파스타를 위해 집에서 그 많은 준비를 해오셨는데, 너무 얻어먹기만 하고 죄송해요!!  
 > 마치 11명 대가족을 챙기는 아빠 같았음.
 
 ~~회사 시설은 너무 좋아도 안 된다..??~~ 양평방 만들어 준 봉진님 고맙습니다!! 열심히 사용할게요!!
 
-![일한다](/assets/img/2021/2021-02-10-culture-work-together3.jpg)
+![일한다]({{ site.baseurl }}/assets/img/2021/2021-02-10-culture-work-together3.jpg)
 > 사실은 이렇게 열심히 일했답니다!! 워크샵 진행하느라 팀원들이 안 굴러가는 머리 싸매고 하루종일 고생했어요. 어서 코로나가 사라지고 이렇게 다시 모이는 날이 왔으면 좋겠어요.
 
 잠시 옆길로 샜지만.. 이 쯤 되면 아이스브레이킹 게임으로 힘들게 말문을 열었는데, 쉬고 돌아오니 다시 조용해 져서 진행자로서는 기운도 함께 빠집니다. 새로 아이스브레이킹을 해야 할 판이예요. 그래서 아이스브레이킹 순서를 조금 바꾸어 보았습니다. 각자의 스프린트 소감은 회고를 시작하기 전에 미리 적어 두고, 말로 다시 읽어주면서 이 스프린트 동안 이런 느낌으로 일을 했고 이런 것들이 좋고 아쉬웠음을 공유하는 시간입니다. (다른 사람이 적은 것을 눈으로 읽는 것과 직접 말로 전달하는 것의 차이가 있기 때문에, 우리팀은 읽어주는 것을 선호합니다.) 이 내용은 미리 적어오기도 하고 자기 차례가 아닌 대부분은 듣기만 하거나 가벼운 질문을 하는 정도이기 때문에 말문이 서서히 닫힙니다. 휴식시간도 문제였지만, 스프린트 소감도 아이스브레이킹의 효과가 조금 사라지는 지점이기도 해요.
@@ -95,13 +96,13 @@ ogimage: /assets/img/2021/2021-02-10-culture-work-together5.png
 
 온라인으로 회고를 진행하다 보니 포스트잇 대신 함께 작성할 공간이 필요했고, 최근에는 아래처럼 [Google Sheets](https://docs.google.com/spreadsheets/)를 사용했습니다.
 
-![Google Sheets로 진행한 KPT](/assets/img/2021/2021-02-10-culture-work-together4.png)
+![Google Sheets로 진행한 KPT]({{ site.baseurl }}/assets/img/2021/2021-02-10-culture-work-together4.png)
 
 내용을 간략히 적고 투표를 하지만, 오프라인으로 모여서 할 때에 느끼던 그 느낌이 없네요. 포스트잇에 내용을 적고, 일어나서 붙이고 돌아오고, 투표하러 따봉 스티커를 챙기고, 다시 붙이고 돌아오는.. 이 모든 느낌을 따라할 수는 없지만, 포스트잇을 붙이고 떼는 행동만이라도 흉내내 보려고 [Google Jamboard](https://jamboard.google.com/)를 활용해 보기로 했습니다. 잼보드는 화이트보드를 온라인판으로 옮겨온 느낌이예요. 여러 사람이 함께 공유하는 보드를 함께 보면서 정리를 할 수 있습니다. 함께 만들어 가는 것이 재즈의 [잼 공연](https://en.wikipedia.org/wiki/Jam_session)과 비슷한 느낌이 듭니다.
 
 이번 회고는 `KPT` 가 아닌 `좋았던 점 / 나빴던 점 돌아보기` 를 개인적인 것과 업무적인 것으로 나눴기 때문에 2X2 형태의 표가 생겼지만, 좋았던 점과 나빴던 점을 Keep과 Problem 으로 보면 `KPT` 와 크게 다르지 않습니다.
 
-![Google Jamboard로 진행한 KPT](/assets/img/2021/2021-02-10-culture-work-together5.png)
+![Google Jamboard로 진행한 KPT]({{ site.baseurl }}/assets/img/2021/2021-02-10-culture-work-together5.png)
 
 컬러풀한 포스트잇 형태의 보드를 보니 Google Sheets 로 적었던 페이지는 왠지 더 정이 가지 않네요. 분명 내용상으로는 똑같은 결과물인데도 말이예요. 그리고 투표를 위해 스티커를 붙여야 하는데, 점을 찍으면 작아서 안 보일 것 같아 고민하고 있을 때 정섭님이 혜성처럼 따봉 스티커를 투척해 주었어요!! 각자 이 따봉 스티커를 복사해서 더 이야기 해보고 싶은 것에 붙였더니 확실히 보드가 살아 있는 것을 느낄 수 있었습니다. (개인적인 느낌인지 모르겠지만, zoom으로 전해지는 팀원들 목소리가 왠지 활기찼습니다.) 내 마음을 정말 강조하고 싶어서 뒤집어서 붙인 포스트잇도 보이네요.
 
