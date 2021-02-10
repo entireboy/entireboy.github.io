@@ -5,7 +5,7 @@ date:   2021-02-10 22:18:00 +0900
 published: true
 categories: [ culture ]
 tags: [ team, culture, agile, retrospect, remote work, online work,  ]
-ogimage: /img/2021-02-10/work-together5.png
+ogimage: /assets/img/2021/2021-02-10-culture-work-together5.png
 ---
 
 > 이 글은 회사 [기술블로그에 작성한 내용](https://woowabros.github.io/culture/2021/02/10/work-together-how-product-system-team-works.html)입니다.
