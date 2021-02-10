@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "[함께 일하기] 온라인 근무와 회고"
-date:   2021-02-10 22:18:00 +0900
 description: 온라인 근무를 길게 하게 되면서, 팀이 함께 일하기 위해 고민했던 것들을 공유합니다. 뒤돌면 있던 팀원들이 없는 환경에서 보다 더 많이 이야기 하고 더 많은 의견을 나누기 위해 노력했던 내용들입니다.
+date:   2021-02-10 22:18:00 +0900
 published: true
 categories: [ culture ]
 tags: [ team, culture, agile, retrospect, remote work, online work,  ]
