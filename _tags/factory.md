@@ -1,0 +1,4 @@
+---
+name: factory
+title: factory
+---

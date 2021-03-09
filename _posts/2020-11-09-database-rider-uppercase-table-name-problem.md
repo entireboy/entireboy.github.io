@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[Database Rider] 테이블명을 대문자(uppercase)로만 참조하려고 하는 문제"
+title:  "[Database Rider] 테이블명을 대문자(uppercase)로만 참조하려고 하는 문제 (DbUnit)"
 date:   2020-11-09 22:18:00 +0900
 published: true
-categories: [ querydsl ]
+categories: [ dbunit ]
 tags: [ database rider, dbunit, dataset, table, name, lowercase, uppercase, case sensitive ]
 ---
 
