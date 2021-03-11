@@ -34,7 +34,9 @@ Caused by: org.dbunit.dataset.NoSuchColumnException: ad_targeting.CONDITIONS -  
 
 DbUnit은 `JSON`이라는 타입을 몰라서 발생하는 문제이고, DataTypeFactory 설정을 해주면 된다. `GEOMETRY` 타입도 마찬가지이다.
 
-```java
+(spock 에서 사용했던 groovy 코드)
+
+```groovy
 package kr.leocat.test.dbunit
 
 import org.dbunit.dataset.datatype.DataType
@@ -61,6 +63,39 @@ class CustomMySqlDataTypeFactory extends MySqlDataTypeFactory {
         }
 
         return super.createDataType(sqlType, sqlTypeName)
+    }
+}
+```
+
+아래는 동일한 내용의 Kotest 용 Kotlin 코드이다.
+
+```kotlin
+package kr.leocat.test.dbunit
+
+import org.dbunit.dataset.datatype.DataType
+import org.dbunit.ext.mysql.MySqlDataTypeFactory
+import org.slf4j.LoggerFactory
+
+/**
+ * DB Unit의 MySqlDataTypeFactory에는 JSON 타입이 존재하지 않아서 JSON데이터를 입력할때 에러가 발생한다.
+ * 따라서, JSON 타입의 경우에는 CLOB으로 매핑하여 에러 해결.
+ *
+ * **NOTE:** 지우지 말 것!! `dbunit.yml` 파일에서 사용 중!!
+ */
+class CustomMySqlDataTypeFactory : MySqlDataTypeFactory() {
+
+    override fun createDataType(sqlType: Int, sqlTypeName: String?): DataType {
+        log.debug("createDataType(sqlType=$sqlType, sqlTypeName=$sqlTypeName) - start")
+
+        return when {
+            sqlTypeName.equals("JSON", ignoreCase = true) -> DataType.CLOB
+            sqlTypeName.equals("GEOMETRY", ignoreCase = true) -> DataType.BINARY
+            else -> super.createDataType(sqlType, sqlTypeName)
+        }
+    }
+
+    companion object {
+        private val log = LoggerFactory.getLogger(CustomMySqlDataTypeFactory::class.java)
     }
 }
 ```
