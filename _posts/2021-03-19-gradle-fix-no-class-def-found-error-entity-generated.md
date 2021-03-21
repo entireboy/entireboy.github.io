@@ -9,6 +9,23 @@ tags: [ gradle, java ee, jakarta ee, jakarta, java, javax ]
 
 Java EE 모듈은 Jakarta EE로 옮겨졌다. 그래서.. 아래와 같은 클래스를 찾지 못 하는 에러를 만날 수 있다. 해결 방법은 아주 간단하게 dependency만 추가하면 된다.
 
+이 오류는 gradle 빌드 시 `--stacktrace` 옵션을 함께 주어야 보인다.
+
+```bash
+$ ./gradlew clean check --stacktrace
+```
+
+`--stacktrace` 옵션이 없으면 아래처럼 단순히 빌드가 실패했다고만 나온다.
+
+```
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':leocat-service:kaptKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.gradle.internal.KaptExecution
+   > java.lang.reflect.InvocationTargetException (no error message)
+```
+
 
 # javax/persistence/Entity
 
