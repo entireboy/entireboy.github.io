@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Hibernate] envers REV(revision number)를 long으로 바꾸기"
+title:  "[Hibernate Envers] REV(revision number)를 long으로 바꾸기"
 date:   2019-06-04 22:18:00 +0900
 published: true
 categories: [ hibernate ]
@@ -103,6 +103,60 @@ public class CustomRevisionEntity implements Serializable {
             id, DateFormat.getDateTimeInstance().format(getRevisionDate()));
     }
 
+}
+```
+
+(Updated. 2021. 04. 23. 최근에 Kotlin 버전을 만들어서 나중에 복붙하기 편하려고 추가)
+
+```kotlin
+import au.com.console.kassava.kotlinEquals
+import org.hibernate.envers.RevisionEntity
+import org.hibernate.envers.RevisionNumber
+import org.hibernate.envers.RevisionTimestamp
+import java.io.Serializable
+import java.text.DateFormat
+import java.util.Date
+import java.util.Objects
+import javax.persistence.Column
+import javax.persistence.Entity
+import javax.persistence.GeneratedValue
+import javax.persistence.GenerationType
+import javax.persistence.Id
+import javax.persistence.Table
+import javax.persistence.Transient
+
+@Entity
+@RevisionEntity
+@Table(name = "REVINFO")
+class LongRevisionEntity() : Serializable {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @RevisionNumber
+    @Column(name = "REV")
+    var id: Long? = null
+
+    @RevisionTimestamp
+    @Column(name = "REVTSTMP")
+    var timestamp: Long? = null
+
+    constructor(id: Long, timestamp: Long) : this() {
+        this.id = id
+        this.timestamp = timestamp
+    }
+
+    @Transient
+    fun getRevisionDate() = timestamp?.let { Date(it) }
+
+    override fun toString(): String =
+        "LongRevisionEntity(id = $id, revisionDate = ${DateFormat.getDateTimeInstance().format(getRevisionDate())}"
+
+    override fun equals(other: Any?): Boolean = kotlinEquals(other = other, properties = equalsAndHashCodeProperties)
+    override fun hashCode(): Int = Objects.hash(id, timestamp)
+
+    companion object {
+        private val equalsAndHashCodeProperties = arrayOf(LongRevisionEntity::id, LongRevisionEntity::timestamp)
+    }
 }
 ```
 
