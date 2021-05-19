@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Docker] docker-compose 파일에서 환경설정(.env file) 사용하기"
-date:   2021-04-27 22:18:00 +0900
+date:   2021-05-15 22:18:00 +0900
 published: true
 categories: [ docker ]
 tags: [ docker, docker-compose, env, environment, config ]
