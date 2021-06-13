@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[JaCoCo] Kotlin 1.5 버전업 시 JaCoCo 프러그인 예외 발생: Unexpected SMAP line: *S KotlinDebug"
-date:   2021-06-13 02:18:00 +0900
+date:   2021-06-13 22:18:00 +0900
 published: true
 categories: [ jacoco ]
 tags: [ jacoco, gradle, plugin, exception, bug ]
