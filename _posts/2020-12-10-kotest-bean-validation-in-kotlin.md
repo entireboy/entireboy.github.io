@@ -27,7 +27,7 @@ data class UserDto(
 
 {% include image.html file='/assets/img/2020-12-10-kotest-bean-validation-in-kotlin1.png' alt='Kotlin Bytecode in IntelliJ' %}
 
-IntelliJ 에서 Shift를 2번 누르고 `Kotlin Bytecode` 를 검색하면 위와 같은 창이 뜬다. 현재 포커싱된 파일을 바이트코드로 변환을 해주는데, 바이트코드는 알아보기 힘드니 위에 있는 `Decompile` 을 클릭해서 다시 자바 파일로 바꿔 보면 아래와 같이 변환된 것을 볼 수 있다.
+IntelliJ 에서 Shift를 2번 누르고 `Kotlin Bytecode` 를 검색하면 위와 같은 창이 뜬다. (IntelliJ 메뉴에서 `Tools` → `Kotlin` → `Show Kotlin Bytecode`에도 있다고 댓글로 알려주심) 현재 포커싱된 파일을 바이트코드로 변환을 해주는데, 바이트코드는 알아보기 힘드니 위에 있는 `Decompile` 을 클릭해서 다시 자바 파일로 바꿔 보면 아래와 같이 변환된 것을 볼 수 있다.
 
 {% include image.html file='/assets/img/2020-12-10-kotest-bean-validation-in-kotlin2.png' alt='Decompile the bytecode' %}
 
