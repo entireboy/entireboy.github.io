@@ -9,7 +9,9 @@ tags: [ jacoco, gradle, plugin, exception, bug ]
 
 # 문제
 
-Kotlin 버전 1.5로 버전업 시 JaCoCo 에서 이런 오류를 뱉는다. `--stacktrace` 옵션과 함께 실행하면 보면 보인다.
+Kotlin 버전 1.5로 버전업 시 JaCoCo 에서 이런 오류를 뱉는다.: `Unexpected SMAP line: *S KotlinDebug`
+
+(`--stacktrace` 옵션과 함께 실행하면 보면 보인다.)
 
 ```bash
 $ ./gradlew jacocoTestReport --stacktrace
