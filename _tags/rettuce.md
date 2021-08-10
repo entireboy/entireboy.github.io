@@ -1,4 +1,0 @@
----
-name: rettuce
-title: rettuce
----

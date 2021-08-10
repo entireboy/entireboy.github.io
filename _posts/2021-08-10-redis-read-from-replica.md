@@ -4,7 +4,7 @@ title:  "[Redis] Master 이외의 Replica(slave)로 부터 읽기"
 date:   2021-08-10 22:18:00 +0900
 published: true
 categories: [ redis ]
-tags: [ redis, read, replica, slave, master, java, driver, rettuce, redisson, jedis, ha ]
+tags: [ redis, read, replica, slave, master, java, driver, lettuce, redisson, jedis, ha ]
 ---
 
 master-replica(master-slave) 구조로 HA 구성을 해둔 Redis에서, 일반적으로 read/write 작업을 하게 되면 master에서만 동작을 하게 된다. 사실 replica가 여러개 있어도 성능에 도움이 되지 못 하는 형태이다.
@@ -14,9 +14,9 @@ Replication lag을 감안해도 되는 경우라면 read 작업은 replica(slave
 읽기 작업을 reaplica에서 하려면 각 드라이버에서 간단한 설정으로 가능하다.
 
 
-# Rettuce ReadFrom 설정
+# Lettuce ReadFrom 설정
 
-Rettuce 드라이버는 [ReadFrom](https://github.com/lettuce-io/lettuce-core/wiki/ReadFrom-Settings) 설정으로 어디에서 읽어올지 선택이 가능하다.
+Lettuce 드라이버는 [ReadFrom](https://github.com/lettuce-io/lettuce-core/wiki/ReadFrom-Settings) 설정으로 어디에서 읽어올지 선택이 가능하다.
 
 ```java
 RedisURI masterUri = RedisURI.Builder.redis("master-host", 6379).build();
@@ -89,7 +89,7 @@ Jedis는 replica(slave)에서 읽어오는 기능이 안 되는 것으로 알고
 
 # 참고
 
-- [ReadFrom settings - Rettuce](https://github.com/lettuce-io/lettuce-core/wiki/ReadFrom-Settings)
-- [MasterReplica - Rettuce](https://github.com/lettuce-io/lettuce-core/wiki/Master-Replica)
+- [ReadFrom settings - Lettuce](https://github.com/lettuce-io/lettuce-core/wiki/ReadFrom-Settings)
+- [MasterReplica - Lettuce](https://github.com/lettuce-io/lettuce-core/wiki/Master-Replica)
 - [Redis Master-Slave Replication - Redisson](https://redisson.org/glossary/redis-master-slave-replication.html)
 - [Master slave mode - Redisson](https://github.com/redisson/redisson/wiki/2.-Configuration#28-master-slave-mode)
