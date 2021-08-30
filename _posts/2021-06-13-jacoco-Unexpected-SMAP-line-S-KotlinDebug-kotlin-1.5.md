@@ -50,7 +50,7 @@ jacoco {
 CI 등을 위해 Jenkins 에서 빌드를 돌리는 경우, [JaCoCo 플러그인](https://plugins.jenkins.io/jacoco/)을 `3.2.0` 이상 버전으로 버전업 해야 한다.
 단점은, Jenkins `2.277.1` 이상 버전이 필요하기 때문에 Jenkins 까지 버전업을 해야 할 수 있다.
 
-{% include image.html file='/assets/img/2021-06-13-jacoco-Unexpected-SMAP-line-S-KotlinDebug-kotlin-1.5.png' alt='Jenkins JaCoCo Plugin' %}
+{% include image.html file='/assets/img/2021/2021-06-13-jacoco-Unexpected-SMAP-line-S-KotlinDebug-kotlin-1.5.png' alt='Jenkins JaCoCo Plugin' %}
 
 
 # 참고
