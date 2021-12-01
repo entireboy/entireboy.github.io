@@ -101,4 +101,4 @@ class LocalDateTimeExtension : AfterTestExecutionCallback {
 
 # 참고
 
-- [Current instant listeners - Kotest Extensions](https://github.com/kotest/kotest/blob/master/doc/extensions.md#current-instant-listeners)
+- [Current instant listeners - Kotest Extensions](https://kotest.io/docs/extensions/instant.html)
