@@ -39,7 +39,7 @@ stdout 없이 status code만 필요하다면 아래와 같이 `-o` 옵션을 활
 
 ```bash
 #!/bin/bash
-RES_CODE=$(curl -o /dev/null -w "%{http_code}" "http://blog.leocat.kr/")
+STATUS=$(curl -o /dev/null -w "%{http_code}" "https://blog.leocat.kr/")
 
 if [ $STATUS -eq 200 ]; then
   echo "OKOK"
