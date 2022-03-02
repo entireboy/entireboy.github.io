@@ -47,7 +47,34 @@ $ ps -mo pcpu,lwp -p 46783
 자.. 범인을 찾았으니, 이제 이 스레드를 어떻게 할꼬.. 흠..
 
 
+# 추가 툴
+
+## VisualVM - Profiler
+
+VisualVM [Startup Profiler plugin](https://visualvm.github.io/startupprofiler.html)을 통해서 모니터링을 할 수 있다.
+
+예의 없는 오라클 친구들이 문서 링크를 모두 죽여 버려서, [예전 버전 문서](https://docs.oracle.com/javase/8/docs/technotes/guides/visualvm/profiler.html)만 남아 있다. (또는 VisualVM Document에 있는 [Profile Applications](https://htmlpreview.github.io/?https://raw.githubusercontent.com/visualvm/visualvm.java.net.backup/master/www/profiler.html) 참고)
+
+Remote 서버라도 `jstatd`만 실행되고 있다면 VisualVM으로 접속이 가능하다. ([Working with Remote Applications](https://htmlpreview.github.io/?https://raw.githubusercontent.com/visualvm/visualvm.java.net.backup/master/www/applications_remote.html) 참고)
+
+
+## IntelliJ - Profiling tools
+
+IntelliJ 2021 버전 이상에서 [Profiling 도구](https://www.jetbrains.com/help/idea/cpu-profiler.html)들을 몇 가지 제공한다. 단, Ultimate 버전에서..
+
+- [Async Profiler](https://www.jetbrains.com/help/idea/async-profiler.html)
+- [Java Flight Recorder](https://www.jetbrains.com/help/idea/java-flight-recorder.html)
+- [Run with a profiler](https://www.jetbrains.com/help/idea/run-with-profiler.html)
+- [Read the profiling report](https://www.jetbrains.com/help/idea/read-the-profiling-report.html)
+- [Analyze memory snapshots](https://www.jetbrains.com/help/idea/analyze-hprof-memory-snapshots.html)
+- [CPU and memory live charts](https://www.jetbrains.com/help/idea/cpu-and-memory-live-charts.html)
+
+(Remote 서버에도 접근이 가능한지는 아직 모르겠음)
+
+
 # 참고
 
 - [ps man page](http://linuxcommand.org/lc3_man_pages/ps1.html)
 - [Decimal to Hexadecimal Converter](https://www.binaryhexconverter.com/decimal-to-hex-converter)
+- [VisualVM - Startup Profiler plugin](https://visualvm.github.io/startupprofiler.html)
+- [IntelliJ Profiling tools](https://www.jetbrains.com/help/idea/cpu-profiler.html)
