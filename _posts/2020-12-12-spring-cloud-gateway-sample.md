@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Spring Cloud] Gateway 샘플"
+title:  "[Spring Cloud Gateway] Gateway 샘플"
 date:   2020-12-12 22:18:00 +0900
 published: true
 categories: [ spring ]
