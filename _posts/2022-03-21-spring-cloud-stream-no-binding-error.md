@@ -68,7 +68,7 @@ class MyDummyConfig {
 }
 ```
 
-다시 얘기하지만 어디까지나 **임시로 사용**하는 것이다. **SCSt는 앞으로 functional 방향으로 가는 것 같으니 얼른 functional 스타일로 바꾸기!!**
+다시 얘기하지만 어디까지나 **임시로 사용** 하는 것이다. **SCSt는 앞으로 functional 방향으로 가는 것 같으니 얼른 functional 스타일로 바꾸기!!**
 
 
 # 참고
