@@ -17,7 +17,7 @@ tags: [ spring, spring cloud, spring cloud stream, spring cloud function, stream
 
 결론부터 이야기 하면, [Spring Cloud Stream(SCSt)은 최소 한 개 이상의 `java.util.function.[Supplier/Function/Consumer]` 타입의 bean이 필요](https://gitter.im/spring-cloud/spring-cloud-stream?at=5fd0d5b63dd3b251a4f64766)하다.
 
-{% include image.html file='/assets/img/2022/2022-03-21-spring-cloud-stream-no-binding-error.png' alt='It's the way the framework works - it asks Spring for all registered beans of type Function, Consumer or Supplier' %}
+{% include image.html file='/assets/img/2022/2022-03-21-spring-cloud-stream-no-binding-error.png' alt='It\'s the way the framework works - it asks Spring for all registered beans of type Function, Consumer or Supplier' %}
 
 Spring Cloud Stream이 버전업 되면서 ([2020.0.0-M2 부터](https://spring.io/blog/2020/07/13/introducing-java-functions-for-spring-cloud-stream-applications-part-0)이긴 한데, 아마 3.0.x쯤 부터??) Spring Cloud Function을 사용해서 쉽고 편하게 functional 형태로 개발할 수 있게 되었다. `java.util.function.[Supplier/Function/Consumer]` 타입의 bean을 만들고 application.yml 설정으로 바인딩 시켜주면 된다. 앞으로 functional 형태로 가려는지 문서도 모두 Spring Cloud Function을 사용한 것으로 바뀌고 있다.
 
