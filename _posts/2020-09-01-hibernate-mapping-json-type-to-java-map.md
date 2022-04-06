@@ -60,4 +60,4 @@ public class Order {
 
 # 참고
 
-- [https://vladmihalcea.com/java-map-json-jpa-hibernate/](Java Map to JSON mapping with JPA and Hibernate)
+- [Java Map to JSON mapping with JPA and Hibernate](https://vladmihalcea.com/java-map-json-jpa-hibernate/)
