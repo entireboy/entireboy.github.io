@@ -4,7 +4,7 @@ title:  "[Lettuce] Redis cluster 교체를 위한 설정 - topology refresh"
 date:   2022-04-15 22:18:00 +0900
 published: true
 categories: [ redis ]
-tags: [ redis, cluster, lettuce, config, conf, topology, refresh, switch ]
+tags: [ redis, cluster, lettuce, config, topology, refresh, switch ]
 ---
 
 # Redis cluster
