@@ -53,3 +53,4 @@ ad-service\.(.+?)\..+
 
 # 참고
 - [Greedy and lazy quantifiers](https://javascript.info/regexp-greedy-and-lazy)
+- [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
