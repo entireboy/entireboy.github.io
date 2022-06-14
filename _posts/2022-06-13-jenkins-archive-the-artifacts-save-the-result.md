@@ -16,7 +16,7 @@ Jenkins job을 돌려서 csv 파일을 생성하고, 그 파일을 다운로드 
 
 # Archive the Artifacts
 
-Job 실행 후 생성된 파일들을 artifact로 모아서 저장하는 기능이다.
+Job 실행 후 생성된 파일들을 artifact로 모아서 저장하는 기능이다.
 
 {% include image.html file='/assets/img/2022/2022-06-13-jenkins-archive-the-artifacts-save-the-result1.png' alt='Archive the artifacts config' %}
 
