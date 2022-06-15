@@ -21,8 +21,10 @@ IntelliJ가 정상 동작을 하지 않거나 추가 설정이 필요할 때 검
 
 {% include image.html file='/assets/img/2022/2022-06-11-intellij-change-language-from-korean-to-english2.png' alt='Turn off language pack plugin recommendation tool window' %}
 
-이 때 알림 오른쪽 위에 있는 설정(톱니바퀴)를 눌러서 알림 자체를 꺼버리면 혹시라도 잘못 설치되는 경우를 방지할 수 있다.
-`Notifications 설정` > `Recommended language plugin available` > `Show in tool window` 체크를 해제한다.
+이 때 알림 오른쪽 위에 있는 설정(톱니바퀴)를 눌러서 알림 자체를 꺼버리면 혹시라도 잘못 설치되는 경우를 방지할 수 있다. 스크린샷에는 안 보이지만 알림 풍선 오른쪽 위에 마우스를 올리면 톱니바퀴 버튼이 보인다. 이 버튼을 눌러서 `Notifications 설정`창을 열고,`Recommended language plugin available` 선택
+
+- `Show in tool window` 체크를 해제
+- `Popup type`으로 `No popup` 선택
 
 
 # 참고
