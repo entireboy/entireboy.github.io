@@ -35,4 +35,5 @@ public Person findPerson(int pk) {
 
 
 # 참고
+
 - [RedisCacheConfiguration#disableCachingNullValues](https://docs.spring.io/spring-data/redis/docs/current/api/org/springframework/data/redis/cache/RedisCacheConfiguration.html#disableCachingNullValues--)

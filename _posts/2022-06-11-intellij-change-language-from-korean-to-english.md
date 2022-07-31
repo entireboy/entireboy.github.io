@@ -28,4 +28,5 @@ IntelliJ가 정상 동작을 하지 않거나 추가 설정이 필요할 때 검
 
 
 # 참고
+
 - [Korean Language Pack / 한국어 언어 팩 - IntelliJ plugins](https://plugins.jetbrains.com/plugin/13711-korean-language-pack------)

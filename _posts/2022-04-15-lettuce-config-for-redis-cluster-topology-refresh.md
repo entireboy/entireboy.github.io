@@ -77,6 +77,7 @@ JVM 실행 시 다음 설정이 있는지 확인한다. 설정이 없다면 [기
 
 
 # 참고
+
 - [5.3.6. Client-options - Lettuce docs](https://lettuce.io/core/5.3.7.RELEASE/reference/index.html#redis-cluster.client-options)
 - [7.2.1. Cluster-specific options - Lettuce docs](https://lettuce.io/core/5.3.7.RELEASE/reference/index.html#clientoptions.cluster-specific-options)
 - [RefreshTrigger](https://lettuce.io/core/release/api/io/lettuce/core/cluster/ClusterTopologyRefreshOptions.RefreshTrigger.html)
