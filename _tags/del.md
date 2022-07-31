@@ -1,0 +1,4 @@
+---
+name: del
+title: del
+---
