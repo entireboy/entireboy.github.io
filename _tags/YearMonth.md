@@ -1,0 +1,4 @@
+---
+name: YearMonth
+title: YearMonth
+---
