@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[CSV] Mac, 리눅스 등에서 만든 CSV 파일이 윈도에서 깨질 때"
-date:   2022-12-22 22:18:00 +0900
+date:   2022-12-21 22:18:00 +0900
 published: true
 categories: [ csv ]
 tags: [ csv, bom, byte order, os ]
