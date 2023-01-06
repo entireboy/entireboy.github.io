@@ -4,7 +4,7 @@ title:  "[MongoDB] WiredTiger에서 read/write tickets"
 date:   2023-01-04 22:18:00 +0900
 published: true
 categories: [ mongodb ]
-tags: [ mongodb, WiredTiger, ticket, concurrency, operation ]
+tags: [ mongodb, WiredTiger, ticket, concurrency, operation, monitoring, indicator ]
 ---
 
 # 문제 발생
