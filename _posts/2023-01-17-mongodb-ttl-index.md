@@ -115,4 +115,5 @@ db.runCommand({
 # 참고
 
 - [TTL index](https://www.mongodb.com/docs/v6.0/core/index-ttl/)
+- [Expire Data from Collections by Setting TTL](https://www.mongodb.com/docs/v6.0/tutorial/expire-data/)
 - [primary - MongoDB Glossary](https://www.mongodb.com/docs/v6.0/reference/glossary/#std-term-primary)
