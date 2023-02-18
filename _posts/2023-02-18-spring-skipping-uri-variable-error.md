@@ -21,11 +21,13 @@ WARN  00:29:44.682 [http-nio-7070-exec-1] o.s.validation.DataBinder - Skipping U
 코드를 살펴보면..
 
 ```java
-@GetMapping("/user/{userId}")
-public String user(
-    User user
-) {
-    return "UserId: " + user.userId;
+public class UserController {
+    @GetMapping("/user/{userId}")
+    public String user(
+        User user
+    ) {
+        return "UserId: " + user.userId;
+    }
 }
 
 class User {
