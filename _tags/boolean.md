@@ -1,0 +1,4 @@
+---
+name: boolean
+title: boolean
+---
