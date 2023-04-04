@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Elasticsearch] should 절에 대한 오해(와 진실까지는 모르겠고..) - should는 엄밀히 말하면 OR가 아니다"
-date:   2020-06-04 21:18:00 +0900
+date:   2023-03-28 21:18:00 +0900
 published: true
 categories: [ elasticsearch ]
 tags: [ elasticsearch, should, clause, bool, boolean, query, misunderstanding, or, minimum_should_match, option ]
