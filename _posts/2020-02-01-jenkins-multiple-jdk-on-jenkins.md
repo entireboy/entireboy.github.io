@@ -17,12 +17,26 @@ Jenkins에서 각 job 마다 실행할 JDK 버전이 다른 경우가 있다. �
 
 # Jenkins에 JDK 경로 추가
 
-Jenkins에 설치한 JDK 경로를 추가해 주기 위해 `Global Tool Configuration` 화면으로 이동한다. 오래된 Jenkins 버전의 경우는 `Global Tool Configuration`이 아닌 `Configure System (시스템 설정)`에 JDK 설정 메뉴가 있다.
+Jenkins에 설치한 JDK 경로를 추가해 주기 위해 `Tools` 화면으로 이동한다. 오래된 Jenkins 버전의 경우는 `Global Tool Configuration`화면으로 이동해야 하는데, 더 오래된 버전은 `Configure System (시스템 설정)`에 JDK 설정 메뉴가 있다. Jenkins 버전업을 자주 하는 것이 아니라, 몇 버전 부터 이전 화면인지 특정 짓기는 어렵다. 메뉴명에 따라 잘 선택해 본다.
 
 ```
+Manage Jenkins > Tools > JDK > JDK installation
 Jenkins 설정 > Global Tool Configuration > JDK > JDK installation
 ```
 
+## 최근 버전
+
+3-4년 전 버전과 그 사이 경로와 화면이 꽤 바뀌어서 이 글의 스크린샷 등을 최신 버전으로 업데이트를 해두고, 이전 버전은 아랫쪽에 별도로 모아두니 이전 버전은 아랫쪽 스크린샷을 참조한다.
+
+{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins6.png' width='300px' %}
+{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins7.png' width='600px' %}
+
+JDK 섹션에서 `ADD JDK`를 클릭해서 골라서 사용할 JDK를 등록한다.
+
+{% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins8.png' %}
+
+
+## 이전 버전
 
 {% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins1.png' width='300px' %}
 {% include image.html file='/assets/img/2020-02-01-jenkins-multiple-jdk-on-jenkins2.png' width='450px' %}
