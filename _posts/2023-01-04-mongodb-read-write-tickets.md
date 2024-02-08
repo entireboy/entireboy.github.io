@@ -53,7 +53,7 @@ mongoTemplate.setReadPreference(ReadPreference.secondaryPreferred())
 
 모니터링 지표를 보면 mongos가 operation은 모두 primary로 보내는 것으로 보이는데, `docuemnts returned`는 secondary에서 오는 것을 확인할 수 있다.
 
-{% include image.html file='/assets/img/2022/2023-01-04-mongodb-read-write-tickets.png' alt='Documents returned' %}
+{% include image.html file='/assets/img/2023/2023-01-04-mongodb-read-write-tickets.png' alt='Documents returned' %}
 
 
 # 참고
