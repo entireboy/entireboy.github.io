@@ -42,7 +42,7 @@ tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffi
 
 모두 같은 표지판처럼 보이지만, 표지만 아래에 그림이나 이탈리아어로 조건을 달아둔 것들이 많다.
 
-아래 표지판은 주차금지 표지판이다. 단, 장애우는 주차가 가능하다. 우리나라와 마찬가지로 파란 바탕에 빨간 동그라미로 사선 1개는 주차금지 표시이다. 그리고 아래쪽에 `파란 P`로 주차가 가능한 경우를 표시했다. 이 사진은 장애우만 가능. 보통 노란 주차선에 이런 표지만이 그려져 있다. [주차선 색깔](#parking-link)에 대한 내용은 아래쪽에 다시 설명하고..
+아래 표지판은 주차금지 표지판이다. 단, 장애인은 주차가 가능하다. 우리나라와 마찬가지로 파란 바탕에 빨간 동그라미로 사선 1개는 주차금지 표시이다. 그리고 아래쪽에 `파란 P`로 주차가 가능한 경우를 표시했다. 이 사진은 장애인만 가능. 보통 노란 주차선에 이런 표지만이 그려져 있다. [주차선 색깔](#parking-link)에 대한 내용은 아래쪽에 다시 설명하고..
 
 ![No park except handicap]({{ site.baseurl }}/assets/img/trip/italia/drive-no-park-3.jpg)
 
@@ -69,7 +69,7 @@ tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffi
 - 흰색: 무료 (무조건 달려가서 주차. 보통 빈 자리가 없다.)
 - 파란색 #1: 특정시간 무료 (아래에 다시 설명)
 - 파란색 #2: 유료 (근처에 주차티켓을 살 수 있는 기계가 있다.)
-- 노란색: 절대 금지 (장애우나 경찰 같은 관공소에서만 사용할 수 있다.)
+- 노란색: 절대 금지 (장애인이나 경찰 같은 관공소에서만 사용할 수 있다.)
 
 ![white park line]({{ site.baseurl }}/assets/img/trip/italia/drive-park-line-white.jpg)
 ![blue park line]({{ site.baseurl }}/assets/img/trip/italia/drive-park-line-blue.jpg)
@@ -86,7 +86,7 @@ tags: [ trip, travel, italia, italy, drive, rent a car, rent, ztl, zona a traffi
 
 ![Park timer]({{ site.baseurl }}/assets/img/trip/italia/drive-park-timer.jpg)
 
-노란색 주차라인은 보통 이렇게 경찰 그림이나 장애우 그림이 그려져 있다.
+노란색 주차라인은 보통 이렇게 경찰 그림이나 장애인 그림이 그려져 있다.
 
 ![No park except police]({{ site.baseurl }}/assets/img/trip/italia/drive-no-park-2.jpg)
 
