@@ -52,7 +52,7 @@ CREATE TABLE `user`
     COMMENT = '사용자 정보';
 ```
 
-이 테이블의 `job`컬럼에 DEFAULT 설정이 되어 있으니 `thDeng` 사용자의 `job`이 `unemployed`로 채워지길 기대하고 아래처럼 dataset을 만들었을 때, `columnSensing = true`로 설정하면 오류를 만날 수 있다.
+ 이 테이블의 `job`컬럼에 DEFAULT 설정이 되어 있으니 `thDeng` 사용자의 `job`이 `unemployed`로 채워지길 기대하게 된다. 
 
 ```xml
 <dataset>
@@ -61,7 +61,21 @@ CREATE TABLE `user`
 </dataset>
 ```
 
-이유는 실행되는 쿼리를 보면 바로 알 수 있다. 위에서 살펴본 쿼리를 다시 가져왔다.
+`columnSensing = true`로 설정하고 동일한 dataset을 사용하면 아래와 같은 오류를 만나게 된다.
+
+```
+Could not create dataset for test 'save'.
+java.lang.RuntimeException: Could not create dataset for test 'save'.
+	   .. (생략) ..
+Caused by: com.github.database.rider.core.exception.DataBaseSeedingException: Could not initialize dataset: datasets/user.xml, datasets/account.xml, datasets/company.xml
+	   .. (생략) ..
+Caused by: org.dbunit.DatabaseUnitException: Exception processing table name='user'
+	   .. (생략) ..
+Caused by: java.sql.BatchUpdateException: (conn=23) Column 'job' cannot be null
+	   .. (생략) ..
+```
+
+이유는 실행되는 쿼리를 다시 자세히 보면 바로 알 수 있다. 위에서 살펴본 쿼리를 다시 가져왔다.
 
 ```
 o.m.j.i.logging.ProtocolLoggingProxy     : conn=344(M) - 5.062 ms - Query: insert into `user` (`id`, `name`, `job`) values (?, ?, ?), parameters [1, 'thDeng', <null>]
@@ -72,8 +86,9 @@ o.m.j.i.logging.ProtocolLoggingProxy     : conn=344(M) - 5.062 ms - Query: inser
 
 
 ```
-o.m.j.i.logging.ProtocolLoggingProxy     : conn=344(M) - 5.062 ms - Query: insert into `user` (`id`, `name`) values (?, ?), parameters [1, 'thDeng']
-o.m.j.i.logging.ProtocolLoggingProxy     : conn=344(M) - 5.062 ms - Query: insert into `user` (`id`, `name`, `job`) values (?, ?, ?), parameters [2, 'photoDeng', 'photographer']
+// 기대했던 쿼리
+insert into `user` (`id`, `name`) values (?, ?), parameters [1, 'thDeng']
+insert into `user` (`id`, `name`, `job`) values (?, ?, ?), parameters [2, 'photoDeng', 'photographer']
 ```
 
 # 결론
@@ -123,5 +138,6 @@ import thdeng.service.config.CampaignCenterServiceConfig
 internal annotation class IntegrationTestSupport
 ```
 
+- [추가 컬럼 - DBUnit FAQ](https://www.dbunit.org/faq.html#differentcolumnnumber)
 - [DbUnit and nullable columns](https://billcomer.blogspot.com/2009/05/dbunit-and-nullable-columns.html)
 - [DBUnit configuration - Database Rider docs](https://database-rider.github.io/database-rider/latest/documentation.html?theme=foundation#_dbunit_configuration)
