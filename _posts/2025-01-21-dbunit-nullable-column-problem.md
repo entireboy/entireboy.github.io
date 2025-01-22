@@ -108,7 +108,7 @@ package thdeng.service.test.support
 import com.github.database.rider.core.api.configuration.DBUnit
 import com.github.database.rider.core.api.configuration.Orthography
 import org.springframework.boot.test.context.SpringBootTest
-import thdeng.service.config.CampaignCenterServiceConfig
+import thdeng.service.config.UserServiceConfig
 
 // Database Rider 에서 사용하는 DbUnit 설정 - 자세한 항목은 Database rider 문서 참조
 // https://database-rider.github.io/database-rider/latest/documentation.html?theme=foundation#_dbunit_configuration
@@ -130,8 +130,8 @@ import thdeng.service.config.CampaignCenterServiceConfig
 @SpringBootTest(
     webEnvironment = SpringBootTest.WebEnvironment.NONE,
     classes = [
-        CampaignCenterServiceConfig::class,
-        CampaignCenterTestConfig::class,
+        UserServiceConfig::class,
+        UserTestConfig::class,
     ],
     properties = ["spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration"]
 )
