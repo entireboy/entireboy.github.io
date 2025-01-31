@@ -93,9 +93,13 @@ insert into `user` (`id`, `name`, `job`) values (?, ?, ?), parameters [2, 'photo
 
 # 결론
 
-- DBUnit은 dataset의 첫번째 데이터를 기준으로 스키마를 구성한다. 다음 데이터에 컬럼이 추가되면 무시된다.
+- DBUnit은 dataset의 첫번째 데이터를 기준으로 스키마를 구성한다.
+  - 첫번째 데이터 이후의 데이터에 컬럼이 추가되면 그 컬럼은 무시된다.
 - 새로운 컬럼이 무시되지 않도록 `columnSensing = true`로 설정하여 xml의 모든 컬럼을 가진 데이터를 만들 수 있다.
-- `columnSensing = true`로 설정한 경우 not null 필드는 모든 데이터에 값을 설정하거나 설정하지 않거나 둘 중 하나를 선택해야 한다.
+  - 이 때 값이 없는 컬럼은 `null`로 insert 된다.
+- `columnSensing = true`로 설정한 경우 not null 컬럼은 모든 데이터에 값을 설정하거나 설정하지 않거나 둘 중 하나를 선택해야 한다.
+  - 값을 지정하지 않으면 바로 위의 `null`로 insert되는 쿼리문 때문에 insert가 실패하고 테스트 데이터 세팅이 실패한다.
+  - 값을 지정하지 않았다고 해도 default 값이 insert되지 않는다.
 
 
 # 참고
